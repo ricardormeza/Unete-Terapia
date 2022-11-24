@@ -24,3 +24,18 @@ a {
     background: black;
   }
 }
+
+/* COLORES */
+:root{
+  --rosa: #BF1B75;
+  --rosa2: #F2059F;
+  --verde: #7DA641;
+  --verde2: #B7D93D;
+  --gris: #F2F2F2;
+
+  --pink: #A61473;
+  --amarillo: #F4D51D;
+  --pink2: #F2059F;
+  --aqua: #17B8BF;
+  --aqua2:#0C9FA6;
+}
