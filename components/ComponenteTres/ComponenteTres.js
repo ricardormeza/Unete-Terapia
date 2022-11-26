@@ -29,9 +29,9 @@ export default function ComponenteTres() {
                         <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                             <p className="leading-relaxed text-lg mb-4">Maecenas quam leo, lacinia lobortis quam quis, ornare convallis nisi. hendrerit aliquam nisl. Suspendisse potenti. Phasellus malesuada sagittis orci, id sagittis ante. Curabitur dictum dapibus interdum. Proin libero ex, rhoncus id rhoncus quis, pharetra porttitor nisl.</p>
                             <Link href='/' className="text-indigo-500 inline-flex items-center">Saber más
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
+                                </svg> */}
                             </Link>
                         </div>
                     </div>
