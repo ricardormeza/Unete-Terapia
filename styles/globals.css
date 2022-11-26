@@ -32,10 +32,17 @@ a {
   --verde: #7DA641;
   --verde2: #B7D93D;
   --gris: #F2F2F2;
+  --white: #ffffff;
 
   --pink: #A61473;
   --amarillo: #F4D51D;
   --pink2: #F2059F;
   --aqua: #17B8BF;
   --aqua2:#0C9FA6;
+  --titulo: 1.2rem;
+  --subtitulo: 1.333rem;
+  --parrafo: .9rem;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

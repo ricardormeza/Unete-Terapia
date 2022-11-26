@@ -1,0 +1,41 @@
+.ctaSection {
+    background-color: var(--verde);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: .5rem;
+}
+
+@media (min-width: 428px) {
+    .ctaSection {
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 90%;
+    }
+}
+
+.ctaGrdiSection {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    color: var(--white);
+    align-items: center;
+    font-size: var(--parrafo);
+}
+@media (max-width: 428px) {
+    .ctaGrdiSection {
+       /* flex-direction: column; */
+       justify-content: space-evenly;
+       font-size: 1.1rem;
+    }
+}
+
+.ctaGrdiSection a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.ctaGridItem {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.2rem;
+}
