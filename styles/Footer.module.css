@@ -1,0 +1,10 @@
+.lineaFooter{
+    /* border: 1px solid red; */
+    display: grid;
+    justify-content: center;
+}
+.lineaFooter img{
+    /* display: flex; */
+    border: 2px solid green;
+    /* justify-items: center; */
+}

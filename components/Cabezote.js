@@ -54,7 +54,7 @@ const solutions = [
 
 const especialidades = [
     {
-        name: 'Especialidad 1',
+        name: 'Ansiedad',
         description: '',
         href: '/Especialidades/ansiedad',
         icon: BsFlower3,
@@ -120,13 +120,6 @@ const callsToAction = [
     { name: 'Contact Sales', href: '#', icon: HiPhone },
 ]
 const resources = [
-
-    {
-        name: 'Seguro de gastos médicos',
-        description: '',
-        href: '/seguros-gastos-medicos',
-        icon: HiOutlineGlobeAlt,
-    },
     {
         name: 'Aviso de privacidad',
         description: 'Learn how to maximize our platform to get the most out of it.',
@@ -149,7 +142,7 @@ function classNames(...classes) {
 const Cabezote = () => {
     return (
         <Popover className={`relative   ${styles.HeaderBG}`}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 z-40">
                 <div className="flex justify-between items-center  border-gray-100 py-6 md:justify-start md:space-x-10">
                     <div className="md:flex  items-center justify-start  md:flex-1 lg:w-0 sm:hidden">
                         <Link href="/" legacyBehavior className="md:hidden ">
@@ -423,7 +416,7 @@ const Cabezote = () => {
                                         <a
                                             className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                         >
-                                            <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                            <item.icon className="flex-shrink-0 h-6 w-6 text-pink-600" aria-hidden="true" />
                                             <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                                         </a>
                                         </Link>
@@ -437,7 +430,7 @@ const Cabezote = () => {
                                         <a
                                             className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                         >
-                                            <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                            <item.icon className="flex-shrink-0 h-6 w-6 text-pink-600" aria-hidden="true" />
                                             <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                                         </a>
                                         </Link>
@@ -451,7 +444,7 @@ const Cabezote = () => {
                                         <a
                                             className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                         >
-                                            <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                            <item.icon className="flex-shrink-0 h-6 w-6 text-pink-600 decoration-pink-300" aria-hidden="true" />
                                             <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                                         </a>
                                         </Link>

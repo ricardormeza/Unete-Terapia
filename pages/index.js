@@ -19,7 +19,8 @@ export default function Home() {
         <Carrusel/>
         <div className='container'>
           <div className="text-center mt-5">
-            <h2 clasName="text-center">El mejor servicio de <span>Terapia </span> </h2>
+            <h2 clasName="text-center">Mejora tu calidad de vida con la mejor <span>Terapia </span> en
+            <span>Tuxtla Gutíerrez, Chiapas.</span> </h2>
           </div>
           <ComponenteUno/>
           <ComponenteDos/>
