@@ -4,7 +4,7 @@ import styles from '../../styles/Caruse.module.css'
 
 function UncontrolledExample() {
     return (
-        <Carousel className={styles.lineaCarrusel}>
+        <Carousel className={`sm:relative sm:z-0 ${styles.lineaCarrusel}`}>
             <Carousel.Item>
                 <Image
                     className="d-block w-100"

@@ -11,7 +11,7 @@ export default function ComponenteDos() {
         </div>
         <div className="flex flex-wrap">
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Terapia 1</h2>
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Terapia Individual</h2>
             <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
             <a className="text-pink-500 inline-flex items-center">Conocer más...
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -20,7 +20,7 @@ export default function ComponenteDos() {
             </a>
           </div>
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Terapia 2</h2>
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Consulta Psicológica</h2>
             <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
             <a className="text-pink-500 inline-flex items-center">Conocer más...
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -29,7 +29,7 @@ export default function ComponenteDos() {
             </a>
           </div>
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Terapia 3</h2>
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Soporte Emocional</h2>
             <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
             <a className="text-pink-500 inline-flex items-center">Conocer más...
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -38,7 +38,7 @@ export default function ComponenteDos() {
             </a>
           </div>
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Terapia 4</h2>
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Talleres</h2>
             <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
             <a className="text-pink-500 inline-flex items-center">Conocer más...
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">

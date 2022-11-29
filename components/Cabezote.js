@@ -142,7 +142,7 @@ function classNames(...classes) {
 const Cabezote = () => {
     return (
         <Popover className={`relative   ${styles.HeaderBG}`}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 z-40">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="flex justify-between items-center  border-gray-100 py-6 md:justify-start md:space-x-10">
                     <div className="md:flex  items-center justify-start  md:flex-1 lg:w-0 sm:hidden">
                         <Link href="/" legacyBehavior className="md:hidden ">
@@ -385,7 +385,7 @@ const Cabezote = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
             >
-                <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+                <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-40">
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                         <div className="pt-5 pb-6 px-5">
                             <div className="flex items-center justify-between">
@@ -404,9 +404,9 @@ const Cabezote = () => {
                                     </Popover.Button>
                                 </div>
                             </div>
-                            {/* MENU TELEFONO */}
+                            {/* RESPONSIVE MENU TELEFONO */}
                             <div className="mt-6">
-                                <nav className="grid gap-y-8">
+                                <nav className="grid gap-y-8 Z-40">
                                     {solutions.map((item) => (
                                         <Link 
                                         key={item.name}

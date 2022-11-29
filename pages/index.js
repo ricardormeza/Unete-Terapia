@@ -16,8 +16,9 @@ export default function Home() {
     description={'Centro de especialidad en comportamiento'}
     >
       <main className=''>
-        <Carrusel/>
+        
         <div className='container'>
+          <Carrusel/>
           <div className="text-center mt-5">
             <h2 clasName="text-center">Mejora tu calidad de vida con la mejor <span>Terapia </span> en
             <span>Tuxtla Gutíerrez, Chiapas.</span> </h2>
