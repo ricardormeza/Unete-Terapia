@@ -5,8 +5,10 @@ import styles from '../styles/Footer.module.css'
 
 export default function Footer() {
     return (
-        <footer className="text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9a8d4" fill-opacity="1" d="M0,160L80,154.7C160,149,320,139,480,154.7C640,171,800,213,960,218.7C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" rs_id="559"></path></svg>
+        <footer className="bg-pink-300 text-gray-600 body-font">
+            <div className="container px-5 pt-1 pb-24  mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-2 mt-10">
                     <div className={`${styles.lineaFooter}`}>
 
@@ -132,5 +134,6 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
+        </>
     )
 }

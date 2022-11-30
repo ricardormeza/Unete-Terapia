@@ -6,6 +6,7 @@ import Carrusel from '../components/Carousel/Carousel'
 import ComponenteUno from '../components/ComponenteUno/ComponenteUno'
 import ComponenteDos from '../components/ComponenteDos/ComponenteDos'
 import ComponenteTres from '../components/ComponenteTres/ComponenteTres'
+import Faq from '../components/Faq/Faq'
 
 
 export default function Home() {
@@ -17,17 +18,22 @@ export default function Home() {
     >
       <main className=''>
         
-        <div className='container'>
           <Carrusel/>
+        <div className='container'>
           <div className="text-center mt-5">
-            <h2 clasName="text-center">Mejora tu calidad de vida con la mejor <span>Terapia </span> en
-            <span>Tuxtla Gutíerrez, Chiapas.</span> </h2>
+            <h1 className='text-center text-pink-600'>Mtra. <strong>Yeimi Rocio Avila Pontón</strong> </h1>
+            <h2 className='text-green-500'>Especialista en <span>Psicología</span>.</h2>
+            <div className='flex'>
+            <h2 clasName="text-center w-4/5">Incrementa tu calidad de vida con la mejor <span>Psicóloga </span> en 
+            <span> Tuxtla Gutíerrez, Chiapas.</span> </h2>
+
+            </div>
           </div>
           <ComponenteUno/>
           <ComponenteDos/>
           <ComponenteTres/>
+        <Faq/>
         </div>
-        
         {/* <h1>Unete</h1> */}
       </main>
 
