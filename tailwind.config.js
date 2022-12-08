@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        DMSans: "'DM Sans', sans-serif"
+      }
+    },
   },
   plugins: [],
 }

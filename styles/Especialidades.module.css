@@ -1,0 +1,72 @@
+/* ANSIEDAD */
+.contenedorAnsiedad{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .contenedorAnsiedad{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+.bgAnsiedad{
+    background-image: url(/images/graph.png);
+    background-repeat: no-repeat;
+    background-position: 31rem -5rem;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .bgAnsiedad{
+        background-position: 9rem 19rem;
+    }
+}
+/* ANSIEDAD FIN */
+/* DEPRESION */
+.contenedorDepresion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .contenedorDepresion{
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+    }
+}
+.bgDepresion{
+    background-image: url(/images/graph.png);
+    background-repeat: no-repeat;
+    background-position: 31rem 2rem;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .bgDepresion{
+        background-position: 9rem 35rem;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .DepresionTexto{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* DEPRESION FIN */
