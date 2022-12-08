@@ -7,8 +7,10 @@ export default function ComponenteUno() {
     const [text, count] = useTypewriter({
         words: [
             "Especialista en Psicología",
-            "Diagnostico",
-            "Tratamiento",
+            "Diagnostico y tratamiento",
+            "Terapia familiar",
+            "Terapia de pareja",
+            "Terapia individual",
             "Atención a niños, adolescentes y adultos",
         ],
         loop: true,
