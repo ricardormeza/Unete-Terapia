@@ -26,7 +26,7 @@ function UncontrolledExample() {
                     src="/images/hombre-con-ansiedad.jpeg"
                     alt="Second slide"
                     width={900}
-                    height={900}
+                    height={700}
                     priority
                 />
 

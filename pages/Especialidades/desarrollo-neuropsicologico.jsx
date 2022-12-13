@@ -116,7 +116,7 @@ export default function desarrolloNeuropsicologico() {
                             <p className='font-DMSans'>Esencialmente pueden dividirse en terapias farmacológicas y terapias no farmacológicas, siendo estas últimas las que cuentan con mayor número de opciones en la actualidad.</p>
                             <p className='font-DMSans'>Dentro de las terapias no farmacológicas se incluyen intervenciones conductuales, apoyo psicosocial y rehabilitación neuropsicológica, entre otras opciones que estimulan las habilidades que el niño o niña no ha desarrollado adecuadamente. Además de ofrecer los apoyos necesarios para vivir una existencia plena de significado.</p>
                             <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                                <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-2 rounded'>
+                                <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-3.5 rounded'>
                                     Agenda tu cita
                                 </button>
                             </Link>

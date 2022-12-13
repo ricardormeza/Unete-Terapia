@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../../components/Layout'
@@ -10,7 +11,11 @@ export default function trastornoObsesivoCompulsivo() {
         title={'Especialidades - Auto Estima'}
         description={'Tratamiento y diagnostico especializado para superar la depresión'}
       >
-        <section className={`container ${styles.bgDepresion}`}>
+        <motion.section 
+        initial={{ opacity: 0}}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        className={`container ${styles.bgDepresion}`}>
           <div >
             <div className={styles.contenedorDepresion}>
               <div className={styles.DepresionTexto}>
@@ -39,13 +44,13 @@ export default function trastornoObsesivoCompulsivo() {
               <p className='font-DMSans sm:text-black'>Las obsesiones más frecuentes son <span> obsesiones de limpieza</span>, <span>obsesión de duda patológica</span>, <span>obsesión de simetría</span>, <span>obsesión de higiene personal</span>.</p>
               <p className='font-DMSans'>Puedes tener una personalidad muy profesionista, ser muy pulcro, ser muy limpio y esto no quiere decir que presentes un TOC, mientras no cause un problema en neustra vida social, entones no presentamos un <span>trastorno obsesivo compulsivo</span>.</p>
               <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-2 rounded'>
+                <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-3.5 rounded'>
                   Agenda tu cita
                 </button>
               </Link>
             </div>
           </div>
-        </section>
+        </motion.section>
       </Layout>
     </>
   )

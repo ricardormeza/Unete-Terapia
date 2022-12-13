@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../../components/Layout'
@@ -10,7 +11,11 @@ export default function autoestima() {
         title={'Especialidades - Auto Estima'}
         description={'Tratamiento y diagnostico especializado para superar la depresión'}
       >
-        <section className={`container ${styles.bgDepresion}`}>
+        <motion.section 
+        initial={{ opacity: 0}}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        className={`container ${styles.bgDepresion}`}>
           <div >
             <div className={styles.contenedorDepresion}>
               <div className={styles.DepresionTexto}>
@@ -38,13 +43,13 @@ export default function autoestima() {
               <p className='font-DMSans sm:text-black'>Realizaremos una evaluación, plantearemos objetivos de tratamiento en la problemática de tu interés.</p>
               <p className='font-DMSans'>Si buscas generar cambios a largo plazo este tratamiento es ideal para ti.</p>
               <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-2 rounded'>
+                <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-3.5 rounded'>
                   Agenda tu cita
                 </button>
               </Link>
             </div>
           </div>
-        </section>
+        </motion.section>
       </Layout>
     </>
   )
