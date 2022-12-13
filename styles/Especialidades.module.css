@@ -68,5 +68,75 @@
         margin: 0 auto;
     }
 }
-
 /* DEPRESION FIN */
+/* DESARROLLO NEUROPSICOLOGICO */
+.contenedorEspecialidades{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .contenedorEspecialidades{
+        grid-template-columns: 1fr;
+        grid-template-rows: 55% 45%;
+    }
+}
+.bgNeuropsicologicoUno{
+    background-image: url(/images/graph.png);
+    background-repeat: no-repeat;
+    background-position: 31rem 2rem;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .bgNeuropsicologico{
+        background-position: 9rem 35rem;
+    }
+}
+.bgNeuropsicologicoDos{
+    background-image: url(/images/graph.png);
+    background-repeat: no-repeat;
+    background-position: 1rem 10rem;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .bgNeuropsicologicoDos{
+        background-position: 1rem 10rem;
+    }
+}
+.bgNeuropsicologicoTres{
+    background-image: url(/images/graph.png);
+    background-repeat: no-repeat;
+    background-position: 29rem 5rem;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .bgNeuropsicologicoTres{
+        background-position: 1rem 10rem;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .DepresionTexto{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.neurologicoLi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* DESARROLLO NEUROPSICOLOGICO FIN*/

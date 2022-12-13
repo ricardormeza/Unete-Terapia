@@ -7,8 +7,8 @@ export default function estres() {
     return (
         <>
             <Layout
-                title={'Especialidades - Estrés'}
-                description={'Manejor del estrés'}
+                title={'Manejo de Estrés'}
+                description={'Manejo del estrés, Manejo de estrés laboral'}
             >
                 <section className={`container ${styles.bgDepresion}`}>
                     <div >

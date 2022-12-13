@@ -54,6 +54,12 @@ const solutions = [
 
 const especialidades = [
     {
+        name: 'Desarrollo Neuropsicológico',
+        description: '',
+        href: '/Especialidades/desarrollo-neuropsicologico',
+        icon: BsFlower3,
+    },
+    {
         name: 'Ansiedad',
         description: '',
         href: '/Especialidades/ansiedad',
