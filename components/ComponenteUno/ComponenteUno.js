@@ -7,7 +7,7 @@ export default function ComponenteUno() {
     const [text, count] = useTypewriter({
         words: [
             "Especialista en Psicología",
-            "Diagnostico y tratamiento",
+            "Diagnóstico y tratamiento",
             "Terapia familiar",
             "Terapia de pareja",
             "Terapia individual",
@@ -30,8 +30,28 @@ export default function ComponenteUno() {
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <h3 className="text-center font-DMSans text-pink-600">Nuestro Servicios</h3>
-                    <p className='font-DMSans text-center'>En nuestros servicios psicológicos especializados brindamos diagnostico y tratamiento en niños, adolescentes y adultos. </p>
+                    <p className='font-DMSans text-center'>En nuestros servicios psicológicos especializados brindamos diagnóstico y tratamiento en niños, adolescentes y adultos. </p>
                     <div className="flex flex-wrap -m-4">
+                        {/* DESARROLLO NEUROLOGICO INICIO */}
+                        <div className="p-4 lg:w-1/3">
+                            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative z-0 hover:bg-pink-200">
+                                <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">Desarrollo Neuropsicológico</h3>
+                                <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">Trastorno del neurodesarrollo.</h2>
+                                <p className="leading-relaxed mb-3 font-DMSans">Es importante tener en cuenta que en una misma persona puede manifestarse más de un trastorno del neurodesarrollo.</p>
+                                <Link 
+                                href='/Especialidades/ansiedad'
+                                legacyBehavior
+                                >
+                                    <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
+                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                        {/* DESARROLLO NEUROLOGICO FIN */}
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative z-0 hover:bg-pink-200">
                                 <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">Ansiedad</h3>

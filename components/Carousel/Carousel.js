@@ -12,6 +12,8 @@ function UncontrolledExample() {
                     alt="First slide"
                     width={800}
                     height={800}
+                    priority
+                    placeholder
                 />
                 <Carousel.Caption>
                     <h3>Terapia de Pareja</h3>
@@ -25,6 +27,7 @@ function UncontrolledExample() {
                     alt="Second slide"
                     width={900}
                     height={900}
+                    priority
                 />
 
                 <Carousel.Caption>
@@ -39,6 +42,7 @@ function UncontrolledExample() {
                     alt="Third slide"
                     width={900}
                     height={900}
+                    priority
                 />
                 <Carousel.Caption>
                     <h3>Tanatología</h3>
@@ -54,6 +58,7 @@ function UncontrolledExample() {
                     alt="Mujer con ansiedad"
                     width={900}
                     height={900}
+                    priority
                 />
                 <Carousel.Caption>
                     <h3>Depresión</h3>

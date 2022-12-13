@@ -47,6 +47,11 @@ export default function Footer() {
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Especialidades</h2>
                         <nav className="list-none mb-10">
+                        <li>
+                                <Link href="/Especialidades/desarrollo-neuropsicologico" legacyBehavior>
+                                    <a className="text-white hover:text-gray-200">Desarrollo Neuropsicológico</a>
+                                </Link>
+                            </li>
                             <li>
                                 <Link href="/Especialidades/ansiedad" legacyBehavior>
                                     <a className="text-white hover:text-gray-200">Ansiedad</a>

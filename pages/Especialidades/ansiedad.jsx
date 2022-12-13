@@ -15,8 +15,8 @@ export default function ansiedad() {
                     <div >
                         <div className={styles.contenedorAnsiedad}>
                             <div className={styles.DepresionTexto}>
-                                <h1 className='text-xl font-DMSans'>Terapia individual: Ansiedad</h1>
-                                <h2 className='font-DMSans'>Tratamiento para la <span>ansiedad</span> </h2>
+                                <h1 className='text-xl font-DMSans text-green-500'>Terapia individual: Ansiedad</h1>
+                                <h2 className='font-DMSans font-bold'>Tratamiento para la <span>ansiedad</span> </h2>
                                 <p className='text-base font-DMSans text-justify'>En los criterios clínicos presentan preocupación acerca de varias actividades o acontecimiento y tienen dificultad para controlar las preocupaciones; son más los días en que esto está presente que ausente durante ≥ 6 meses.</p>
                                 <p className='text-base font-DMSans text-justify'>Se deben asociar  con sintomas como agitación o nerviosismo, facilidad para fatigarse, dificultades para concentrarse, irritabilidad, tensión muscular, trastornos del sueño.</p>
                                 

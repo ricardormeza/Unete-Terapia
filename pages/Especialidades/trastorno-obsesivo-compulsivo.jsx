@@ -14,17 +14,18 @@ export default function trastornoObsesivoCompulsivo() {
           <div >
             <div className={styles.contenedorDepresion}>
               <div className={styles.DepresionTexto}>
-                <h1 className='title-font sm:text-2xl text-xl font-medium font-DMSans'>Terapia: Trastorno Obsesivo Compulsivo</h1>
-                <h2 className='font-DMSans'>Manejo del <span>TOC</span> </h2>
+                <h1 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-green-500'>Trastorno Obsesivo Compulsivo</h1>
+                <h2 className='font-DMSans font-bold'>¿Qué es el <span>TOC</span>? </h2>
                 <p className='text-base font-DMSans text-justify'>Se caracteriza por un patrón de pensamientos y miedos no deseados (obsesiones) que provocan comportamientos repetitivos (compulsiones). Estas obsesiones y compulsiones interfieren en las actividades diarias y causan un gran sufrimiento emocional.</p>
                 
               </div>
               <div>
                 <Image
-                  src='/images/autoestima.jpeg'
+                  src='/images/trastorno-obsesivo-compulsivo.jpeg'
                   width={400}
                   height={400}
-                  alt='mujer con autoestima'
+                  priority
+                  alt='trastorno obsesivo compulsivo'
                   className='rounded'
                 />
               </div>
@@ -34,9 +35,9 @@ export default function trastornoObsesivoCompulsivo() {
           {/* cta ansiedad */}
           <div className={styles.DepresionTexto}>
             <div className='lg:w-auto sm:w-auto mt-8'>
-              <h4 className='sm:text-2xl text-xl font-medium text-green-500 font-DMSans'>Ayudamos a superar la Depresión</h4>
-              <p className='font-DMSans sm:text-black'>Realizaremos una evaluación, plantearemos objetivos de tratamiento en la problemática de tu interés.</p>
-              <p className='font-DMSans'>Si buscas generar cambios a largo plazo este tratamiento es ideal para ti.</p>
+              <h4 className='sm:text-2xl text-xl font-medium text-green-500 font-DMSans'>Ayudamos a tomar control.</h4>
+              <p className='font-DMSans sm:text-black'>Las obsesiones más frecuentes son <span> obsesiones de limpieza</span>, <span>obsesión de duda patológica</span>, <span>obsesión de simetría</span>, <span>obsesión de higiene personal</span>.</p>
+              <p className='font-DMSans'>Puedes tener una personalidad muy profesionista, ser muy pulcro, ser muy limpio y esto no quiere decir que presentes un TOC, mientras no cause un problema en neustra vida social, entones no presentamos un <span>trastorno obsesivo compulsivo</span>.</p>
               <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
                 <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-2 rounded'>
                   Agenda tu cita

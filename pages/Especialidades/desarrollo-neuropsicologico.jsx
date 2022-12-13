@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { motion } from "framer-motion";
 import Layout from '../../components/Layout'
 import styles from '../../styles/Especialidades.module.css'
 import { TbPoint } from 'react-icons/tb';
@@ -12,7 +13,11 @@ export default function desarrolloNeuropsicologico() {
                 title={'Especialidades - Desarrollo Neuropsicológico'}
                 description={'Atención especializada en adolescentes y niños con problemas de desarrollo neuropsicológico, autosmo, hiperactividad.'}
             >
-                <section className={`container ${styles.bgNeuropsicologicoUno}`}>
+                <motion.section 
+                initial={{ opacity: 0}}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1.5 }}
+                className={`container ${styles.bgNeuropsicologicoUno}`}>
                     <div >
                         <div className={styles.contenedorEspecialidades}>
                             <div className={styles.DepresionTexto}>
@@ -29,6 +34,8 @@ export default function desarrolloNeuropsicologico() {
                                     height={400}
                                     alt='niño con autismo'
                                     className='rounded'
+                                    priority
+                                    placeholder
                                 />
                             </div>
                         </div>
@@ -43,6 +50,7 @@ export default function desarrolloNeuropsicologico() {
                                         height={400}
                                         alt='niño con autismo'
                                         className='rounded'
+                                        placeholder
                                     />
                                 </div>
                                 <div className={styles.DepresionTexto}>
@@ -91,6 +99,7 @@ export default function desarrolloNeuropsicologico() {
                                         height={400}
                                         alt='niño con autismo'
                                         className='rounded'
+                                        placeholder
                                     />
                                 </div>
                             </div>
@@ -113,7 +122,7 @@ export default function desarrolloNeuropsicologico() {
                             </Link>
                         </div>
                     </div>
-                </section>
+                </motion.section>
 
             </Layout>
         </>
