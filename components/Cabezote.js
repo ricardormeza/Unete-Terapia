@@ -15,25 +15,6 @@ import { HiUserGroup,
     HiOutlineChevronDoubleDown
  } from "react-icons/hi2";
 import {BsChevronCompactDown, BsBrightnessHigh, BsFlower3} from 'react-icons/bs'
-import {
-    BookmarkAltIcon,
-    CalendarIcon,
-    ChartBarIcon,
-    CursorClickIcon,
-    MenuIcon,
-    PhoneIcon,
-    PlayIcon,
-    RefreshIcon,
-    ShieldCheckIcon,
-    SupportIcon,
-    ViewGridIcon,
-    XIcon,
-    UserGroupIcon,
-    
-    CubeTransparentIcon,
-    LightBulbIcon
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
 import styles from '../styles/Header.module.css';
 
 
@@ -41,7 +22,7 @@ const solutions = [
     {
         name: 'Acerca de',
         description: 'La Psic. Yeimi Rocio Avila Ponton mejorara tu vida',
-        href: '/Servicios',
+        href: '/acerca',
         icon: BsBrightnessHigh,
     },
     // {
@@ -166,7 +147,7 @@ const Cabezote = () => {
                     <div className="md:flex  items-center justify-start  md:flex-1 lg:w-0 sm:hidden">
                         <Link href="/" legacyBehavior className="md:hidden ">
                             <a href="#" className="whitespace-nowrap text-base font-medium  text-gray-500 hover:text-gray-900 rounded">
-                                <Image className="rounded-full" width={80} height={120} src="/images/unete.jpeg" alt='logo clínica UNETE' />
+                                <Image className={`rounded-full ${styles.sombra}`} width={120} height={120} src="/circulo-logo.jpg" alt='logo clínica UNETE' />
                             </a>
                         </Link>
                     </div>

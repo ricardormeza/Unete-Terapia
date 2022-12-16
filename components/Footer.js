@@ -14,11 +14,11 @@ export default function Footer() {
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-2 mt-10">
                     <div className={`${styles.lineaFooter}`}>
                         <Link href='/'>
-                            <Image src="/images/unete.jpeg" 
+                            <Image src="/circulo-logo.jpg" 
                                     alt='logo de unete'
-                                    width={50}
-                                    height={50}
-                                    className='rounded object-center'
+                                    width={80}
+                                    height={80}
+                                    className='rounded-full object-center'
                                     />
                         </Link>
 
