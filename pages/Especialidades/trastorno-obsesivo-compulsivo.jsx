@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../../components/Layout'
 import styles from '../../styles/Especialidades.module.css'
+import CtaDoctoralia from "../../components/CtaDoctoralia";
 
 export default function trastornoObsesivoCompulsivo() {
   return (
@@ -43,13 +44,10 @@ export default function trastornoObsesivoCompulsivo() {
               <h4 className='sm:text-2xl text-xl font-medium text-green-500 font-DMSans'>Ayudamos a tomar control.</h4>
               <p className='font-DMSans sm:text-black'>Las obsesiones más frecuentes son <span> obsesiones de limpieza</span>, <span>obsesión de duda patológica</span>, <span>obsesión de simetría</span>, <span>obsesión de higiene personal</span>.</p>
               <p className='font-DMSans'>Puedes tener una personalidad muy profesionista, ser muy pulcro, ser muy limpio y esto no quiere decir que presentes un TOC, mientras no cause un problema en neustra vida social, entones no presentamos un <span>trastorno obsesivo compulsivo</span>.</p>
-              <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-3.5 rounded'>
-                  Agenda tu cita
-                </button>
-              </Link>
+              
             </div>
           </div>
+          <CtaDoctoralia/>
         </motion.section>
       </Layout>
     </>

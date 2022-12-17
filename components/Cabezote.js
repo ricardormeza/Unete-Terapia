@@ -35,49 +35,49 @@ const solutions = [
 
 const especialidades = [
     {
-        name: 'Desarrollo Neuropsicológico',
+        name: 'Evaluaciones psicopedagógicas para niños y adolescentes',
         description: '',
         href: '/Especialidades/desarrollo-neuropsicologico',
         icon: BsFlower3,
     },
     {
-        name: 'Ansiedad',
+        name: 'Tratamiento para Ansiedad',
         description: '',
         href: '/Especialidades/ansiedad',
         icon: BsFlower3,
     },
     {
-        name: 'Depresión',
+        name: 'Tratamiento para Depresión',
         description: '',
         href: '/Especialidades/depresion',
         icon: BsFlower3,
     },
     {
-        name: 'Autoestima',
+        name: 'Tratamiento para Autoestima',
         description: '',
         href: '/Especialidades/autoestima',
         icon: BsFlower3,
     },
     {
-        name: 'Estrés',
+        name: 'Tratamiento para Estrés',
         description: '',
         href: '/Especialidades/estres',
         icon: BsFlower3,
     },
     {
-        name: 'Estrés Postraumático',
+        name: 'Terapia Individual',
         description: '',
         href: '/Especialidades/estres-postraumatico',
         icon: BsFlower3,
     },
     {
-        name: 'Tanatología',
+        name: 'Tratamiento de Tanatología',
         description: '',
         href: '/Especialidades/tanatologia',
         icon: BsFlower3,
     },
     {
-        name: 'Trastorno Obsesivo Compulsivo',
+        name: 'Tratamiento Trastorno Obsesivo Compulsivo',
         description: '',
         href: '/Especialidades/trastorno-obsesivo-compulsivo',
         icon: BsFlower3,

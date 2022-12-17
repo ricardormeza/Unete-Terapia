@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import SwiAcerca from "../components/acercade/SwiAcerca";
+import CtaAcerca from "../components/acercade/CtaAcerca";
 
 export default function acerca() {
     return (
@@ -53,11 +55,14 @@ export default function acerca() {
                         <p className='text-base font-DMSans text-justify'><span>Desorden de ansiedad por separación</span>.</p>
                         <p className='text-base font-DMSans text-justify'><span>Transtorno limite de la peronalidad</span>.</p>
                     </div>
-                    <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                        <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-3.5 rounded'>
-                        Agenda tu cita
-                        </button>
-                    </Link>
+                    {/* SWIPER */}
+                    <SwiAcerca/>
+                    {/* SWIPER FIN */}
+                    <div className='w-full mt-32 absolute top-[40%] bg-[#ec4899]/10
+                    left-0 h-[500px] -skew-y-12'>
+                    </div>
+                    <CtaAcerca/>
+                    
                 </motion.section>
 
         </Layout>

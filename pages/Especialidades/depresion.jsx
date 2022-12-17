@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../../components/Layout'
 import styles from '../../styles/Especialidades.module.css'
+import CtaDoctoralia from "../../components/CtaDoctoralia";
 
 export default function depresion() {
     return (
@@ -42,13 +43,10 @@ export default function depresion() {
                             <h4 className='sm:text-2xl text-xl font-medium text-green-500 font-DMSans'>Desarrollo de salud mental</h4>
                             <p className='font-DMSans sm:text-white'>Realizaremos una evaluación, plantearemos objetivos de tratamiento en la problemática de tu interés.</p>
                             <p className='font-DMSans'>Si buscas generar cambios a largo plazo este tratamiento es ideal para ti.</p>
-                            <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                                <button className='bg-pink-500 hover:bg-green-400 text-white font-bold py-1 px-3.5 rounded'>
-                                    Agenda tu cita
-                                </button>
-                            </Link>
+                            
                         </div>
                     </div>
+                    <CtaDoctoralia/>
                 </motion.section>
             </Layout>
         </>
