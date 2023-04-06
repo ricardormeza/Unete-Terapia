@@ -141,7 +141,7 @@ function classNames(...classes) {
 const Cabezote = () => {
     return (
         <Popover className={`relative   ${styles.HeaderBG}`}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 130"><path fill="#7da641" fill-opacity="1" d="M0,128L80,112C160,96,320,64,480,69.3C640,75,800,117,960,128C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z" rs_id="872"></path></svg>
+            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 130"><path fill="#7da641" fillOpacity="1" d="M0,128L80,112C160,96,320,64,480,69.3C640,75,800,117,960,128C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z" rs_id="872"></path></svg> */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="flex justify-between items-center  border-gray-100 py-6 md:justify-start md:space-x-10">
                     <div className="md:flex  items-center justify-start  md:flex-1 lg:w-0 sm:hidden">

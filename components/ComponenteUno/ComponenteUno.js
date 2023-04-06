@@ -19,11 +19,11 @@ export default function ComponenteUno() {
     return (
         <>
         <div className="text-center mt-5">
-            <h1 className='text-center font-DMSans text-pink-600'>Mtra. <strong>Yeimi Rocio Avila Pontón</strong> </h1>
+            <h1 className='text-center font-DMSans text-pink-600'>Mtra. <strong>Yeimy Rocio Avila Pontón</strong> </h1>
             <h2 className='text-green-500 font-DMSans'><span>{text}</span>.<Cursor cursorColor='#DB2777' /></h2>
             <div className='flex'>
-            <h2 clasName="text-center w-4/5 font-DMSans">Incrementa tu calidad de vida con la mejor <span className='font-DMSans'>Psicóloga </span> en 
-            <span className="font-DMSans"> Tuxtla Gutíerrez, Chiapas.</span> </h2>
+            <h2 clasName="text-center w-4/5 font-DMSans">Encuentra la claridad, la paz mental y la felicidad que mereces con la mejor <span className='font-DMSans'>psicóloga </span> en 
+            <span className="font-DMSans"> Tuxtla Gutíerrez, Chiapas;</span> Y comienza tu camino hacia una vida plena y satisfactoria.</h2>
 
             </div>
         </div>

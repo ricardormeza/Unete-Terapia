@@ -2,7 +2,6 @@ import Head from "next/head"
 import Header from './Header'
 import Footer from './Footer'
 import Navbar from './Navbar/Navbar'
-import Cta from "./cta/Cta"
 import Cabezote from './Cabezote'
 
 export default function Layout({children, title = '', description = ''}) {
@@ -13,7 +12,6 @@ export default function Layout({children, title = '', description = ''}) {
             <meta name="description" content={description} />
             {/* <link rel="icon" href="/unete.ico" /> */}
         </Head>
-        <Cta/>
         <Cabezote/>
         {/* <Header/> */}
             {/* <div className="pt-5">

@@ -17,7 +17,7 @@ function UncontrolledExample() {
                 />
                 <Carousel.Caption>
                     <h3>Terapia de Pareja</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <p>Mejoren la comunicación, fortalezcan y resuelvan conflictos de manera más efectiva.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,7 +32,7 @@ function UncontrolledExample() {
 
                 <Carousel.Caption>
                     <h3>Terapia Individual</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Desarrollar una mayor autoconciencia, lo que te permitirá tomar decisiones más conscientes y saludables en tu vida.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -47,7 +47,7 @@ function UncontrolledExample() {
                 <Carousel.Caption>
                     <h3>Tanatología</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    Puede ayudarte a encontrar un significado en la muerte y a encontrar consuelo en momentos difíciles.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -63,7 +63,7 @@ function UncontrolledExample() {
                 <Carousel.Caption>
                     <h3>Depresión</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    La terapia puede ayudarte a identificar los factores que contribuyen a tu depresión y a encontrar formas de abordarlos.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
