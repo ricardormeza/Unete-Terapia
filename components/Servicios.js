@@ -33,7 +33,7 @@ export default function Servicios() {
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative z-0 hover:bg-pink-200">
                 <Image
                     className="d-block w-100"
-                    src="/images/familia-felicidad.jpeg"
+                    src="/images/neurodesarrollo.jpeg"
                     alt="Evaluacion pedagogica"
                     width={800}
                     height={800}
