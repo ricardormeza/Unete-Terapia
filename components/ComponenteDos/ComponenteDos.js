@@ -27,7 +27,7 @@ export default function ComponenteDos(direccionL) {
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Terapia Individual</h2>
             <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
             <a className="text-pink-500 inline-flex items-center">Conocer más...
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
@@ -36,7 +36,7 @@ export default function ComponenteDos(direccionL) {
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Consulta Psicológica</h2>
             <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
             <a className="text-pink-500 inline-flex items-center">Conocer más...
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
@@ -45,7 +45,7 @@ export default function ComponenteDos(direccionL) {
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Soporte Emocional</h2>
             <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
             <a className="text-pink-500 inline-flex items-center">Conocer más...
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
@@ -54,7 +54,7 @@ export default function ComponenteDos(direccionL) {
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Talleres</h2>
             <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
             <a className="text-pink-500 inline-flex items-center">Conocer más...
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>

@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link'
 import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter';
 import { motion } from "framer-motion";
+import styles from '../../styles/ComponenteUno.module.css'
+
 
 export default function ComponenteUno() {
     const [text, count] = useTypewriter({
@@ -21,10 +23,17 @@ export default function ComponenteUno() {
         <div className="text-center mt-5">
             <h1 className='text-center font-DMSans text-pink-600'>Mtra. <strong>Yeimy Rocio Avila Pontón</strong> </h1>
             <h2 className='text-green-500 font-DMSans'><span>{text}</span>.<Cursor cursorColor='#DB2777' /></h2>
-            <div className='flex'>
-            <h2 clasName="text-center w-4/5 font-DMSans">Encuentra la claridad, la paz mental y la felicidad que mereces con la mejor <span className='font-DMSans'>psicóloga </span> en 
-            <span className="font-DMSans"> Tuxtla Gutíerrez, Chiapas;</span> Y comienza tu camino hacia una vida plena y satisfactoria.</h2>
-
+            <div className='flex mt-4 mb-4'>
+                <h2 className="text-center  font-DMSans">Encuentra la claridad, la paz mental y la felicidad que mereces con la mejor <span className='font-DMSans'>psicóloga </span> en 
+                <span className="font-DMSans"> Tuxtla Gutíerrez, Chiapas;</span> Y comienza tu camino hacia una vida plena y satisfactoria.</h2>
+            </div>
+            <div className={`${styles.divAgendarCita}`}>
+                <button className={`${styles.btnAgendarCita}`}>
+                    Agendar cita
+                </button>
+                <button className={`${styles.btnEspecialidades}`}>
+                    Especialidades
+                </button>
             </div>
         </div>
             <section className="text-gray-600 body-font">
@@ -43,7 +52,7 @@ export default function ComponenteUno() {
                                 legacyBehavior
                                 >
                                     <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
-                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
                                         </svg>
@@ -62,7 +71,7 @@ export default function ComponenteUno() {
                                 legacyBehavior
                                 >
                                     <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
-                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
                                         </svg>
@@ -77,7 +86,7 @@ export default function ComponenteUno() {
                                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">Tratamiento de Depresión </h2>
                                 <p className="leading-relaxed mb-3 font-DMSans">Maltratando de diversas formas y, al mismo tiempo que lo explica, se ríe de forma incontrolada, labilidad afectiva.  Cambios en el estado emocional, generalmente independiente de estímulos causales externos.</p>
                                 <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
@@ -92,7 +101,7 @@ export default function ComponenteUno() {
                                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">Terapia y manejo de Estrés</h2>
                                 <p className="leading-relaxed mb-3 font-DMSans">Sobrecarga de tensión que repercute en el organismo y provoca la aparición de enfermedades y anomalías patológicas que impiden el normal desarrollo y funcionamiento del cuerpo humano.</p>
                                 <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
@@ -107,7 +116,7 @@ export default function ComponenteUno() {
                                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">Manejo de Autoestima</h2>
                                 <p className="leading-relaxed mb-3 font-DMSans">Es el concepto que tenemos de nuestra valía y se basa en todos los pensamientos, sentimientos, sensaciones y experiencias que sobre nosotros mismos...</p>
                                 <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
@@ -122,7 +131,7 @@ export default function ComponenteUno() {
                                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">Manejo de la perdida de un ser querido.</h2>
                                 <p className="leading-relaxed mb-3 font-DMSans">Intervencion en el tratado de los duelos derivados de pérdidas significativas que no tengan o no que ver con la muerte física o enfermos terminales.</p>
                                 <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
@@ -137,7 +146,7 @@ export default function ComponenteUno() {
                                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">Manejo de Estrés postraumatico</h2>
                                 <p className="leading-relaxed mb-3 font-DMSans">Desencadenada por una situación aterradora, ya sea que la hayas experimentado o presenciado. Los síntomas pueden incluir reviviscencias, pesadillas...</p>
                                 <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
@@ -152,7 +161,7 @@ export default function ComponenteUno() {
                                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">Manejo de trastorno obsesivo compulsivo </h2>
                                 <p className="leading-relaxed mb-3 font-DMSans">Se caracteriza por un patrón de pensamientos y miedos no deseados (obsesiones) que provocan comportamientos repetitivos...</p>
                                 <a className="text-pink-500 inline-flex items-center font-DMSans">Saber más
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
