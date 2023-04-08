@@ -33,18 +33,18 @@ export default function Servicios() {
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative z-0 hover:bg-pink-200">
                 <Image
                     className="d-block w-100"
-                    src="/images/familia-felicidad.jpeg"
+                    src="/images/evaluacion.jpeg"
                     alt="Evaluacion pedagogica"
                     width={800}
                     height={800}
                     priority
                     placeholder
                 />
-                <h3 className="mt-3 tracking-widest sm:text-2xl text-xl font-medium text-gray-900  mb-1 font-DMSans uppercase">
+                {/* <h3 className="mt-3 tracking-widest sm:text-2xl text-xl font-medium text-gray-900  mb-1 font-DMSans uppercase">
                   Evaluación pedagógica
-                </h3>
+                </h3> */}
                 <h2 className="title-font text-xs title-font font-medium text-gray-400  mb-3 font-DMSans">
-                  Conducta, emocional...
+                La educación es uno de los aspectos más importantes en el desarrollo de los niños y adolescentes. Es el proceso mediante el cual se les enseña habilidades...
                 </h2>
                 {/* <p className="leading-relaxed mb-3 font-DMSans">Es importante tener en cuenta que en una misma persona puede manifestarse más de un trastorno del neurodesarrollo.</p> */}
                 <Link href="/Especialidades/ansiedad" legacyBehavior>
@@ -78,16 +78,14 @@ export default function Servicios() {
                     priority
                     placeholder
                 />
-                <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
-                  Ansiedad
-                </h3>
+                {/* <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
+                  Neurodesarrollo
+                </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Tratamiento de Ansiedad{" "}
+                  Desarrollo Neurológico{" "}
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                  En los criterios clínicos presentan preocupación acerca de
-                  varias actividades o acontecimiento y tienen dificultad para
-                  controlar las preocupaciones.
+                El desarrollo neurológico se refiere a los cambios y progresos que ocurren en el cerebro y en el sistema nervioso a lo largo del tiempo...
                 </p>
                 <Link href="/Especialidades/ansiedad" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
@@ -120,17 +118,14 @@ export default function Servicios() {
                     priority
                     placeholder
                 />
-                <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
-                  Depresión
-                </h3>
+                {/* <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
+                  Neurodesarrollo
+                </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Tratamiento de Depresión{" "}
+                  Trastornos del habla{" "}
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                  Maltratando de diversas formas y, al mismo tiempo que lo
-                  explica, se ríe de forma incontrolada, labilidad afectiva.
-                  Cambios en el estado emocional, generalmente independiente de
-                  estímulos causales externos.
+                El trastorno del habla y del lenguaje es una condición que afecta a la capacidad de una persona para comunicarse verbalmente. Puede manifestarse...
                 </p>
                 <a className="text-pink-500 inline-flex items-center font-DMSans">
                   Saber más
