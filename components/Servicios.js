@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import evaluacionImg from '../public/images/evaluacion.jpg'
+
 
 export default function Servicios() {
   return (
