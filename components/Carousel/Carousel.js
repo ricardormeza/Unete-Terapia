@@ -9,7 +9,7 @@ function UncontrolledExample() {
                 <Image
                     className="d-block w-100"
                     src="/images/familia-felicidad.jpeg"
-                    alt="First slide"
+                    alt="Terapia de pareja"
                     width={800}
                     height={800}
                     priority
@@ -24,7 +24,7 @@ function UncontrolledExample() {
                 <Image
                     className="d-block w-100"
                     src="/images/hombre-con-ansiedad.jpeg"
-                    alt="Second slide"
+                    alt="Terapia individual"
                     width={900}
                     height={700}
                     priority
@@ -39,7 +39,7 @@ function UncontrolledExample() {
                 <Image
                     className="d-block w-100"
                     src="/images/abuelos-playa.jpeg"
-                    alt="Third slide"
+                    alt="imagen de tranatologia"
                     width={900}
                     height={900}
                     priority

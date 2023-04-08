@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 import Carrusel from '../components/Carousel/Carousel'
 import ComponenteUno from '../components/ComponenteUno/ComponenteUno'
+import Servicios from '../components/Servicios'
 import ComponenteDos from '../components/ComponenteDos/ComponenteDos'
 import ComponenteTres from '../components/ComponenteTres/ComponenteTres'
 import Faq from '../components/Faq/Faq'
@@ -22,17 +23,18 @@ export default function Home() {
         
           <Carrusel/>
         <div className='container'>
-          
           <ComponenteUno/>
+        </div>
+        <Servicios/>
+        <div className='container'>
           <ComponenteDos/>
           <ComponenteTres/>
         <CtaDoctoralia/>
         <Experience/>
         <Faq/>
         </div>
-        {/* <h1>Unete</h1> */}
+        
       </main>
-
     </Layout>
     </>
   )
