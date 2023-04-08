@@ -43,10 +43,10 @@ export default function Servicios() {
                 {/* <h3 className="mt-3 tracking-widest sm:text-2xl text-xl font-medium text-gray-900  mb-1 font-DMSans uppercase">
                   Evaluación pedagógica
                 </h3> */}
-                <h2 className="title-font text-xs title-font font-medium text-gray-400  mb-3 font-DMSans">
-                La educación es uno de los aspectos más importantes en el desarrollo de los niños y adolescentes. Es el proceso mediante el cual se les enseña habilidades...
+                <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
+                Evaluación pedagógica
                 </h2>
-                {/* <p className="leading-relaxed mb-3 font-DMSans">Es importante tener en cuenta que en una misma persona puede manifestarse más de un trastorno del neurodesarrollo.</p> */}
+                <p className="leading-relaxed mb-3 font-DMSans">La educación es uno de los aspectos más importantes en el desarrollo de los niños y adolescentes. Es el proceso mediante el cual se les enseña habilidades...</p>
                 <Link href="/Especialidades/ansiedad" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
@@ -147,17 +147,23 @@ export default function Servicios() {
             {/* ESTRES */}
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
-                <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
+              <Image
+                    className="d-block w-100"
+                    src="/images/discalculia.jpeg"
+                    alt="Trastorno del habla"
+                    width={800}
+                    height={800}
+                    priority
+                    placeholder
+                />
+                {/* <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
                   Estrés
-                </h3>
+                </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Terapia y manejo de Estrés
+                  Discalculia
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                  Sobrecarga de tensión que repercute en el organismo y provoca
-                  la aparición de enfermedades y anomalías patológicas que
-                  impiden el normal desarrollo y funcionamiento del cuerpo
-                  humano.
+                La discalculia es un trastorno específico del aprendizaje que se caracteriza por dificultades en la comprensión y el uso de los números y las matemáticas. Las personas con discalculia pueden...
                 </p>
                 <a className="text-pink-500 inline-flex items-center font-DMSans">
                   Saber más
@@ -179,16 +185,23 @@ export default function Servicios() {
             {/* AUTOESTIMA */}
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
-                <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
+              <Image
+                    className="d-block w-100"
+                    src="/images/autismo.jpg"
+                    alt="Trastorno del habla"
+                    width={800}
+                    height={800}
+                    priority
+                    placeholder
+                />
+                {/* <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
                   Autoestima
-                </h3>
+                </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Manejo de Autoestima
+                  Espectro autista
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                  Es el concepto que tenemos de nuestra valía y se basa en todos
-                  los pensamientos, sentimientos, sensaciones y experiencias que
-                  sobre nosotros mismos...
+                El trastorno del espectro autista (TEA) es un trastorno del desarrollo neurológico que afecta la comunicación, el comportamiento y las habilidades sociales. Aunque...
                 </p>
                 <a className="text-pink-500 inline-flex items-center font-DMSans">
                   Saber más
@@ -211,16 +224,20 @@ export default function Servicios() {
             {/* TANATOLOGIA INICIO */}
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
-                <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
-                  Tanatología
-                </h3>
+                <Image
+                    className="d-block w-100"
+                    src="/images/dislexia.jpg"
+                    alt="Trastorno del habla"
+                    width={800}
+                    height={800}
+                    priority
+                    placeholder
+                    />
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Manejo de la perdida de un ser querido.
+                  Dislexia.
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                  Intervencion en el tratado de los duelos derivados de pérdidas
-                  significativas que no tengan o no que ver con la muerte física
-                  o enfermos terminales.
+                La dislexia es un trastorno del aprendizaje que se caracteriza por dificultades en la lectura y la escritura. Las personas con dislexia pueden tener dificultades para reconocer y comprender...
                 </p>
                 <a className="text-pink-500 inline-flex items-center font-DMSans">
                   Saber más
@@ -243,16 +260,20 @@ export default function Servicios() {
             {/* ESTRES POSTRAUMATICO */}
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
-                <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
-                  Estrés postraumatico
-                </h3>
+                <Image
+                    className="d-block w-100"
+                    src="/images/deficit-atencion.jpg"
+                    alt="Trastorno del habla"
+                    width={800}
+                    height={800}
+                    priority
+                    placeholder
+                />
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Manejo de Estrés postraumatico
+                  Deficit de atención.
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                  Desencadenada por una situación aterradora, ya sea que la
-                  hayas experimentado o presenciado. Los síntomas pueden incluir
-                  reviviscencias, pesadillas...
+                El trastorno por déficit de atención con hiperactividad (TDAH) es un trastorno neurobiológico que afecta la capacidad de una persona para prestar atención, controlar su comportamiento...
                 </p>
                 <a className="text-pink-500 inline-flex items-center font-DMSans">
                   Saber más
@@ -275,16 +296,20 @@ export default function Servicios() {
             {/* TOC */}
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
-                <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
-                  toc
-                </h3>
+                <Image
+                    className="d-block w-100"
+                    src="/images/terapia.jpg"
+                    alt="Trastorno del habla"
+                    width={800}
+                    height={800}
+                    priority
+                    placeholder
+                />
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Manejo de trastorno obsesivo compulsivo{" "}
+                  Terapia{" "}
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                  Se caracteriza por un patrón de pensamientos y miedos no
-                  deseados (obsesiones) que provocan comportamientos
-                  repetitivos...
+                La intervención terapéutica es una herramienta fundamental para ayudar a las familias a superar dificultades y mejorar la comunicación y la convivencia...
                 </p>
                 <a className="text-pink-500 inline-flex items-center font-DMSans">
                   Saber más
