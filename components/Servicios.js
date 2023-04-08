@@ -33,7 +33,7 @@ export default function Servicios() {
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative z-0 hover:bg-pink-200">
                 <Image
                     className="d-block w-100"
-                    src="/images/neurodesarrollo.jpeg"
+                    src="/images/familia-felicidad.jpeg"
                     alt="Evaluacion pedagogica"
                     width={800}
                     height={800}
@@ -69,6 +69,15 @@ export default function Servicios() {
             {/* DESARROLLO NEUROLOGICO FIN */}
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative z-0 hover:bg-pink-200">
+              <Image
+                    className="d-block w-100"
+                    src="/images/neurodesarrollo.jpeg"
+                    alt="neurodesarrollo"
+                    width={800}
+                    height={800}
+                    priority
+                    placeholder
+                />
                 <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
                   Ansiedad
                 </h3>
@@ -102,6 +111,15 @@ export default function Servicios() {
             {/* DEPRESION */}
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
+              <Image
+                    className="d-block w-100"
+                    src="/images/habla.jpeg"
+                    alt="Trastorno del habla"
+                    width={800}
+                    height={800}
+                    priority
+                    placeholder
+                />
                 <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
                   Depresión
                 </h3>
