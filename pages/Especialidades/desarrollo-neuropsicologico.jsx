@@ -313,7 +313,7 @@ export default function desarrolloNeuropsicologico() {
                             {/* frase final INICIO */}
                                 <section className="text-gray-600 body-font py-3 pb-3 mt-3">
                                     <div className="container mt-5 mb-5">
-                                        <h3 className="text-center text-3xl mt-5 mb-5 font-DMSans text-black">
+                                        <h3 className="text-center text-3xl mt-5 mb-5 font-DMSans text-pink-600">
                                         "La terapia te puede ayudar a desarrollar habilidades para manejar tus emociones y pensamientos y así ayudar a quienes más quieres en este mundo."
                                         </h3> 
                                     </div>
