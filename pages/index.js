@@ -6,6 +6,7 @@ import Carrusel from '../components/Carousel/Carousel'
 import ComponenteUno from '../components/ComponenteUno/ComponenteUno'
 import Servicios from '../components/Servicios'
 import ComponenteDos from '../components/ComponenteDos/ComponenteDos'
+import CtaDos from '../components/CtaDos'
 import ComponenteTres from '../components/ComponenteTres/ComponenteTres'
 import Faq from '../components/Faq/Faq'
 import CtaDoctoralia from '../components/CtaDoctoralia'
@@ -29,6 +30,11 @@ export default function Home() {
         <div className='container'>
         
         <ComponenteDos/>
+
+        </div>
+        <CtaDos/>
+
+        <div className='container'>
         <ComponenteTres/>
         <CtaDoctoralia/>
         <Experience/>
