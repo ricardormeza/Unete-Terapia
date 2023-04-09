@@ -47,41 +47,12 @@ const especialidades = [
         icon: BsFlower3,
     },
     {
-        name: 'Tratamiento para Depresión',
+        name: 'Terapia',
         description: '',
-        href: '/Especialidades/depresion',
+        href: '/Especialidades/terapia',
         icon: BsFlower3,
     },
-    {
-        name: 'Tratamiento para Autoestima',
-        description: '',
-        href: '/Especialidades/autoestima',
-        icon: BsFlower3,
-    },
-    {
-        name: 'Tratamiento para Estrés',
-        description: '',
-        href: '/Especialidades/estres',
-        icon: BsFlower3,
-    },
-    {
-        name: 'Terapia Individual',
-        description: '',
-        href: '/Especialidades/estres-postraumatico',
-        icon: BsFlower3,
-    },
-    {
-        name: 'Tratamiento de Tanatología',
-        description: '',
-        href: '/Especialidades/tanatologia',
-        icon: BsFlower3,
-    },
-    {
-        name: 'Tratamiento Trastorno Obsesivo Compulsivo',
-        description: '',
-        href: '/Especialidades/trastorno-obsesivo-compulsivo',
-        icon: BsFlower3,
-    },
+    
 ]
 const servicios = [
     {
