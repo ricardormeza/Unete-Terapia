@@ -8,9 +8,8 @@ export default function Footer() {
     const date = `${current.getFullYear()}`;
     return (
         <>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#BF1B75" fillOpacity="1" d="M0,160L80,154.7C160,149,320,139,480,154.7C640,171,800,213,960,218.7C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" rs_id="559"></path></svg>
         <footer className="bg-[#BF1B75] text-white body-font">
-            <div className="container px-5 pt-1 pb-24  mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div className="container px-5 pt-5 pb-24  mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-2 mt-10">
                     <div className={`${styles.lineaFooter}`}>
                         <Link href='/'>
@@ -32,21 +31,21 @@ export default function Footer() {
                             
                         </span>
                     </a>
-                    <p className="mt-2 text-sm text-white">Atención psicológica especializada, para mejorar tu vida.</p>
+                    <p className="mt-2 text-sm text-white">"Encuentra la felicidad en tu camino hacia la sanación emocional".</p>
                 </div>
-                <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div className="flex-grow flex flex-wrap mt-5 md:pr-20-mb-10 md:text-left text-center order-first">
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Conocenos</h2>
-                        <nav className="list-none mb-10">
+                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Conócenos</h2>
+                        {/* <nav className="list-none mb-10">
                             <li>
                                 <a className="text-white hover:text-gray-200">Acerca de</a>
                             </li>
                             
-                        </nav>
+                        </nav> */}
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Especialidades</h2>
-                        <nav className="list-none mb-10">
+                        {/* <nav className="list-none mb-10">
                         <li>
                                 <Link href="/Especialidades/desarrollo-neuropsicologico" legacyBehavior>
                                     <a className="text-white hover:text-gray-200">Desarrollo Neuropsicológico</a>
@@ -87,11 +86,11 @@ export default function Footer() {
                                     <a className="text-white hover:text-gray-200">TOC</a>
                                 </Link>
                             </li>
-                        </nav>
+                        </nav> */}
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Talleres</h2>
-                        <nav className="list-none mb-10">
+                        {/* <nav className="list-none mb-10">
                             <li>
                                 <a className="text-white hover:text-gray-200">Taller 1</a>
                             </li>
@@ -104,11 +103,11 @@ export default function Footer() {
                             <li>
                                 <a className="text-white hover:text-gray-200">Taller 4</a>
                             </li>
-                        </nav>
+                        </nav> */}
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Terapia</h2>
-                        <nav className="list-none mb-10">
+                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Contacto</h2>
+                        {/* <nav className="list-none mb-10">
                             <li>
                                 <a className="text-white hover:text-gray-200">Primer Link</a>
                             </li>
@@ -121,40 +120,40 @@ export default function Footer() {
                             <li>
                                 <a className="text-white hover:text-green-800">Cuarto Link</a>
                             </li>
-                        </nav>
+                        </nav> */}
                     </div>
                 </div>
             </div>
             <div className="bg-pink-300">
-                <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center justify-center">
                     
-                    <p className="text-gray-500 text-sm text-center sm:text-left"> {date} UNETE
+                    <p className="text-white font-bold text-sm text-center "> {date} UNETE
                     </p>
                     
-                    <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                        <a className="text-gray-500 hover:text-green-800">
+                    {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                        <a className="text-gray-500 hover:text-pink-800">
                             <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                             </svg>
                         </a>
-                        <a className="ml-3 text-gray-500 hover:text-green-800">
+                        <a className="ml-3 text-gray-500 hover:text-pink-800">
                             <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                             </svg>
                         </a>
-                        <a className="ml-3 text-gray-500 hover:text-green-800">
+                        <a className="ml-3 text-gray-500 hover:text-pink-800">
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                             </svg>
                         </a>
-                        <a className="ml-3 text-gray-500 hover:text-green-800">
+                        <a className="ml-3 text-gray-500 hover:text-pink-800">
                             <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0" class="w-5 h-5" viewBox="0 0 24 24">
                                 <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
                                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
                             </svg>
                         </a>
-                    </span>
+                    </span> */}
                 </div>
             </div>
         </footer>
