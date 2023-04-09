@@ -253,27 +253,7 @@ export default function nuerodesarrollo() {
                     </div>
                 </div>
 
-                {/* TDAH INICIO */}
-                <motion.section 
-                initial={{ opacity: 0}}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
-                className="container">
-                    <div>
-                        <div className="container py-5">
-                            <div>
-                                <h2 className='sm:text-2xl text-xl font-DMSans'>Trastorno de atención con hiperactividad (TDAH).</h2>
-                                <p className='text-base font-DMSans text-justify'>El Trastorno de atención con hiperactividad (TDAH) es una afección neurológica que se caracteriza por la dificultad para prestar atención, impulsividad y comportamiento hiperactivo. Los niños y adolescentes que sufren de TDAH pueden tener dificultades en la escuela, las relaciones sociales y la vida cotidiana. La buena noticia es que hay muchas maneras en que los padres y profesionales pueden ayudar a los niños y adolescentes con TDAH a mejorar sus habilidades y comportamientos.</p>
-                                <p className='text-base font-DMSans text-justify'>Una forma efectiva de ayudar a los niños y adolescentes con TDAH es a través de la terapia conductual. La terapia conductual puede ayudar a los niños y adolescentes a desarrollar habilidades sociales y emocionales, y les enseña a comportarse en situaciones sociales. Los terapeutas pueden usar diferentes técnicas, como el modelado, la terapia cognitivo-conductual y el análisis del comportamiento aplicado, para ayudar a los niños y adolescentes con TDAH a aprender nuevas habilidades y comportamientos.</p>
-                                <p className='text-base font-DMSans text-justify'>Otra forma de ayudar a los niños y adolescentes con TDAH es a través de la terapia de juego. La terapia de juego puede ser una herramienta efectiva para ayudar a los niños y adolescentes con TDAH a comunicarse y desarrollar habilidades sociales. Los terapeutas pueden usar juegos específicos para fomentar la comunicación y la interacción social.</p>
-                                <p className='text-base font-DMSans text-justify'>Además, es importante trabajar con los padres y cuidadores para desarrollar planes de tratamiento personalizados para los niños y adolescentes con TDAH. Los padres y cuidadores pueden ser entrenados para proporcionar apoyo y terapia en el hogar y en situaciones sociales. También pueden recibir apoyo emocional para ayudarles a manejar los desafíos y el estrés que a menudo acompañan a la crianza de un niño o adolescente con TDAH.</p>
-                                <p className='text-base font-DMSans text-justify'>También es importante proporcionar un ambiente seguro y estructurado para los niños y adolescentes con TDAH. Los niños y adolescentes con TDAH a menudo tienen dificultades para adaptarse a situaciones nuevas e impredecibles, por lo que un ambiente estructurado y predecible puede ayudarles a sentirse más seguros y cómodos. Los profesionales pueden trabajar con los padres y cuidadores para crear un ambiente que sea adecuado para las necesidades específicas del niño o adolescente con TDAH.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </motion.section>
-                {/* TDAH FIN */}
+                
                 {/* call to action inicio */}
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -291,7 +271,7 @@ export default function nuerodesarrollo() {
                                     <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Beneficios de acudir a
                                     <br className="hidden lg:inline-block"/>Terapia
                                     </h2>
-                                    <p className="mb-8 text-2xl leading-relaxed">Te ayudare a mejorar el aprendizaje, la autoestima, habilidades sociales y fomentare la independencia de quien más quieres en tu vida.</p>
+                                    <p className="mb-8 text-2xl leading-relaxed">Te ayudare a mejorar el estrés, la ansiedad que genera el TEA y brindarte el apoyo emocional para que puedas ayudar a quien más quieres.</p>
                                     <div className="flex justify-center">
                                         <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
                                             <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
@@ -301,11 +281,46 @@ export default function nuerodesarrollo() {
                             </div>
                             {/* call to action fin  */}
 
+                    {/* DISCALCULIA INICIO */}
+                    <motion.section 
+                    initial={{ opacity: 0}}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1.5 }}
+                    className="container">
+                        <div>
+                            <div className="container py-5">
+                                <div>
+                                    <h2 className='sm:text-2xl text-xl font-DMSans text-pink-600'>Trastorno del déficit de atención.</h2>
+                                    <p className='text-base font-DMSans text-justify'>El trastorno por déficit de atención con hiperactividad (TDAH) es un trastorno neurobiológico que afecta la capacidad de una persona para prestar atención, controlar su comportamiento y regular sus emociones. A menudo se diagnostica en la infancia, pero puede persistir en la adolescencia y en la edad adulta. La ayuda psicológica puede ser fundamental para que las personas con TDAH aprendan a manejar sus síntomas y a llevar una vida plena y satisfactoria.</p>
+                                    <p className='text-base font-DMSans text-justify'>Existen varios tipos de terapias que pueden ser útiles para las personas con TDAH, como la terapia cognitivo-conductual, la terapia de juego y la terapia familiar. La terapia cognitivo-conductual es particularmente efectiva para ayudar a las personas con TDAH a desarrollar habilidades de organización, planificación y toma de decisiones, así como a manejar la ansiedad y el estrés. También puede ser útil para mejorar las habilidades sociales y de comunicación, lo que puede ayudar a las personas con TDAH a desarrollar relaciones más saludables y satisfactorias.</p>
+                                    <p className='text-base font-DMSans text-justify'>La terapia de juego es una forma de terapia que se centra en el juego como una forma de expresión y comunicación. Puede ser muy efectiva para los niños con TDAH, ya que les brinda la oportunidad de explorar y aprender habilidades sociales y emocionales de una manera lúdica y segura. La terapia familiar también puede ser beneficiosa para las personas con TDAH, ya que puede ayudar a los miembros de la familia a comprender mejor la condición y a trabajar juntos para manejar los síntomas.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </motion.section>
+                    {/* DISCALCULIA FIN */}
+
+                    {/* CTA INICIO */}
+                <section className="text-gray-600 body-font bg-green-400 py-3 mt-3">
+                    <div className="container mt-5 mb-5">
+                    <h3 className="text-center mt-5 mb-5 font-DMSans text-black">
+                    Te brindare las herramientas valiosas para apoyar a las personas con TDAH y así mejorar su calidad de vida.
+                        <div className="grid place-items-center ">
+                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
+                            <button className="justify-self-center text-white bg-pink-600 border-0 py-2 px-6 focus:outline-none hover:bg-pink-500 rounded text-lg">Agendar cita</button>
+                        </Link>
+                        </div>
+                    </div>
+                </section>
+                {/* CTA FIN */}
+
                             {/* frase final INICIO */}
                                 <section className="text-gray-600 body-font py-3 pb-3 mt-3">
                                     <div className="container mt-5 mb-5">
                                         <h3 className="text-center text-3xl mt-5 mb-5 font-DMSans text-pink-600">
-                                        "La terapia te puede ayudar a desarrollar habilidades para manejar tus emociones y pensamientos y así ayudar a quienes más quieres en este mundo."
+                                        "No hay problema demasiado pequeño o grande para buscar ayuda."
                                         </h3> 
                                     </div>
                                 </section>
