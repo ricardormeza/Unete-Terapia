@@ -41,6 +41,19 @@ export default function terapia() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="body-font bg-red-100 py-5">
+                    <div className="container">
+                        <ul class="list-disc">
+                            <li>Enseñanza de habilidades de crianza positiva: los padres pueden aprender habilidades para promover el comportamiento positivo en sus hijos, incluyendo el uso de recompensas, el establecimiento de límites claros y la gestión de la disciplina.</li>
+                            <li>Entrenamiento en comunicación efectiva: los padres pueden aprender a comunicarse de manera más efectiva con sus hijos, a escucharlos activamente y a expresar sus propios sentimientos de manera clara y constructiva.</li>
+                            <li>Desarrollo de relaciones saludables: los padres pueden trabajar en la construcción de relaciones saludables y positivas con sus hijos, lo que puede mejorar la comunicación y el entendimiento entre ellos.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+
                     {/* call to action inicio */}
                     <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
