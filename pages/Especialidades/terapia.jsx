@@ -42,7 +42,12 @@ export default function terapia() {
                         </div>
                     </div>
 
-                    <div className="body-font bg-red-100 py-5">
+                    
+
+
+                    
+
+                <div className="body-font bg-red-100 py-5">
                     <div className="container">
                         <ul class="list-disc">
                             <li>Enseñanza de habilidades de crianza positiva: los padres pueden aprender habilidades para promover el comportamiento positivo en sus hijos, incluyendo el uso de recompensas, el establecimiento de límites claros y la gestión de la disciplina.</li>
@@ -53,40 +58,37 @@ export default function terapia() {
                     </div>
                 </div>
 
-
-                    {/* call to action inicio */}
-                    <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                                    <Image
-                                    className="object-cover object-center rounded"
-                                    src="/images/beneficio-terapia.jpg"
-                                    alt="Terapia de pareja"
-                                    width={800}
-                                    height={800}
-                                    priority
-                                    placeholder
-                                        />
-                                </div>
-                                <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                                    <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Beneficios de acudir a
-                                    <br className="hidden lg:inline-block"/>Terapia
-                                    </h2>
-                                    <p className="mb-8 text-2xl leading-relaxed">Ayudare a mejorar la comunicación y las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
-                                    <div className="flex justify-center">
-                                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                                            <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
-                                        </Link>
-                                    </div>
-                                </div>
-                    </div>
-                            {/* call to action fin  */}
-                            <div className="container ">
+                <motion.section 
+                initial={{ opacity: 0}}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1.5 }}
+                className="container">
+                    <div>
+                        <div className="container py-5">
                             <div>
-                                <p className='text-base font-DMSans text-justify'>El trastorno del habla y del lenguaje puede tener un impacto significativo en la vida de un niño o adolescente. Es importante que los padres y cuidadores estén atentos a las posibles señales de este trastorno y busquen ayuda profesional si tienen alguna preocupación. Con la intervención adecuada, se pueden mejorar significativamente las habilidades de comunicación y la calidad de vida del niño o adolescente afectado.</p>
+                                <h2 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-green-600'>Intervención terapéutica para adolescentes:.</h2>
+                                {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                                 <br/>
+                                {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
+                                <p className='title-font text-base font-DMSans text-justify'>La intervención terapéutica para adolescentes se centra en ayudar a los jóvenes a manejar las presiones y desafíos de la adolescencia y a desarrollar habilidades para una vida saludable y satisfactoria. Algunas de las estrategias utilizadas en la intervención terapéutica para adolescentes incluyen:</p>
+                                {/* <br/> */}
+                                
                             </div>
                         </div>
+                    </div>
+                    
                 </motion.section>
+
+                <div className="body-font bg-red-100 py-5">
+                    <div className="container">
+                        <ul class="list-disc">
+                            <li>Terapia cognitivo-conductual: los adolescentes pueden aprender a identificar y cambiar los pensamientos negativos que pueden estar contribuyendo a su estrés o ansiedad.</li>
+                            <li>Entrenamiento en habilidades sociales: los adolescentes pueden aprender habilidades sociales para interactuar de manera efectiva con sus compañeros y desarrollar relaciones saludables.</li>
+                            <li>Manejo de emociones: los adolescentes pueden aprender estrategias para manejar las emociones negativas y construir resiliencia.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
 
                 {/* CUADRO VERDE INICIO */}
                 <div className="body-font bg-green-100 py-5">
@@ -190,29 +192,46 @@ export default function terapia() {
                 </div>
                 {/* CUADRO VERDE FIN */}
 
-                <motion.section 
-                initial={{ opacity: 0}}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
-                className="container">
-                    <div>
-                        <div className="container py-5">
+                {/* call to action inicio */}
+                <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                                    <Image
+                                    className="object-cover object-center rounded"
+                                    src="/images/beneficio-terapia.jpg"
+                                    alt="Terapia de pareja"
+                                    width={800}
+                                    height={800}
+                                    priority
+                                    placeholder
+                                        />
+                                </div>
+                                <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                                    <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Beneficios de acudir a
+                                    <br className="hidden lg:inline-block"/>Terapia
+                                    </h2>
+                                    <p className="mb-8 text-2xl leading-relaxed">Ayudare a mejorar la comunicación y las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
+                                    <div className="flex justify-center">
+                                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
+                                            <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
+                                        </Link>
+                                    </div>
+                                </div>
+                    </div>
+                            {/* call to action fin  */}
+                            <div className="container ">
                             <div>
-                                <h2 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600'>Dislexia.</h2>
-                                {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
+                                <p className='text-base font-DMSans text-justify'>El trastorno del habla y del lenguaje puede tener un impacto significativo en la vida de un niño o adolescente. Es importante que los padres y cuidadores estén atentos a las posibles señales de este trastorno y busquen ayuda profesional si tienen alguna preocupación. Con la intervención adecuada, se pueden mejorar significativamente las habilidades de comunicación y la calidad de vida del niño o adolescente afectado.</p>
                                 <br/>
-                                {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
-                                <p className='title-font text-base font-DMSans text-justify'>La dislexia es un trastorno del aprendizaje que se caracteriza por dificultades en la lectura y la escritura. Las personas con dislexia pueden tener dificultades para reconocer y comprender letras y palabras, lo que puede afectar su capacidad para leer y escribir con fluidez. Aunque la dislexia no está relacionada con la inteligencia, puede tener un impacto significativo en el rendimiento académico y la autoestima de quienes la padecen.</p>
-                                {/* <br/> */}
-                                {/* <h2 className='sm:text-2xl text-xl font-DMSans'>Discapacidad intelectual.</h2> */}
-                                <p className='text-base font-DMSans text-justify'>Puedo ayudarte ó ayudar a las personas que más quieres a entender mejor su condición y a desarrollar estrategias para enfrentar los desafíos asociados con ella. Puedo trabajar con el individuo para mejorar su autoestima, proporcionar apoyo emocional y ayudarles a manejar la frustración y el estrés asociados con la dislexia.</p>
-                                <p className='text-base font-DMSans text-justify'>La terapia cognitivo-conductual (TCC) puede ser especialmente efectiva para personas con dislexia. Esta terapia se enfoca en ayudar al individuo a identificar y cambiar los patrones de pensamiento negativos y poco realistas que pueden estar contribuyendo a su ansiedad y baja autoestima. También puede ayudar a desarrollar habilidades para manejar el estrés y la frustración, lo que puede mejorar su rendimiento académico.</p>
-                                <p className='text-base font-DMSans text-justify'>Puedo proporcionar apoyo para los padres y cuidadores de personas con dislexia. Los padres pueden sentirse frustrados y confundidos acerca de cómo ayudar a su hijo con la dislexia, y pueden beneficiarse de una orientación profesional para comprender mejor la condición y aprender estrategias efectivas para apoyar al niño en casa y en la escuela.</p>
                             </div>
                         </div>
-                    </div>
-                    
                 </motion.section>
+
+
+
+
+
+
+                
 
                 {/* CTA INICIO */}
                 <section className="text-gray-600 body-font bg-green-400 py-3 mt-3">
