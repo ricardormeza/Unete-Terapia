@@ -225,6 +225,91 @@ export default function desarrolloNeuropsicologico() {
                     </div>
                 </motion.section>
 
+                {/* DISCAPACIDAD INTELECTUAL INICIO */}
+                <motion.section 
+                initial={{ opacity: 0}}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1.5 }}
+                className="container">
+                    <div>
+                        <div className="container py-5">
+                            <div>
+                                <h2 className='sm:text-2xl text-xl font-DMSans'>Trastorno del espectro del autismo (TEA).</h2>
+                                <p className='text-base font-DMSans text-justify'>El trastorno del espectro del autismo (TEA) es una condición neurológica que afecta el desarrollo social, de comunicación y conductual de un niño o adolescente. Aunque no existe una cura para el TEA, hay muchas maneras en las que los padres y profesionales pueden ayudar a los niños y adolescentes con TEA a desarrollar habilidades sociales y emocionales.</p>
+                                <p className='text-base font-DMSans text-justify'>Una forma de ayudar a los niños y adolescentes con TEA es a través de terapia conductual. La terapia conductual puede ayudar a los niños y adolescentes con TEA a desarrollar habilidades sociales y emocionales, y les enseña cómo comportarse en situaciones sociales. Los terapeutas pueden usar diferentes técnicas, como el modelado, la terapia cognitivo-conductual y el análisis del comportamiento aplicado, para ayudar a los niños y adolescentes con TEA a aprender nuevas habilidades y comportamientos.</p>
+                                <p className='text-base font-DMSans text-justify'>Otra forma de ayudar a los niños y adolescentes con TEA es a través de la terapia de juego. La terapia de juego puede ser una herramienta efectiva para ayudar a los niños y adolescentes con TEA a comunicarse y desarrollar habilidades sociales. Los terapeutas pueden usar juegos específicos para fomentar la comunicación y la interacción social.</p>
+                                <p className='text-base font-DMSans text-justify'>Me gusta trabajar con los padres para desarrollar planes de tratamiento personalizados para los niños y adolescentes así como brindar apoyo emocional para ayudarles a manejar los desafíos y el estrés que a menudo acompañan a la crianza de un niño o adolescente con TEA.</p>
+                                <p className='text-base font-DMSans text-justify'>Los niños y adolescentes con TEA a menudo tienen dificultades para adaptarse a situaciones nuevas e impredecibles, por lo que un ambiente estructurado y predecible puede ayudarles a sentirse más seguros y cómodos, de esta manera puedo ayudarte a mejorar la calidad de vida de quien más quieres en este mundo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <CtaDoctoralia/> */}
+                </motion.section>
+                {/* DISCAPACIDAD INTELECTUAL FIN */}
+
+                {/* CTA INICIO */}
+                <section className="text-gray-600 body-font bg-green-400 py-3 pb-3 mt-3">
+                    <div className="container mt-5 mb-5">
+                    <h3 className="text-center mt-5 mb-5 font-DMSans text-black">
+                    Ayudare a quien más quieres a mejorar su confianza y autoestima al proporcionar un entorno de aprendizaje positivo y de apoyo.
+                    </h3>
+                        <div className="grid place-items-center ">
+                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
+                            <button className="justify-self-center text-white bg-pink-600 border-0 py-2 px-6 focus:outline-none hover:bg-pink-500 rounded text-lg">Agendar cita</button>
+                        </Link>
+                        </div>
+                    </div>
+                </section>
+                {/* CTA FIN */}
+
+                {/* TDAH INICIO */}
+                <motion.section 
+                initial={{ opacity: 0}}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1.5 }}
+                className="container">
+                    <div>
+                        <div className="container py-5">
+                            <div>
+                                <h2 className='sm:text-2xl text-xl font-DMSans'>Trastorno de atención con hiperactividad (TDAH).</h2>
+                                <p className='text-base font-DMSans text-justify'>El Trastorno de atención con hiperactividad (TDAH) es una afección neurológica que se caracteriza por la dificultad para prestar atención, impulsividad y comportamiento hiperactivo. Los niños y adolescentes que sufren de TDAH pueden tener dificultades en la escuela, las relaciones sociales y la vida cotidiana. La buena noticia es que hay muchas maneras en que los padres y profesionales pueden ayudar a los niños y adolescentes con TDAH a mejorar sus habilidades y comportamientos.</p>
+                                <p className='text-base font-DMSans text-justify'>Una forma efectiva de ayudar a los niños y adolescentes con TDAH es a través de la terapia conductual. La terapia conductual puede ayudar a los niños y adolescentes a desarrollar habilidades sociales y emocionales, y les enseña a comportarse en situaciones sociales. Los terapeutas pueden usar diferentes técnicas, como el modelado, la terapia cognitivo-conductual y el análisis del comportamiento aplicado, para ayudar a los niños y adolescentes con TDAH a aprender nuevas habilidades y comportamientos.</p>
+                                <p className='text-base font-DMSans text-justify'>Otra forma de ayudar a los niños y adolescentes con TDAH es a través de la terapia de juego. La terapia de juego puede ser una herramienta efectiva para ayudar a los niños y adolescentes con TDAH a comunicarse y desarrollar habilidades sociales. Los terapeutas pueden usar juegos específicos para fomentar la comunicación y la interacción social.</p>
+                                <p className='text-base font-DMSans text-justify'>Además, es importante trabajar con los padres y cuidadores para desarrollar planes de tratamiento personalizados para los niños y adolescentes con TDAH. Los padres y cuidadores pueden ser entrenados para proporcionar apoyo y terapia en el hogar y en situaciones sociales. También pueden recibir apoyo emocional para ayudarles a manejar los desafíos y el estrés que a menudo acompañan a la crianza de un niño o adolescente con TDAH.</p>
+                                <p className='text-base font-DMSans text-justify'>También es importante proporcionar un ambiente seguro y estructurado para los niños y adolescentes con TDAH. Los niños y adolescentes con TDAH a menudo tienen dificultades para adaptarse a situaciones nuevas e impredecibles, por lo que un ambiente estructurado y predecible puede ayudarles a sentirse más seguros y cómodos. Los profesionales pueden trabajar con los padres y cuidadores para crear un ambiente que sea adecuado para las necesidades específicas del niño o adolescente con TDAH.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </motion.section>
+                {/* TDAH FIN */}
+                {/* call to action inicio */}
+                <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                                <Image
+                                    className="object-cover object-center rounded"
+                                    src="/images/amor.jpg"
+                                    alt="Terapia familiar valor amor"
+                                    width={800}
+                                    height={800}
+                                    priority
+                                    placeholder
+                                        />
+                                </div>
+                                <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                                    <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Beneficios de acudir a
+                                    <br className="hidden lg:inline-block"/>Terapia
+                                    </h2>
+                                    <p className="mb-8 text-2xl leading-relaxed">Te ayudare a mejorar el aprendizaje, la autoestima, habilidades sociales y fomentare la independencia de quien más quieres en tu vida.</p>
+                                    <div className="flex justify-center">
+                                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
+                                            <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* call to action fin  */}
+
             </Layout>
         </>
     )
