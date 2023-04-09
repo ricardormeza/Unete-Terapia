@@ -8,7 +8,7 @@ export default function ComponenteTres() {
                 <div className="lg:w-4/6 mx-auto">
                     <div className="rounded-lg h-64 overflow-hidden">
                         <Image alt="tranquilidad y paz mental" className="object-cover object-center h-full w-full" src="/images/tranquilidad.jpg"
-                        width={100} height={100} 
+                        width={800} height={800} 
                         />
                     </div>
                     <div className="flex flex-col sm:flex-row mt-10">
