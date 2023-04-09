@@ -241,7 +241,17 @@ export default function nuerodesarrollo() {
                 </motion.section>
                 {/* DISCALCULIA FIN */}
 
-                
+                <div className="body-font bg-red-100 py-5">
+                    <div className="container">
+                        <div>
+                            <h2 className='sm:text-2xl text-xl font-DMSans text-green-600'>Trastorno del espectro autista.</h2>
+                            <p className='text-base font-DMSans text-justify'>El trastorno del espectro autista (TEA) es un trastorno del desarrollo neurológico que afecta la comunicación, el comportamiento y las habilidades sociales. Aunque el TEA es una condición permanente, hay muchos tratamientos y terapias disponibles que pueden ayudar a las personas con TEA a desarrollar habilidades sociales, comunicativas y conductuales. Uno de los tratamientos más importantes es el apoyo psicológico.</p>
+                            <p className='text-base font-DMSans text-justify'>El apoyo psicológico puede ser beneficioso para las personas con TEA de todas las edades. Los niños y adolescentes pueden beneficiarse de terapias de juego y de terapia de comportamiento, mientras que los adultos con TEA pueden beneficiarse de la terapia cognitivo-conductual y la terapia de grupo. En la terapia, puedo ayudarte con el TEA a entender sus sentimientos y emociones, así como a desarrollar habilidades sociales y de comunicación.</p>
+                            <p className='text-base font-DMSans text-justify'>La terapia cognitivo-conductual se centra en enseñar al individuo con TEA nuevas habilidades y patrones de pensamiento. Los terapeutas pueden trabajar con el individuo para mejorar su capacidad de comunicarse y relacionarse con los demás, y para desarrollar estrategias para manejar el estrés y la ansiedad. La terapia de grupo también puede ser útil para las personas con TEA, ya que les brinda la oportunidad de interactuar con otros que experimentan situaciones similares.</p>
+                            <p className='text-base font-DMSans text-justify'>Los padres y cuidadores de personas con TEA también pueden beneficiarse del apoyo que puedo brindarles. Pueden sentirse abrumados y estresados por el cuidado de alguien con TEA, y pueden beneficiarse de la orientación y el apoyo emocional del que te voy a brindar y así ayudar a los padres a entender mejor la condición de su hijo y proporcionarles herramientas y estrategias para apoyar al niño en el hogar y en la escuela.</p>
+                        </div>
+                    </div>
+                </div>
 
                 {/* TDAH INICIO */}
                 <motion.section 
