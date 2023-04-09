@@ -27,8 +27,9 @@ export default function Home() {
         </div>
         <Servicios/>
         <div className='container'>
-          <ComponenteDos/>
-          <ComponenteTres/>
+        
+        <ComponenteDos/>
+        <ComponenteTres/>
         <CtaDoctoralia/>
         <Experience/>
         <Faq/>

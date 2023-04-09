@@ -1,5 +1,7 @@
 import React from 'react';
+import Link from 'next/link'
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 const direccionL = true;
 export default function ComponenteDos(direccionL) {
@@ -10,10 +12,29 @@ export default function ComponenteDos(direccionL) {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
-          <h2 className="text-xs text-pink-500 tracking-widest font-medium title-font mb-1">UN ESPACIO PARA RENACER</h2>
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Beneficios de acudir a <span> terapia</span></h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue leo tortor, posuere pretium turpis pharetra quis. Duis in congue elit. Aliquam erat volutpat. Quisque luctus libero dolor, quis condimentum nunc porta at. Nulla dictum metus justo, vitae tristique augue ultrices gravida. Quisque ut tellus pulvinar, commodo massa non, malesuada dui.</p>
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <Image
+              className="d-block w-100"
+              src="/images/beneficio-terapia.jpg"
+              alt="Terapia de pareja"
+              width={800}
+              height={800}
+              priority
+              placeholder
+                />
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Beneficios de acudir a
+              <br className="hidden lg:inline-block"/>Terapia
+            </h2>
+            <p className="mb-8 text-2xl leading-relaxed">Te ayudare a procesar y comprender los problemas y emociones difíciles en un espacio seguro y sin juicios.</p>
+            <div className="flex justify-center">
+              <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
+                <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
+              </Link>
+            </div>
+          </div>
         </div>
         <motion.div 
         initial={{
@@ -24,43 +45,23 @@ export default function ComponenteDos(direccionL) {
       whileInView={{ opacity: 1, x:0 }}
         className="flex flex-wrap">
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Terapia Individual</h2>
-            <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
-            <a className="text-pink-500 inline-flex items-center">Conocer más...
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Aumenta la autoestima y la confianza</h2>
+            <p className="leading-relaxed text-base mb-4">Recuerda tus logros pasados y utilízalos como motivación para alcanzar nuevos objetivos.</p>
           </div>
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Consulta Psicológica</h2>
-            <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
-            <a className="text-pink-500 inline-flex items-center">Conocer más...
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Mejora las relaciones</h2>
+            <p className="leading-relaxed text-base mb-4">Busca un punto en común y trabaja en equipo para encontrar una solución.</p>
           </div>
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Soporte Emocional</h2>
-            <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
-            <a className="text-pink-500 inline-flex items-center">Conocer más...
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Ayuda a manejar el estrés y la ansiedad</h2>
+            <p className="leading-relaxed text-base mb-4">Encuentra una actividad que te guste y te relaje, como el ejercicio o la lectura.</p>
           </div>
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Talleres</h2>
-            <p className="leading-relaxed text-base mb-4">Phasellus mi lacus, sagittis in pulvinar quis, volutpat non lacus. Donec luctus pulvinar tincidunt.</p>
-            <a className="text-pink-500 inline-flex items-center">Conocer más...
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Promueve el crecimiento personal</h2>
+            <p className="leading-relaxed text-base mb-4">Sé honesto/a contigo mismo/a acerca de tus fortalezas y debilidades para poder trabajar en ellas.</p>
           </div>
         </motion.div>
-        <button className="flex mx-auto mt-16 text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar Cita</button>
+        
       </motion.div>
     </section>
   )
