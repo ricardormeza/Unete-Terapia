@@ -8,10 +8,10 @@ export default function ComponenteDos(direccionL) {
   return (
     <section className="text-gray-600 body-font">
       <motion.div
-      initial={{ opacity: 0}}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
-      className="container px-5 py-24 mx-auto">
+        initial={{ opacity: 0}}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        className="container px-5 py-24 mx-auto">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <Image
@@ -40,27 +40,27 @@ export default function ComponenteDos(direccionL) {
         initial={{
           x: direccionL ? -200 : 200,
           opacity: 0,
-      }}
-      transition={{ duration: 1 }}
-      whileInView={{ opacity: 1, x:0 }}
-        className="flex flex-wrap">
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Aumenta la autoestima y la confianza</h2>
-            <p className="leading-relaxed text-base mb-4">Recuerda tus logros pasados y utilízalos como motivación para alcanzar nuevos objetivos.</p>
-          </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Mejora las relaciones</h2>
-            <p className="leading-relaxed text-base mb-4">Busca un punto en común y trabaja en equipo para encontrar una solución.</p>
-          </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Ayuda a manejar el estrés y la ansiedad</h2>
-            <p className="leading-relaxed text-base mb-4">Encuentra una actividad que te guste y te relaje, como el ejercicio o la lectura.</p>
-          </div>
-          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Promueve el crecimiento personal</h2>
-            <p className="leading-relaxed text-base mb-4">Sé honesto/a contigo mismo/a acerca de tus fortalezas y debilidades para poder trabajar en ellas.</p>
-          </div>
-        </motion.div>
+        }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, x:0 }}
+          className="flex flex-wrap">
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Aumenta la autoestima y la confianza</h2>
+              <p className="leading-relaxed text-base mb-4">Recuerda tus logros pasados y utilízalos como motivación para alcanzar nuevos objetivos.</p>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Mejora las relaciones</h2>
+              <p className="leading-relaxed text-base mb-4">Busca un punto en común y trabaja en equipo para encontrar una solución.</p>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Ayuda a manejar el estrés y la ansiedad</h2>
+              <p className="leading-relaxed text-base mb-4">Encuentra una actividad que te guste y te relaje, como el ejercicio o la lectura.</p>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Promueve el crecimiento personal</h2>
+              <p className="leading-relaxed text-base mb-4">Sé honesto/a contigo mismo/a acerca de tus fortalezas y debilidades para poder trabajar en ellas.</p>
+            </div>
+          </motion.div>
         
       </motion.div>
     </section>
