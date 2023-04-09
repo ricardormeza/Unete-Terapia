@@ -202,10 +202,25 @@ export default function nuerodesarrollo() {
                             </div>
                         </div>
                     </div>
-                    {/* <CtaDoctoralia/> */}
+                    
                 </motion.section>
 
-                {/* DISCAPACIDAD INTELECTUAL INICIO */}
+                {/* CTA INICIO */}
+                <section className="text-gray-600 body-font bg-green-400 py-3 pb-3 mt-3">
+                    <div className="container mt-5 mb-5">
+                    <h3 className="text-center mt-5 mb-5 font-DMSans text-black">
+                    Ayudare a quien más quieres a mejorar su confianza y autoestima al proporcionar un entorno de aprendizaje positivo y de apoyo.
+                    </h3>
+                        <div className="grid place-items-center ">
+                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
+                            <button className="justify-self-center text-white bg-pink-600 border-0 py-2 px-6 focus:outline-none hover:bg-pink-500 rounded text-lg">Agendar cita</button>
+                        </Link>
+                        </div>
+                    </div>
+                </section>
+                {/* CTA FIN */}
+
+                {/* DISCALCULIA INICIO */}
                 <motion.section 
                 initial={{ opacity: 0}}
                 whileInView={{ opacity: 1 }}
@@ -224,22 +239,9 @@ export default function nuerodesarrollo() {
                     </div>
                     {/* <CtaDoctoralia/> */}
                 </motion.section>
-                {/* DISCAPACIDAD INTELECTUAL FIN */}
+                {/* DISCALCULIA FIN */}
 
-                {/* CTA INICIO */}
-                <section className="text-gray-600 body-font bg-green-400 py-3 pb-3 mt-3">
-                    <div className="container mt-5 mb-5">
-                    <h3 className="text-center mt-5 mb-5 font-DMSans text-black">
-                    Ayudare a quien más quieres a mejorar su confianza y autoestima al proporcionar un entorno de aprendizaje positivo y de apoyo.
-                    </h3>
-                        <div className="grid place-items-center ">
-                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                            <button className="justify-self-center text-white bg-pink-600 border-0 py-2 px-6 focus:outline-none hover:bg-pink-500 rounded text-lg">Agendar cita</button>
-                        </Link>
-                        </div>
-                    </div>
-                </section>
-                {/* CTA FIN */}
+                
 
                 {/* TDAH INICIO */}
                 <motion.section 
