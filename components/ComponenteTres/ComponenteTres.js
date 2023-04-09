@@ -7,14 +7,14 @@ export default function ComponenteTres() {
             <div className="container px-5 py-24 mx-auto flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <Image alt="content" className="object-cover object-center h-full w-full" src="/images/unete.jpeg"
-                        width={100} height={100}
+                        <Image alt="tranquilidad y paz mental" className="object-cover object-center h-full w-full" src="/images/tranquilidad.jpg"
+                        width={100} height={100} 
                         />
                     </div>
                     <div className="flex flex-col sm:flex-row mt-10">
                         <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                             <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                            <Image alt="content" className="object-cover object-center rounded-full h-full w-full" src="/images/yeimirocioavilapontonmin.jpg" 
+                            <Image alt="imagen de la Mtra. Yeimy Rocio Avila Ponton" className="object-cover object-center rounded-full h-full w-full" src="/images/yeimirocioavilapontonmin.jpg" 
                             width={100} height={100}/>
                                 {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
                                     <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
