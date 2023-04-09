@@ -43,7 +43,7 @@ const especialidades = [
     {
         name: 'Neurodesarrollo',
         description: '',
-        href: '/Especialidades/neurodesarrollo',
+        href: '/Especialidades/nuerodesarrollo',
         icon: BsFlower3,
     },
     {
