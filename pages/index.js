@@ -8,6 +8,7 @@ import Servicios from '../components/Servicios'
 import ComponenteDos from '../components/ComponenteDos/ComponenteDos'
 import CtaDos from '../components/CtaDos'
 import ComponenteTres from '../components/ComponenteTres/ComponenteTres'
+import Recomendaciones from '../components/Recomendaciones'
 import Faq from '../components/Faq/Faq'
 import CtaDoctoralia from '../components/CtaDoctoralia'
 import Experience from '../components/Experience'
@@ -36,9 +37,14 @@ export default function Home() {
 
         <div className='container'>
         <ComponenteTres/>
-        <CtaDoctoralia/>
-        <Experience/>
-        <Faq/>
+        {/* <CtaDoctoralia/> */}
+        {/* <Experience/> */}
+        </div>
+
+        <Recomendaciones/>
+        
+        <div className='container'>
+          <Faq/>
         </div>
         
       </main>

@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 export default function Faq() {
     return (
-        <Accordion className='mb-5'>
+        <Accordion className='mt-5 mb-5'>
             <Accordion.Item eventKey="0">
                 <h3 className='text-center'>Preguntas frecuentes</h3>
                 <Accordion.Header className='text-pink-500'>Ejemplo Pregunta #1</Accordion.Header>
