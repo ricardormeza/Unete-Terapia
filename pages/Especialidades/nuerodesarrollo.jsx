@@ -206,10 +206,10 @@ export default function nuerodesarrollo() {
                 </motion.section>
 
                 {/* CTA INICIO */}
-                <section className="text-gray-600 body-font bg-green-400 py-3 pb-3 mt-3">
+                <section className="text-gray-600 body-font bg-green-400 py-3 mt-3">
                     <div className="container mt-5 mb-5">
                     <h3 className="text-center mt-5 mb-5 font-DMSans text-black">
-                    Ayudare a quien más quieres a mejorar su confianza y autoestima al proporcionar un entorno de aprendizaje positivo y de apoyo.
+                    Te proporcionare apoyo emocional y desarrollaremos habilidades para manejar el estrés  y la frustración asociada con la dislexia.
                     </h3>
                         <div className="grid place-items-center ">
                         <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
