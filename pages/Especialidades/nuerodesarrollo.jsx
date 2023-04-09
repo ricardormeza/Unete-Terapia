@@ -1,18 +1,15 @@
+import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from "framer-motion";
 import Layout from '../../components/Layout'
-import styles from '../../styles/Especialidades.module.css'
-import { TbPoint } from 'react-icons/tb';
-import CtaDoctoralia from "../../components/CtaDoctoralia";
 
-
-export default function desarrolloNeuropsicologico() {
-    return (
-        <>
+export default function nuerodesarrollo() {
+  return (
+    <>
             <Layout
-                title={'Especialidades - Desarrollo Pedagógico'}
-                description={'Atención especializada en adolescentes y niños con problemas de desarrollo neuropsicológico, autosmo, hiperactividad.'}
+                title={'Especialidades - Desarrollo Neuropsicológico'}
+                description={'Atención especializada en adolescentes y niños con problemas de desarrollo neuropsicológico, autismo, hiperactividad, aprendizaje, trastorno del habla, dislexia, discalculia.'}
             >
                 <motion.section 
                 initial={{ opacity: 0}}
@@ -23,7 +20,7 @@ export default function desarrolloNeuropsicologico() {
                     <div className="rounded-lg h-64 overflow-hidden">
                         <Image
                             className="object-cover object-center h-full w-full"
-                            src="/images/desarrollo-neurologico-portada.jpg"
+                            src="/images/familia.jpg"
                             alt="desarrollo neurologico portada"
                             width={900}
                             height={900}
@@ -33,32 +30,55 @@ export default function desarrolloNeuropsicologico() {
                     </div>
                         <div className="container ">
                             <div>
-                                <h1 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600'>Evaluación pedagógica para niños y adolescentes.</h1>
+                                <h1 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600'>Trastornos específicos del neurodesarrollo que afectan la conducta y el aprendizaje.</h1>
                                 {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                                 <br/>
-                                {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
-                                <p className='text-base font-DMSans text-justify'>La educación es uno de los aspectos más importantes en el desarrollo de los niños y adolescentes. Es el proceso mediante el cual se les enseña habilidades, conocimientos y valores que les permitirán enfrentar y resolver situaciones de la vida cotidiana. La evaluación pedagógica es un componente clave en este proceso, ya que permite medir el progreso de los estudiantes y ajustar la enseñanza para garantizar su éxito.</p>
+                                <p className='text-base font-DMSans text-justify'>Los trastornos específicos del neurodesarrollo son una serie de condiciones neurológicas que afectan el desarrollo del cerebro y del sistema nervioso en la infancia y adolescencia. Estos trastornos se caracterizan por problemas en la capacidad para procesar información y llevar a cabo tareas complejas, lo que puede afectar a la vida cotidiana y al rendimiento académico.</p>
                                 <br/>
-                                <h2 className='font-DMSans'>¿Qué es la evaluación pedagógica?</h2>
-                                <p className='text-base font-DMSans text-justify'>La evaluación pedagógica es un proceso que implica la medición del aprendizaje de los estudiantes. Se lleva a cabo a través de diferentes herramientas, como pruebas, exámenes, trabajos en clase, tareas y proyectos. Su objetivo es determinar la efectividad de la enseñanza y medir el progreso de los estudiantes.</p>
-                                <p className='text-base font-DMSans text-justify'>La evaluación pedagógica se lleva a cabo en diferentes momentos del proceso educativo. Puede ser inicial, formativa o sumativa. La evaluación inicial se realiza al comienzo del curso para evaluar los conocimientos previos de los estudiantes. La evaluación formativa se lleva a cabo a lo largo del curso para monitorear el progreso de los estudiantes y hacer ajustes en la enseñanza. La evaluación sumativa se realiza al final del curso para evaluar el aprendizaje de los estudiantes.
-                                    La importancia de la evaluación pedagógica en niños y adolescentes.</p>
-                                <p className='text-base font-DMSans text-justify'>La evaluación pedagógica es una herramienta esencial para garantizar el éxito de los estudiantes. Algunas de las razones por las que es importante incluyen:</p>
+                                <h2 className='font-DMSans text-pink-600'>Trastornos del habla.</h2>
+                                <p className='text-base font-DMSans text-justify'>El trastorno del habla y del lenguaje es una condición que afecta a la capacidad de una persona para comunicarse verbalmente. Puede manifestarse como dificultad para hablar o pronunciar palabras de manera clara, o como dificultad para comprender o expresarse en lenguaje hablado o escrito.</p>
+                                <p className='text-base font-DMSans text-justify'>Este trastorno puede ser de origen genético o ser causado por problemas físicos, como lesiones cerebrales o problemas auditivos.</p>
+                                <p className='text-base font-DMSans text-justify'>El trastorno del habla puede incluir dificultades en la producción de sonidos del habla, como tartamudez, disfluencia, omisión de sonidos o sonidos distorsionados. Estos problemas pueden dificultar la comprensión de la persona, lo que puede generar frustración y ansiedad. En casos más graves, el trastorno del habla puede requerir terapia del habla para mejorar la articulación y la fluidez del habla.</p>
+                                <p className='text-base font-DMSans text-justify'>El trastorno del lenguaje, por otro lado, se refiere a dificultades en la comprensión y el uso del lenguaje hablado y escrito. Esto puede incluir dificultades para seguir instrucciones, para expresar ideas de manera clara y coherente, para entender las emociones y sentimientos de los demás o para comprender las reglas sociales.</p>
+                                <p className='text-base font-DMSans text-justify'>Los niños y adolescentes con trastornos del habla y del lenguaje pueden experimentar dificultades en el rendimiento académico y en las relaciones sociales. Pueden sentirse aislados o excluidos debido a su dificultad para comunicarse con los demás. Además, pueden tener dificultades para seguir instrucciones y para comprender la información que se les presenta en el aula, lo que puede afectar su desempeño académico y su autoestima.</p>
+                                <p className='text-base font-DMSans text-justify'>Es importante que los trastornos del habla y del lenguaje sean identificados y tratados lo antes posible para evitar posibles consecuencias negativas en el desarrollo del niño o adolescente.</p>
                             </div>
                         </div>
                     </div>
-                    {/* <CtaDoctoralia/> */}
-                </motion.section>
-                <div className="body-font bg-red-100 py-5">
-                    <div className="container">
-                        <ul class="list-disc">
-                            <li>Permite monitorear el progreso de los estudiantes: La evaluación pedagógica permite a los maestros evaluar el progreso de los estudiantes a lo largo del curso. Esto les permite identificar las áreas en las que los estudiantes necesitan más ayuda y hacer ajustes en la enseñanza.</li>
-                            <li>Ayuda a identificar las fortalezas y debilidades de los estudiantes: La evaluación pedagógica también ayuda a los maestros a identificar las fortalezas y debilidades de los estudiantes. Esto les permite desarrollar planes de enseñanza específicos para ayudar a los estudiantes a superar sus desafíos y aprovechar al máximo sus habilidades.</li>
-                            <li>Proporciona retroalimentación a los estudiantes: La evaluación pedagógica también proporciona retroalimentación a los estudiantes sobre su desempeño. Esto les permite identificar áreas en las que necesitan mejorar y hacer ajustes para garantizar su éxito.</li>
-                            <li>Ayuda a los maestros a ajustar la enseñanza: La evaluación pedagógica también ayuda a los maestros a ajustar la enseñanza para garantizar que los estudiantes estén aprendiendo de manera efectiva. Esto puede incluir cambios en el método de enseñanza o la incorporación de materiales de enseñanza adicionales para mejorar el aprendizaje de los estudiantes.</li>
-                        </ul>
+                    {/* call to action inicio */}
+                    <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                                    <Image
+                                    className="object-cover object-center rounded"
+                                    src="/images/beneficio-terapia.jpg"
+                                    alt="Terapia de pareja"
+                                    width={800}
+                                    height={800}
+                                    priority
+                                    placeholder
+                                        />
+                                </div>
+                                <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                                    <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Beneficios de acudir a
+                                    <br className="hidden lg:inline-block"/>Terapia
+                                    </h2>
+                                    <p className="mb-8 text-2xl leading-relaxed">Ayudare a mejorar la comunicación y las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
+                                    <div className="flex justify-center">
+                                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
+                                            <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
+                                        </Link>
+                                    </div>
+                                </div>
                     </div>
-                </div>
+                            {/* call to action fin  */}
+                            <div className="container ">
+                            <div>
+                                <p className='text-base font-DMSans text-justify'>El trastorno del habla y del lenguaje puede tener un impacto significativo en la vida de un niño o adolescente. Es importante que los padres y cuidadores estén atentos a las posibles señales de este trastorno y busquen ayuda profesional si tienen alguna preocupación. Con la intervención adecuada, se pueden mejorar significativamente las habilidades de comunicación y la calidad de vida del niño o adolescente afectado.</p>
+                                <br/>
+                            </div>
+                        </div>
+                </motion.section>
+                
                 <motion.section 
                 initial={{ opacity: 0}}
                 whileInView={{ opacity: 1 }}
@@ -195,32 +215,7 @@ export default function desarrolloNeuropsicologico() {
                                 <p className='text-base font-DMSans text-justify'>También es importante involucrar a la familia y a los cuidadores en el proceso de apoyo y tratamiento. La familia y los cuidadores pueden brindar apoyo emocional y ayudar a los niños y adolescentes con discapacidad intelectual a desarrollar habilidades sociales y emocionales; Podemos trabajar mano a mano para desarrollar planes de tratamiento personalizados para los niños y adolescentes con discapacidad intelectual.</p>
                             </div>
 
-                            {/* call to action inicio */}
-                            <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                                <Image
-                                    className="object-cover object-center rounded"
-                                    src="/images/beneficio-terapia.jpg"
-                                    alt="Terapia de pareja"
-                                    width={800}
-                                    height={800}
-                                    priority
-                                    placeholder
-                                        />
-                                </div>
-                                <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                                    <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Beneficios de acudir a
-                                    <br className="hidden lg:inline-block"/>Terapia
-                                    </h2>
-                                    <p className="mb-8 text-2xl leading-relaxed">Te ayudare a mejorar el aprendizaje, la autoestima, habilidades sociales y fomentare la independencia de quien más quieres en tu vida.</p>
-                                    <div className="flex justify-center">
-                                        <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
-                                            <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* call to action fin  */}
+                            
                         </div>
                     </div>
                 </motion.section>
@@ -322,5 +317,5 @@ export default function desarrolloNeuropsicologico() {
 
             </Layout>
         </>
-    )
+  )
 }

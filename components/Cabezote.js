@@ -35,15 +35,15 @@ const solutions = [
 
 const especialidades = [
     {
-        name: 'Evaluaciones psicopedagógicas para niños y adolescentes',
+        name: 'Evaluaciones psicopedagógicas',
         description: '',
         href: '/Especialidades/desarrollo-neuropsicologico',
         icon: BsFlower3,
     },
     {
-        name: 'Tratamiento para Ansiedad',
+        name: 'Neurodesarrollo',
         description: '',
-        href: '/Especialidades/ansiedad',
+        href: '/Especialidades/neurodesarrollo',
         icon: BsFlower3,
     },
     {
