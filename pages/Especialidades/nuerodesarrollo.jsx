@@ -78,30 +78,6 @@ export default function nuerodesarrollo() {
                             </div>
                         </div>
                 </motion.section>
-                
-                <motion.section 
-                initial={{ opacity: 0}}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
-                className="container">
-                    <div>
-                        <div className="container py-5">
-                            <div>
-                                <h2 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600'>Desarrollo Neuropsicológico.</h2>
-                                {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
-                                <br/>
-                                {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
-                                <p className='title-font text-base font-DMSans text-justify'>El desarrollo neurológico se refiere a los cambios y progresos que ocurren en el cerebro y en el sistema nervioso a lo largo del tiempo, desde la concepción hasta la edad adulta. Estos cambios son esenciales para el aprendizaje, la memoria, el comportamiento y la regulación emocional. Durante los primeros años de vida, el cerebro experimenta un rápido crecimiento y desarrollo, y los procesos de mielinización y sinaptogénesis son esenciales para la creación de redes neuronales efectivas. El desarrollo neurológico también está influenciado por factores ambientales y genéticos, como la nutrición, la estimulación temprana y el estrés. El conocimiento de los procesos involucrados en el desarrollo neurológico es fundamental para comprender y tratar trastornos neurológicos y psicológicos en niños y adolescentes.</p>
-                                <br/>
-                                <h2 className='sm:text-2xl text-xl font-DMSans'>Discapacidad intelectual.</h2>
-                                <p className='text-base font-DMSans text-justify'>La discapacidad intelectual es una condición que se presenta cuando un niño o adolescente tiene un retraso en el desarrollo cognitivo, lo que afecta su capacidad para comprender y procesar información. Esta condición puede afectar su vida diaria y su capacidad para interactuar con el mundo que los rodea. Por esta razón, es importante brindar apoyo psicológico y emocional a los niños y adolescentes con discapacidad intelectual.</p>
-                                <p className='text-base font-DMSans text-justify'>En UNETE ayudamos los niños y adolescentes con discapacidad intelectual es proporcionándoles un ambiente seguro y acogedor. Esto puede incluir un espacio tranquilo donde puedan relajarse y sentirse cómodos. También es importante brindarles atención y apoyo emocional constante. Los niños y adolescentes con discapacidad intelectual pueden sentirse aislados y solos, por lo que necesitan sentir que hay alguien que los escucha y los comprende.</p>
-                                <p className='text-base font-DMSans text-justify'>La Mtra. Yeimi Roció Avila Ponton ayuda a los niños y adolescentes a desarrollar habilidades sociales y emocionales, y les enseña cómo manejar sus emociones y comunicarse efectivamente. Los terapeutas pueden usar diferentes técnicas, como el juego, la música o la terapia artística, para ayudar a los niños y adolescentes con discapacidad intelectual a expresarse y desarrollar su confianza en sí mismos.</p>
-                            </div>
-                        </div>
-                    </div>
-                    {/* <CtaDoctoralia/> */}
-                </motion.section>
 
                 {/* CUADRO VERDE INICIO */}
                 <div className="body-font bg-green-100 py-5">
@@ -204,6 +180,7 @@ export default function nuerodesarrollo() {
                     </div>
                 </div>
                 {/* CUADRO VERDE FIN */}
+
                 <motion.section 
                 initial={{ opacity: 0}}
                 whileInView={{ opacity: 1 }}
@@ -212,12 +189,20 @@ export default function nuerodesarrollo() {
                     <div>
                         <div className="container py-5">
                             <div>
-                                <p className='text-base font-DMSans text-justify'>También es importante involucrar a la familia y a los cuidadores en el proceso de apoyo y tratamiento. La familia y los cuidadores pueden brindar apoyo emocional y ayudar a los niños y adolescentes con discapacidad intelectual a desarrollar habilidades sociales y emocionales; Podemos trabajar mano a mano para desarrollar planes de tratamiento personalizados para los niños y adolescentes con discapacidad intelectual.</p>
+                                <h2 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600'>Dislexia.</h2>
+                                {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
+                                <br/>
+                                {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
+                                <p className='title-font text-base font-DMSans text-justify'>La dislexia es un trastorno del aprendizaje que se caracteriza por dificultades en la lectura y la escritura. Las personas con dislexia pueden tener dificultades para reconocer y comprender letras y palabras, lo que puede afectar su capacidad para leer y escribir con fluidez. Aunque la dislexia no está relacionada con la inteligencia, puede tener un impacto significativo en el rendimiento académico y la autoestima de quienes la padecen.</p>
+                                {/* <br/> */}
+                                {/* <h2 className='sm:text-2xl text-xl font-DMSans'>Discapacidad intelectual.</h2> */}
+                                <p className='text-base font-DMSans text-justify'>Puedo ayudarte ó ayudar a las personas que más quieres a entender mejor su condición y a desarrollar estrategias para enfrentar los desafíos asociados con ella. Puedo trabajar con el individuo para mejorar su autoestima, proporcionar apoyo emocional y ayudarles a manejar la frustración y el estrés asociados con la dislexia.</p>
+                                <p className='text-base font-DMSans text-justify'>La terapia cognitivo-conductual (TCC) puede ser especialmente efectiva para personas con dislexia. Esta terapia se enfoca en ayudar al individuo a identificar y cambiar los patrones de pensamiento negativos y poco realistas que pueden estar contribuyendo a su ansiedad y baja autoestima. También puede ayudar a desarrollar habilidades para manejar el estrés y la frustración, lo que puede mejorar su rendimiento académico.</p>
+                                <p className='text-base font-DMSans text-justify'>Puedo proporcionar apoyo para los padres y cuidadores de personas con dislexia. Los padres pueden sentirse frustrados y confundidos acerca de cómo ayudar a su hijo con la dislexia, y pueden beneficiarse de una orientación profesional para comprender mejor la condición y aprender estrategias efectivas para apoyar al niño en casa y en la escuela.</p>
                             </div>
-
-                            
                         </div>
                     </div>
+                    {/* <CtaDoctoralia/> */}
                 </motion.section>
 
                 {/* DISCAPACIDAD INTELECTUAL INICIO */}
@@ -229,12 +214,11 @@ export default function nuerodesarrollo() {
                     <div>
                         <div className="container py-5">
                             <div>
-                                <h2 className='sm:text-2xl text-xl font-DMSans'>Trastorno del espectro del autismo (TEA).</h2>
-                                <p className='text-base font-DMSans text-justify'>El trastorno del espectro del autismo (TEA) es una condición neurológica que afecta el desarrollo social, de comunicación y conductual de un niño o adolescente. Aunque no existe una cura para el TEA, hay muchas maneras en las que los padres y profesionales pueden ayudar a los niños y adolescentes con TEA a desarrollar habilidades sociales y emocionales.</p>
-                                <p className='text-base font-DMSans text-justify'>Una forma de ayudar a los niños y adolescentes con TEA es a través de terapia conductual. La terapia conductual puede ayudar a los niños y adolescentes con TEA a desarrollar habilidades sociales y emocionales, y les enseña cómo comportarse en situaciones sociales. Los terapeutas pueden usar diferentes técnicas, como el modelado, la terapia cognitivo-conductual y el análisis del comportamiento aplicado, para ayudar a los niños y adolescentes con TEA a aprender nuevas habilidades y comportamientos.</p>
-                                <p className='text-base font-DMSans text-justify'>Otra forma de ayudar a los niños y adolescentes con TEA es a través de la terapia de juego. La terapia de juego puede ser una herramienta efectiva para ayudar a los niños y adolescentes con TEA a comunicarse y desarrollar habilidades sociales. Los terapeutas pueden usar juegos específicos para fomentar la comunicación y la interacción social.</p>
-                                <p className='text-base font-DMSans text-justify'>Me gusta trabajar con los padres para desarrollar planes de tratamiento personalizados para los niños y adolescentes así como brindar apoyo emocional para ayudarles a manejar los desafíos y el estrés que a menudo acompañan a la crianza de un niño o adolescente con TEA.</p>
-                                <p className='text-base font-DMSans text-justify'>Los niños y adolescentes con TEA a menudo tienen dificultades para adaptarse a situaciones nuevas e impredecibles, por lo que un ambiente estructurado y predecible puede ayudarles a sentirse más seguros y cómodos, de esta manera puedo ayudarte a mejorar la calidad de vida de quien más quieres en este mundo.</p>
+                                <h2 className='sm:text-2xl text-xl font-DMSans text-pink-600'>Discalculia.</h2>
+                                <p className='text-base font-DMSans text-justify'>La discalculia es un trastorno específico del aprendizaje que se caracteriza por dificultades en la comprensión y el uso de los números y las matemáticas. Las personas con discalculia pueden tener dificultades para realizar cálculos matemáticos básicos, comprender conceptos matemáticos y aplicarlos en la vida cotidiana. Aunque la discalculia no está relacionada con la inteligencia, puede tener un impacto significativo en el rendimiento académico y la autoestima de quienes la padecen.</p>
+                                <p className='text-base font-DMSans text-justify'>La ayuda que puedo brindarte puede ser muy útil para personas con discalculia, ya que puedo ayudarles a entender mejor su condición y a desarrollar estrategias para enfrentar los desafíos asociados con ella. Trabajaremos para mejorar su autoestima, proporcionar apoyo emocional y ayudarles a manejar la frustración y el estrés asociados con la discalculia.</p>
+                                <p className='text-base font-DMSans text-justify'>La terapia cognitivo-conductual (TCC) puede ser especialmente efectiva para personas con discalculia. Esta terapia se enfoca en ayudar al individuo a identificar y cambiar los patrones de pensamiento negativos y poco realistas que pueden estar contribuyendo a su ansiedad y baja autoestima. También puede ayudar a desarrollar habilidades para manejar el estrés y la frustración, lo que puede mejorar su rendimiento académico.</p>
+                                
                             </div>
                         </div>
                     </div>
