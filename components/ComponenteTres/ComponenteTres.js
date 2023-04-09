@@ -7,7 +7,7 @@ export default function ComponenteTres() {
             <div className="container px-5 py-24 mx-auto flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="rounded-lg h-64 overflow-hidden">
-                        <Image alt="tranquilidad y paz mental" className="object-cover object-center h-full w-full" src="/images/tranquilidad.jpg"
+                        <Image alt="tranquilidad y paz mental" className="object-cover object-center h-full w-full" src="/images/consulta-mtra-Yeimy.jpeg"
                         width={800} height={800} 
                         />
                     </div>
