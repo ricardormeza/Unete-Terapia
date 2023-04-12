@@ -33,7 +33,7 @@ export default function desarrolloNeuropsicologico() {
                     </div>
                         <div className="container ">
                             <div>
-                                <h1 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600'>Evaluación pedagógica para niños y adolescentes.</h1>
+                                <h1 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600' id='evaluacion'>Evaluación pedagógica para niños y adolescentes.</h1>
                                 {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                                 <br/>
                                 {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}

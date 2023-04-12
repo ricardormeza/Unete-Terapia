@@ -46,7 +46,7 @@ export default function Servicios() {
                 Evaluación pedagógica
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">La educación es uno de los aspectos más importantes en el desarrollo de los niños y adolescentes. Es el proceso mediante el cual se les enseña habilidades...</p>
-                <Link href="/Especialidades/ansiedad" legacyBehavior>
+                <Link href="/Especialidades/desarrollo-neuropsicologico#evaluacion" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
