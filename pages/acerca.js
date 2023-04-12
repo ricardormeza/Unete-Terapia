@@ -25,7 +25,7 @@ export default function acerca() {
                     </div>
                 </div>
                 <div className="mt-5">
-                    <h2 className="text-xl font-DMSans text-green-500">Formación:</h2>
+                    <h2 className="text-xl font-DMSans text-green-500">Formación academica:</h2>
                     <p className='text-base font-DMSans text-justify'><span>Maestría en Educación- Orientación Familiar Y Del adolescente 2020</span>.</p>
                     <p className='text-base font-DMSans text-justify'><span>Lic. En Psicologia ULV Tuxtla Gutierrez Chiapas 2017</span>.</p>
                     <p className='text-base font-DMSans text-justify'><span>Lic. En Educación Especial U.P.N Bogotá Colombia. 2009</span>.</p>
