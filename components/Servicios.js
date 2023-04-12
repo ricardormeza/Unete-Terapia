@@ -126,7 +126,7 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 El trastorno del habla y del lenguaje es una condición que afecta a la capacidad de una persona para comunicarse verbalmente. Puede manifestarse...
                 </p>
-                <Link href="/Especialidades/neurodesarrollo#trastornohabla" legacyBehavior>
+                <Link href="/Especialidades/nuerodesarrollo#trastornohabla" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
