@@ -35,7 +35,7 @@ export default function nuerodesarrollo() {
                                 <br/>
                                 <p className='text-base font-DMSans text-justify'>Los trastornos específicos del neurodesarrollo son una serie de condiciones neurológicas que afectan el desarrollo del cerebro y del sistema nervioso en la infancia y adolescencia. Estos trastornos se caracterizan por problemas en la capacidad para procesar información y llevar a cabo tareas complejas, lo que puede afectar a la vida cotidiana y al rendimiento académico.</p>
                                 <br/>
-                                <h2 className='font-DMSans text-pink-600'>Trastornos del habla.</h2>
+                                <h2 className='font-DMSans text-pink-600' id='trastornohabla' >Trastornos del habla.</h2>
                                 <p className='text-base font-DMSans text-justify'>El trastorno del habla y del lenguaje es una condición que afecta a la capacidad de una persona para comunicarse verbalmente. Puede manifestarse como dificultad para hablar o pronunciar palabras de manera clara, o como dificultad para comprender o expresarse en lenguaje hablado o escrito.</p>
                                 <p className='text-base font-DMSans text-justify'>Este trastorno puede ser de origen genético o ser causado por problemas físicos, como lesiones cerebrales o problemas auditivos.</p>
                                 <p className='text-base font-DMSans text-justify'>El trastorno del habla puede incluir dificultades en la producción de sonidos del habla, como tartamudez, disfluencia, omisión de sonidos o sonidos distorsionados. Estos problemas pueden dificultar la comprensión de la persona, lo que puede generar frustración y ansiedad. En casos más graves, el trastorno del habla puede requerir terapia del habla para mejorar la articulación y la fluidez del habla.</p>
@@ -189,7 +189,7 @@ export default function nuerodesarrollo() {
                     <div>
                         <div className="container py-5">
                             <div>
-                                <h2 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600'>Dislexia.</h2>
+                                <h2 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600' id='dislexia' >Dislexia.</h2>
                                 {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                                 <br/>
                                 {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
@@ -229,7 +229,7 @@ export default function nuerodesarrollo() {
                     <div>
                         <div className="container py-5">
                             <div>
-                                <h2 className='sm:text-2xl text-xl font-DMSans text-pink-600'>Discalculia.</h2>
+                                <h2 className='sm:text-2xl text-xl font-DMSans text-pink-600' id='discalculia' >Discalculia.</h2>
                                 <p className='text-base font-DMSans text-justify'>La discalculia es un trastorno específico del aprendizaje que se caracteriza por dificultades en la comprensión y el uso de los números y las matemáticas. Las personas con discalculia pueden tener dificultades para realizar cálculos matemáticos básicos, comprender conceptos matemáticos y aplicarlos en la vida cotidiana. Aunque la discalculia no está relacionada con la inteligencia, puede tener un impacto significativo en el rendimiento académico y la autoestima de quienes la padecen.</p>
                                 <p className='text-base font-DMSans text-justify'>La ayuda que puedo brindarte puede ser muy útil para personas con discalculia, ya que puedo ayudarles a entender mejor su condición y a desarrollar estrategias para enfrentar los desafíos asociados con ella. Trabajaremos para mejorar su autoestima, proporcionar apoyo emocional y ayudarles a manejar la frustración y el estrés asociados con la discalculia.</p>
                                 <p className='text-base font-DMSans text-justify'>La terapia cognitivo-conductual (TCC) puede ser especialmente efectiva para personas con discalculia. Esta terapia se enfoca en ayudar al individuo a identificar y cambiar los patrones de pensamiento negativos y poco realistas que pueden estar contribuyendo a su ansiedad y baja autoestima. También puede ayudar a desarrollar habilidades para manejar el estrés y la frustración, lo que puede mejorar su rendimiento académico.</p>
@@ -290,7 +290,7 @@ export default function nuerodesarrollo() {
                         <div>
                             <div className="container py-5">
                                 <div>
-                                    <h2 className='sm:text-2xl text-xl font-DMSans text-pink-600'>Trastorno del déficit de atención.</h2>
+                                    <h2 className='sm:text-2xl text-xl font-DMSans text-pink-600' id='deficitatencion' >Trastorno del déficit de atención.</h2>
                                     <p className='text-base font-DMSans text-justify'>El trastorno por déficit de atención con hiperactividad (TDAH) es un trastorno neurobiológico que afecta la capacidad de una persona para prestar atención, controlar su comportamiento y regular sus emociones. A menudo se diagnostica en la infancia, pero puede persistir en la adolescencia y en la edad adulta. La ayuda psicológica puede ser fundamental para que las personas con TDAH aprendan a manejar sus síntomas y a llevar una vida plena y satisfactoria.</p>
                                     <p className='text-base font-DMSans text-justify'>Existen varios tipos de terapias que pueden ser útiles para las personas con TDAH, como la terapia cognitivo-conductual, la terapia de juego y la terapia familiar. La terapia cognitivo-conductual es particularmente efectiva para ayudar a las personas con TDAH a desarrollar habilidades de organización, planificación y toma de decisiones, así como a manejar la ansiedad y el estrés. También puede ser útil para mejorar las habilidades sociales y de comunicación, lo que puede ayudar a las personas con TDAH a desarrollar relaciones más saludables y satisfactorias.</p>
                                     <p className='text-base font-DMSans text-justify'>La terapia de juego es una forma de terapia que se centra en el juego como una forma de expresión y comunicación. Puede ser muy efectiva para los niños con TDAH, ya que les brinda la oportunidad de explorar y aprender habilidades sociales y emocionales de una manera lúdica y segura. La terapia familiar también puede ser beneficiosa para las personas con TDAH, ya que puede ayudar a los miembros de la familia a comprender mejor la condición y a trabajar juntos para manejar los síntomas.</p>

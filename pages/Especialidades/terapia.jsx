@@ -31,7 +31,7 @@ export default function terapia() {
             </div>
             <div className="container ">
               <div>
-                <h1 className="title-font sm:text-2xl text-xl font-medium py-2 font-DMSans text-pink-600">
+                <h1 className="title-font sm:text-2xl text-xl font-medium py-2 font-DMSans text-pink-600" id="terapia">
                   Terapia.
                 </h1>
                 {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}

@@ -86,7 +86,7 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 El desarrollo neurológico se refiere a los cambios y progresos que ocurren en el cerebro y en el sistema nervioso a lo largo del tiempo...
                 </p>
-                <Link href="/Especialidades/ansiedad" legacyBehavior>
+                <Link href="/Especialidades/desarrollo-neuropsicologico#neuropsicologico" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
@@ -126,21 +126,23 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 El trastorno del habla y del lenguaje es una condición que afecta a la capacidad de una persona para comunicarse verbalmente. Puede manifestarse...
                 </p>
-                <a className="text-pink-500 inline-flex items-center font-DMSans">
-                  Saber más
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Link href="/Especialidades/neurodesarrollo#trastornohabla" legacyBehavior>
+                  <a className="text-pink-500 inline-flex items-center font-DMSans">
+                    Saber más
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             {/* ESTRES */}
@@ -164,21 +166,23 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 La discalculia es un trastorno específico del aprendizaje que se caracteriza por dificultades en la comprensión y el uso de los números y las matemáticas. Las personas con discalculia pueden...
                 </p>
-                <a className="text-pink-500 inline-flex items-center font-DMSans">
-                  Saber más
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Link href="/Especialidades/neurodesarrollo#discalculia" legacyBehavior>
+                  <a className="text-pink-500 inline-flex items-center font-DMSans">
+                    Saber más
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             {/* AUTOESTIMA */}
@@ -202,21 +206,23 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 El trastorno del espectro autista (TEA) es un trastorno del desarrollo neurológico que afecta la comunicación, el comportamiento y las habilidades sociales. Aunque...
                 </p>
-                <a className="text-pink-500 inline-flex items-center font-DMSans">
-                  Saber más
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Link href="/Especialidades/desarrollo-neuropsicologico#autismo" legacyBehavior>
+                  <a className="text-pink-500 inline-flex items-center font-DMSans">
+                    Saber más
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             {/* AUTOESTIMA FIN */}
@@ -238,21 +244,23 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 La dislexia es un trastorno del aprendizaje que se caracteriza por dificultades en la lectura y la escritura. Las personas con dislexia pueden tener dificultades para reconocer y comprender...
                 </p>
-                <a className="text-pink-500 inline-flex items-center font-DMSans">
-                  Saber más
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Link href="/Especialidades/neurodesarrollo#dislexia" legacyBehavior>
+                  <a className="text-pink-500 inline-flex items-center font-DMSans">
+                    Saber más
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             {/* TANATOLOGIA FIN */}
@@ -274,21 +282,23 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 El trastorno por déficit de atención con hiperactividad (TDAH) es un trastorno neurobiológico que afecta la capacidad de una persona para prestar atención, controlar su comportamiento...
                 </p>
-                <a className="text-pink-500 inline-flex items-center font-DMSans">
-                  Saber más
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Link href="/Especialidades/neurodesarrollo#deficitatencion" legacyBehavior>
+                  <a className="text-pink-500 inline-flex items-center font-DMSans">
+                    Saber más
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             {/* ESTRES POSTRAUMATICO FIN */}
@@ -310,21 +320,23 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 La intervención terapéutica es una herramienta fundamental para ayudar a las familias a superar dificultades y mejorar la comunicación y la convivencia...
                 </p>
-                <a className="text-pink-500 inline-flex items-center font-DMSans">
-                  Saber más
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Link href="/Especialidades/terapia#terapia" legacyBehavior>
+                  <a className="text-pink-500 inline-flex items-center font-DMSans">
+                    Saber más
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             {/* TOC FIN */}

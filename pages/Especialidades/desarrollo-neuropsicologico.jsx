@@ -67,7 +67,7 @@ export default function desarrolloNeuropsicologico() {
                     <div>
                         <div className="container py-5">
                             <div>
-                                <h2 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600'>Desarrollo Neuropsicológico.</h2>
+                                <h2 className='title-font sm:text-2xl text-xl font-medium font-DMSans text-pink-600' id='neuropsicologico'>Desarrollo Neuropsicológico.</h2>
                                 {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                                 <br/>
                                 {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
@@ -234,7 +234,7 @@ export default function desarrolloNeuropsicologico() {
                     <div>
                         <div className="container py-5">
                             <div>
-                                <h2 className='sm:text-2xl text-xl font-DMSans'>Trastorno del espectro del autismo (TEA).</h2>
+                                <h2 className='sm:text-2xl text-xl font-DMSans' id='autismo' >Trastorno del espectro del autismo (TEA).</h2>
                                 <p className='text-base font-DMSans text-justify'>El trastorno del espectro del autismo (TEA) es una condición neurológica que afecta el desarrollo social, de comunicación y conductual de un niño o adolescente. Aunque no existe una cura para el TEA, hay muchas maneras en las que los padres y profesionales pueden ayudar a los niños y adolescentes con TEA a desarrollar habilidades sociales y emocionales.</p>
                                 <p className='text-base font-DMSans text-justify'>Una forma de ayudar a los niños y adolescentes con TEA es a través de terapia conductual. La terapia conductual puede ayudar a los niños y adolescentes con TEA a desarrollar habilidades sociales y emocionales, y les enseña cómo comportarse en situaciones sociales. Los terapeutas pueden usar diferentes técnicas, como el modelado, la terapia cognitivo-conductual y el análisis del comportamiento aplicado, para ayudar a los niños y adolescentes con TEA a aprender nuevas habilidades y comportamientos.</p>
                                 <p className='text-base font-DMSans text-justify'>Otra forma de ayudar a los niños y adolescentes con TEA es a través de la terapia de juego. La terapia de juego puede ser una herramienta efectiva para ayudar a los niños y adolescentes con TEA a comunicarse y desarrollar habilidades sociales. Los terapeutas pueden usar juegos específicos para fomentar la comunicación y la interacción social.</p>
