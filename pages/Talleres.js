@@ -22,7 +22,7 @@ export default function Talleres() {
                     <div className="rounded-lg h-64 overflow-hidden">
                     <Image
                         className="object-cover object-center h-full w-full"
-                        src="/images/dra-yeimi-rocio-taller-5.jpeg"
+                        src="/images/talleres-impartido.jpg"
                         alt="talleres impartido por la Mtra. Yeimy"
                         width={900}
                         height={900}
