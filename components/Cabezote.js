@@ -56,9 +56,9 @@ const especialidades = [
 ]
 const servicios = [
     {
-        name: 'Taller 1',
+        name: 'Talleres',
         description: '',
-        href: '/',
+        href: '/Talleres',
         icon: HiOutlineQrCode,
     },
     {
