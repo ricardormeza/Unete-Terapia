@@ -244,7 +244,7 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 La dislexia es un trastorno del aprendizaje que se caracteriza por dificultades en la lectura y la escritura. Las personas con dislexia pueden tener dificultades para reconocer y comprender...
                 </p>
-                <Link href="/Especialidades/neurodesarrollo#dislexia" legacyBehavior>
+                <Link href="/Especialidades/nuerodesarrollo#dislexia" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
@@ -282,7 +282,7 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 El trastorno por déficit de atención con hiperactividad (TDAH) es un trastorno neurobiológico que afecta la capacidad de una persona para prestar atención, controlar su comportamiento...
                 </p>
-                <Link href="/Especialidades/neurodesarrollo#deficitatencion" legacyBehavior>
+                <Link href="/Especialidades/nuerodesarrollo#deficitatencion" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
