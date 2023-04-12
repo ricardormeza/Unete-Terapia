@@ -55,9 +55,7 @@ export default function acerca() {
                         <p className='text-base font-DMSans text-justify'><span>Desorden de ansiedad por separación</span>.</p>
                         <p className='text-base font-DMSans text-justify'><span>Transtorno limite de la peronalidad</span>.</p>
                     </div>
-                    {/* SWIPER */}
-                    <SwiAcerca/>
-                    {/* SWIPER FIN */}
+                    
                     <div className='w-full mt-32 absolute top-[40%] bg-[#ec4899]/10
                     left-0 h-[500px] -skew-y-12'>
                     </div>
