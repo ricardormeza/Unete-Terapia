@@ -166,7 +166,7 @@ export default function Servicios() {
                 <p className="leading-relaxed mb-3 font-DMSans">
                 La discalculia es un trastorno específico del aprendizaje que se caracteriza por dificultades en la comprensión y el uso de los números y las matemáticas. Las personas con discalculia pueden...
                 </p>
-                <Link href="/Especialidades/neurodesarrollo#discalculia" legacyBehavior>
+                <Link href="/Especialidades/nuerodesarrollo#discalculia" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
