@@ -14,8 +14,7 @@ export default function Servicios() {
           <p className="font-DMSans text-center">
             Nuestros <span>servicios psicológicos</span> se enfocan en ayudarte
             a encontrar soluciones a tus problemas y alcanzar tus metas
-            personales. Ofrecemos terapia individual, de pareja y familiar, así
-            como también terapia de grupo para abordar una variedad de problemas
+            personales. Ofrecemos terapia individual, y abordar una variedad de problemas
             emocionales y de salud mental, como la depresión, la ansiedad, el
             estrés, el trauma y las adicciones.{" "}
           </p>

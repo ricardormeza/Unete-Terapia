@@ -16,8 +16,8 @@ function UncontrolledExample() {
                     placeholder
                 />
                 <Carousel.Caption>
-                    <h3>Terapia de Pareja</h3>
-                    <p>Mejoren la comunicación, fortalezcan y resuelvan conflictos de manera más efectiva.</p>
+                    <h3 className='text-green-500'>Neurodesarrollo</h3>
+                    <p className='text-green-500 font-bold'>Mejoremos la comunicación, las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -31,8 +31,8 @@ function UncontrolledExample() {
                 />
 
                 <Carousel.Caption>
-                    <h3>Terapia Individual</h3>
-                    <p>Desarrollar una mayor autoconciencia, lo que te permitirá tomar decisiones más conscientes y saludables en tu vida.</p>
+                    <h3 className='text-green-500'>Terapia Individual</h3>
+                    <p className='text-green-500 font-bold'>Desarrollar una mayor autoconciencia, lo que te permitirá tomar decisiones más conscientes y saludables en tu vida.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,8 +45,8 @@ function UncontrolledExample() {
                     priority
                 />
                 <Carousel.Caption>
-                    <h3>Tanatología</h3>
-                    <p>
+                    <h3 className='text-green-500 font-bold'>Tanatología</h3>
+                    <p className='text-green-500 font-bold'>
                     Puede ayudarte a encontrar un significado en la muerte y a encontrar consuelo en momentos difíciles.
                     </p>
                 </Carousel.Caption>
@@ -61,8 +61,8 @@ function UncontrolledExample() {
                     priority
                 />
                 <Carousel.Caption>
-                    <h3>Depresión</h3>
-                    <p>
+                    <h3 className='text-green-500 font-bold'>Depresión</h3>
+                    <p className='text-green-500 font-bold'>
                     La terapia puede ayudarte a identificar los factores que contribuyen a tu depresión y a encontrar formas de abordarlos.
                     </p>
                 </Carousel.Caption>
