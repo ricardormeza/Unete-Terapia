@@ -61,24 +61,6 @@ const servicios = [
         href: '/Talleres',
         icon: HiOutlineQrCode,
     },
-    {
-        name: 'Taller 2',
-        description: '',
-        href: '/',
-        icon: HiOutlineQrCode,
-    },
-    {
-        name: 'Taller 3',
-        description: '',
-        href: '/',
-        icon: HiOutlineQrCode,
-    },
-    {
-        name: 'Taller 4',
-        description: '',
-        href: '/',
-        icon: HiOutlineQrCode,
-    },
     
 ]
 
