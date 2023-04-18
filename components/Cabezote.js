@@ -21,7 +21,7 @@ import styles from '../styles/Header.module.css';
 const solutions = [
     {
         name: 'Acerca de',
-        description: 'La Psic. Yeimi Rocio Avila Ponton mejorara tu vida',
+        description: 'Conoce más acerca de La Mtra. Yeimy Rocio Avila Ponton',
         href: '/acerca',
         icon: BsBrightnessHigh,
     },
@@ -35,7 +35,7 @@ const solutions = [
 
 const especialidades = [
     {
-        name: 'Evaluaciones psicopedagógicas',
+        name: 'Valoración',
         description: '',
         href: '/Especialidades/desarrollo-neuropsicologico',
         icon: BsFlower3,
@@ -56,10 +56,10 @@ const especialidades = [
 ]
 const servicios = [
     {
-        name: 'Talleres',
-        description: '',
+        name: 'Prevención Salud Mental',
+        description: 'Talleres de orientación para padres, adolescentes y niños.',
         href: '/Talleres',
-        icon: HiOutlineQrCode,
+        icon: BsBrightnessHigh,
     },
     
 ]
@@ -195,7 +195,7 @@ const Cabezote = () => {
                                             'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500'
                                         )}
                                     >
-                                        <span>Especialidades</span>
+                                        <span>Servicios</span>
                                         <BsChevronCompactDown
                                             className={classNames(
                                                 open ? 'text-gray-600' : 'text-gray-400',
