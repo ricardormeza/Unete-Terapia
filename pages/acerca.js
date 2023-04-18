@@ -42,7 +42,7 @@ export default function acerca() {
                             <div className="flex flex-wrap -m-12">
                             <div className="p-12 md:w-1/2 flex flex-col items-start">
                                 <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-green-500 text-xs font-medium tracking-widest">Especialista en:</span>
-                                <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
+                                <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">He acumulado experiencia trabajando en diversas áreas de la psicología, incluyendo las siguientes:</h2>
                                 <p className="leading-relaxed mb-8">Tanatología.</p>
                                 <p className="leading-relaxed mb-8">Neuropsicología Infantil.</p>
                                 <p className="leading-relaxed mb-8">Modificación de Conducta en Niños y Adolescentes.</p>
@@ -54,7 +54,7 @@ export default function acerca() {
                             </div>
                             <div className="p-12 md:w-1/2 flex flex-col items-start">
                                 <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-green-500 text-xs font-medium tracking-widest">Enfermedades tratadas</span>
-                                <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
+                                <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Mi experiencia laboral previa incluye trabajar con pacientes en diversas situaciones como las que acontinuación mencionó:</h2>
                                 <p className="leading-relaxed mb-8"><span>Duelo</span>.</p>
                                 <p className="leading-relaxed mb-8"><span>Abuso de drogas y farmacodependencia</span>.</p>
                                 <p className="leading-relaxed mb-8"><span>Trastorno de conducta</span>.</p>
