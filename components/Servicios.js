@@ -43,7 +43,7 @@ export default function Servicios() {
                   Evaluación pedagógica
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                Evaluación pedagógica
+                Conducta del aprendizaje
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">La educación es uno de los aspectos más importantes en el desarrollo de los niños y adolescentes. Es el proceso mediante el cual se les enseña habilidades...</p>
                 <Link href="/Especialidades/desarrollo-neuropsicologico#evaluacion" legacyBehavior>
