@@ -31,7 +31,7 @@ function UncontrolledExample() {
                 />
 
                 <Carousel.Caption>
-                    <h3 className='text-green-500'>Terapia Individual</h3>
+                    <h3 className='text-green-500'>Intervención terapéutica</h3>
                     <p className='text-green-500 font-bold'>Desarrollar una mayor autoconciencia, lo que te permitirá tomar decisiones más conscientes y saludables en tu vida.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -45,7 +45,7 @@ function UncontrolledExample() {
                     priority
                 />
                 <Carousel.Caption>
-                    <h3 className='text-green-500 font-bold'>Tanatología</h3>
+                    <h3 className='text-green-500 font-bold'>Talleres de formación</h3>
                     <p className='text-green-500 font-bold'>
                     Puede ayudarte a encontrar un significado en la muerte y a encontrar consuelo en momentos difíciles.
                     </p>
@@ -61,7 +61,7 @@ function UncontrolledExample() {
                     priority
                 />
                 <Carousel.Caption>
-                    <h3 className='text-green-500 font-bold'>Depresión</h3>
+                    <h3 className='text-green-500 font-bold'>Orientación familiar</h3>
                     <p className='text-green-500 font-bold'>
                     La terapia puede ayudarte a identificar los factores que contribuyen a tu depresión y a encontrar formas de abordarlos.
                     </p>

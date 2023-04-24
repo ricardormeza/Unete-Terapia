@@ -11,18 +11,20 @@ export default function Servicios() {
           <h3 className="text-center font-DMSans text-black">
             Nuestro Servicios
           </h3>
-          <p className="font-DMSans text-center">
+          <p className="font-DMSans text-justify">
             Nuestros <span>servicios psicológicos</span> se enfocan en ayudarte
             a encontrar soluciones a tus problemas y alcanzar tus metas
             personales. Ofrecemos terapia individual, y abordar una variedad de problemas
-            emocionales y de salud mental, como la depresión, la ansiedad, el
-            estrés, el trauma y las adicciones.{" "}
+            emocionales y de salud mental, como la depresión, la ansiedad.
           </p>
-          <p className="font-DMSans text-center">
+          <p className="font-DMSans text-justify">
             Nuestro enfoque es personalizado y adaptado a tus necesidades
             específicas, y trabajamos contigo para ayudarte a desarrollar
             habilidades para mejorar tu bienestar emocional y mejorar tu calidad
-            de vida. Nuestro objetivo es brindarte un espacio seguro y acogedor
+            de vida. 
+          </p>
+          <p className="font-DMSans text-justify">
+          Nuestro objetivo es brindarte un espacio seguro y acogedor
             donde puedas hablar abiertamente sobre tus problemas y encontrar un
             camino hacia la curación y la recuperación.
           </p>
