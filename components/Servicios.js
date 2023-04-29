@@ -163,12 +163,12 @@ export default function Servicios() {
                   Estrés
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Discalculia
+                  Talleres de formación
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                La discalculia es un trastorno específico del aprendizaje que se caracteriza por dificultades en la comprensión y el uso de los números y las matemáticas. Las personas con discalculia pueden...
+                En la actualidad, existen diversos talleres de orientación psicológica que están dirigidos a padres, adolescentes y niños. Estos talleres pueden ser de gran ayuda...
                 </p>
-                <Link href="/Especialidades/nuerodesarrollo#discalculia" legacyBehavior>
+                <Link href="/Talleres" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
@@ -203,7 +203,7 @@ export default function Servicios() {
                   Autoestima
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Espectro autista
+                Educación inclusiva
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
                 El trastorno del espectro autista (TEA) es un trastorno del desarrollo neurológico que afecta la comunicación, el comportamiento y las habilidades sociales. Aunque...
@@ -228,120 +228,8 @@ export default function Servicios() {
               </div>
             </div>
             {/* AUTOESTIMA FIN */}
-            {/* TANATOLOGIA INICIO */}
-            <div className="p-4 lg:w-1/3">
-              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
-                <Image
-                    className="d-block w-100"
-                    src="/images/dislexia.jpg"
-                    alt="Trastorno del habla"
-                    width={800}
-                    height={800}
-                    priority
-                    placeholder
-                    />
-                <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Dislexia.
-                </h2>
-                <p className="leading-relaxed mb-3 font-DMSans">
-                La dislexia es un trastorno del aprendizaje que se caracteriza por dificultades en la lectura y la escritura. Las personas con dislexia pueden tener dificultades para reconocer y comprender...
-                </p>
-                <Link href="/Especialidades/nuerodesarrollo#dislexia" legacyBehavior>
-                  <a className="text-pink-500 inline-flex items-center font-DMSans">
-                    Saber más
-                    <svg
-                      className="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M5 12h14"></path>
-                      <path d="M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            {/* TANATOLOGIA FIN */}
-            {/* ESTRES POSTRAUMATICO */}
-            <div className="p-4 lg:w-1/3">
-              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
-                <Image
-                    className="d-block w-100"
-                    src="/images/deficit-atencion.jpg"
-                    alt="Trastorno del habla"
-                    width={800}
-                    height={800}
-                    priority
-                    placeholder
-                />
-                <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Deficit de atención.
-                </h2>
-                <p className="leading-relaxed mb-3 font-DMSans">
-                El trastorno por déficit de atención con hiperactividad (TDAH) es un trastorno neurobiológico que afecta la capacidad de una persona para prestar atención, controlar su comportamiento...
-                </p>
-                <Link href="/Especialidades/nuerodesarrollo#deficitatencion" legacyBehavior>
-                  <a className="text-pink-500 inline-flex items-center font-DMSans">
-                    Saber más
-                    <svg
-                      className="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M5 12h14"></path>
-                      <path d="M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            {/* ESTRES POSTRAUMATICO FIN */}
-            {/* TOC */}
-            <div className="p-4 lg:w-1/3">
-              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
-                <Image
-                    className="d-block w-100"
-                    src="/images/terapia.jpg"
-                    alt="Trastorno del habla"
-                    width={800}
-                    height={800}
-                    priority
-                    placeholder
-                />
-                <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Terapia{" "}
-                </h2>
-                <p className="leading-relaxed mb-3 font-DMSans">
-                La intervención terapéutica es una herramienta fundamental para ayudar a las familias a superar dificultades y mejorar la comunicación y la convivencia...
-                </p>
-                <Link href="/Especialidades/terapia#terapia" legacyBehavior>
-                  <a className="text-pink-500 inline-flex items-center font-DMSans">
-                    Saber más
-                    <svg
-                      className="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M5 12h14"></path>
-                      <path d="M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            {/* TOC FIN */}
+            
+            
           </div>
         </div>
       </section>
