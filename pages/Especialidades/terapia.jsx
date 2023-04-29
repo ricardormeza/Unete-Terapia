@@ -8,8 +8,8 @@ export default function terapia() {
   return (
     <>
       <Layout
-        title={"Terapia"}
-        description={"Supera las dificultades, desarrolla y fortalece"}
+        title={"Terapia Individual"}
+        description={"La terapia individual es una forma de tratamiento psicológico en la nosotros ayudamos a mejorar tu salud mental trabajaremos en un ambiente seguro y confidencial para abordar problemas personales, mejorar la salud mental y emocional, y promover un mayor bienestar en la vida cotidiana."}
       >
         <motion.section
           initial={{ opacity: 0 }}
@@ -32,7 +32,7 @@ export default function terapia() {
             <div className="container ">
               <div>
                 <h1 className="title-font sm:text-2xl text-xl font-medium py-2 font-DMSans text-pink-600" id="terapia">
-                  Terapia.
+                  Terapia Individual.
                 </h1>
                 {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                 <br />
@@ -48,17 +48,16 @@ export default function terapia() {
                 </p>
                 <br />
                 <h2 className="font-DMSans text-green-600">
-                  Intervención terapéutica para padres:
+                  Depresión
                 </h2>
                 <p className="text-base font-DMSans text-justify">
-                  La intervención terapéutica para padres se centra en mejorar
-                  las habilidades de crianza y la comunicación entre padres e
-                  hijos. Los padres pueden recibir asesoramiento para manejar
-                  situaciones difíciles, como problemas de comportamiento,
-                  dificultades escolares y problemas de comunicación con sus
-                  hijos. Algunas de las estrategias comunes utilizadas en la
-                  intervención terapéutica para padres incluyen:
+                La depresión es un sentimiento de tristeza y/o una disminución del interés o del placer en las actividades que se convierte en un trastorno cuando es lo suficientemente intensa como para interferir con el funcionamiento normal de la persona.
                 </p>
+                <p className="text-base font-DMSans text-justify">
+                Los síntomas nucleares de la depresión son la tristeza patológica, la pérdida de interés y de la capacidad de disfrutar y una disminución de la vitalidad que limita el nivel de actividad y produce un cansancio exagerado, que aparece incluso después de realizar pequeños esfuerzos.
+                </p>
+                <p className="text-base font-DMSans text-justify">Además, pueden aparecer otros síntomas, como los sentimientos de culpa o de incapacidad, la irritabilidad, el pesimismo ante el futuro, las ideas de muerte o de suicidio, la pérdida de confianza en uno mismo o en los demás, la disminución de la concentración y la memoria, la intranquilidad, los trastornos del sueño y la disminución del apetito y de la libido, entre otros.</p>
+                <p className="text-base font-DMSans text-justify">Los síntomas más habituales son:</p>
               </div>
             </div>
           </div>
@@ -69,23 +68,13 @@ export default function terapia() {
             <div className="container">
               <ul class="list-disc">
                 <li>
-                  Enseñanza de habilidades de crianza positiva: los padres
-                  pueden aprender habilidades para promover el comportamiento
-                  positivo en sus hijos, incluyendo el uso de recompensas, el
-                  establecimiento de límites claros y la gestión de la
-                  disciplina.
+                  La tristeza patológica, también conocida como trastorno depresivo mayor, es una forma de depresión clínica que se caracteriza por sentimientos persistentes y abrumadores de tristeza, desesperanza y desesperación. La tristeza patológica puede ser debilitante y afectar la calidad de vida de una persona, incluyendo su capacidad para realizar actividades diarias y su interacción con los demás. Los síntomas de la tristeza patológica pueden incluir cambios en el apetito, la falta de energía, problemas para dormir, sentimientos de culpa y baja autoestima.
                 </li>
                 <li>
-                  Entrenamiento en comunicación efectiva: los padres pueden
-                  aprender a comunicarse de manera más efectiva con sus hijos, a
-                  escucharlos activamente y a expresar sus propios sentimientos
-                  de manera clara y constructiva.
+                  La pérdida de interés, también conocida como anhedonia, es un síntoma común de muchos trastornos psicológicos, incluyendo la depresión y la ansiedad. Se caracteriza por la falta de interés o placer en actividades que antes se disfrutaban. Las personas que experimentan anhedonia pueden sentirse apáticas, desmotivadas y sin energía, y pueden tener dificultades para concentrarse o tomar decisiones.
                 </li>
                 <li>
-                  Desarrollo de relaciones saludables: los padres pueden
-                  trabajar en la construcción de relaciones saludables y
-                  positivas con sus hijos, lo que puede mejorar la comunicación
-                  y el entendimiento entre ellos.
+                  La disminución de la vitalidad, también conocida como fatiga crónica, es una sensación de cansancio extremo y falta de energía que no se alivia con el descanso o el sueño, la fatiga crónica puede estar relacionada con factores como el estrés crónico, la ansiedad, la depresión y los problemas de sueño. Las personas que experimentan fatiga crónica pueden tener dificultades para realizar actividades cotidianas y pueden sentir que sus síntomas interfieren con su calidad de vida.
                 </li>
               </ul>
             </div>
@@ -100,48 +89,25 @@ export default function terapia() {
             <div>
               <div className="container py-5">
                 <div>
+                <p className="title-font text-base font-DMSans text-justify">En UNETE trabajaremos contigo para identificar los patrones de pensamiento negativos y las conductas poco saludables que contribuyen a la depresión. También te enseñaremos habilidades para afrontar el estrés, mejorar la autoestima y resolver problemas. La terapia cognitivo-conductual, una forma de terapia que se centra en el cambio de patrones de pensamiento y comportamiento, es particularmente eficaz para el tratamiento de la depresión.</p>
+                <p className="title-font text-base font-DMSans text-justify">La depresión puede ser un trastorno grave y debilitante, pero con la ayuda de UNETE, muchas personas pueden superarla y volver a disfrutar de una vida plena y satisfactoria.</p>
+                <br />
                   <h2 className="title-font sm:text-2xl text-xl font-medium font-DMSans text-green-600">
-                    Intervención terapéutica para adolescentes:.
+                  Ansiedad Generalizada.
                   </h2>
                   {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                   <br />
                   {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
                   <p className="title-font text-base font-DMSans text-justify">
-                    La intervención terapéutica para adolescentes se centra en
-                    ayudar a los jóvenes a manejar las presiones y desafíos de
-                    la adolescencia y a desarrollar habilidades para una vida
-                    saludable y satisfactoria. Algunas de las estrategias
-                    utilizadas en la intervención terapéutica para adolescentes
-                    incluyen:
+                  La ansiedad generalizada es un trastorno de ansiedad que se caracteriza por una preocupación excesiva y persistente acerca de una variedad de temas, como el trabajo, las relaciones, la salud o las finanzas. Esta preocupación a menudo se acompaña de síntomas físicos, como tensión muscular, fatiga y problemas para dormir. La ansiedad generalizada puede interferir significativamente con la vida cotidiana, pero con la ayuda de <span>UNETE</span> te ayudaremos a superarlos.
                   </p>
+                  <p className="title-font text-base font-DMSans text-justify">Te ayudaremos a identificar los pensamientos y patrones de comportamiento que pueden estar contribuyendo a sus síntomas. Trabajaremos juntos y así haremos cambio de patrones de pensamiento y comportamiento negativos, y puede ser particularmente eficaz para el tratamiento de la ansiedad generalizada. Haremos técnicas de relajación, como la respiración profunda y la meditación, para ayudar a la persona a reducir la tensión muscular y la ansiedad.</p>
                   {/* <br/> */}
                 </div>
               </div>
             </div>
           </motion.section>
 
-          <div className="body-font bg-red-100 py-5">
-            <div className="container">
-              <ul class="list-disc">
-                <li>
-                  Terapia cognitivo-conductual: los adolescentes pueden aprender
-                  a identificar y cambiar los pensamientos negativos que pueden
-                  estar contribuyendo a su estrés o ansiedad.
-                </li>
-                <li>
-                  Entrenamiento en habilidades sociales: los adolescentes pueden
-                  aprender habilidades sociales para interactuar de manera
-                  efectiva con sus compañeros y desarrollar relaciones
-                  saludables.
-                </li>
-                <li>
-                  Manejo de emociones: los adolescentes pueden aprender
-                  estrategias para manejar las emociones negativas y construir
-                  resiliencia.
-                </li>
-              </ul>
-            </div>
-          </div>
 
         {/* TERAPIA PARA NIÑOS */}
         <motion.section
@@ -154,14 +120,15 @@ export default function terapia() {
               <div className="container py-5">
                 <div>
                   <h2 className="title-font sm:text-2xl text-xl font-medium font-DMSans text-green-600">
-                  Intervención terapéutica para niños:
+                  Trastorno obsesivo-compulsivo:
                   </h2>
                   {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                   <br />
                   {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
                   <p className="title-font text-base font-DMSans text-justify">
-                  La intervención terapéutica para niños se centra en ayudar a los niños a comprender y manejar sus emociones, y a desarrollar habilidades sociales y de resolución de problemas. Algunas de las estrategias utilizadas en la intervención terapéutica para niños incluyen:
+                  TOC: El trastorno obsesivo-compulsivo (TOC) es una afección mental que consiste en presentar pensamientos (obsesiones) y rituales (compulsiones) una y otra vez. Estos interfieren con su vida, pero no puede controlarlos ni detenerlos.
                   </p>
+                  <p className="title-font text-base font-DMSans text-justify">Factores como la genética, la biología cerebral y la química, junto a su entorno, pueden desempeñar un papel en la afección como los siguientes:</p>
                   {/* <br/> */}
                 </div>
               </div>
@@ -172,19 +139,100 @@ export default function terapia() {
             <div className="container">
               <ul class="list-disc">
                 <li>
-                Terapia de juego: los niños pueden expresarse y procesar sus emociones a través del juego.
+                No puede controlar sus pensamientos o comportamientos, incluso cuando sabe que son excesivos.
                 </li>
                 <li>
-                Entrenamiento en habilidades sociales: los niños pueden aprender habilidades sociales para interactuar de manera efectiva con sus compañeros y desarrollar relaciones saludables.
+                Dedica al menos 1 hora al día a estos pensamientos o comportamientos.
                 </li>
                 <li>
-                Manejo de la ansiedad: los niños pueden aprender estrategias para manejar la ansiedad, incluyendo la relajación y la meditación.
+                No disfruta al presentar estas conductas, pero hacerlas puede aliviarle brevemente de la ansiedad que causan sus pensamientos.
+                </li>
+                <li>
+                Tiene problemas importantes en su vida diaria debido a estos pensamientos o comportamientos.
                 </li>
               </ul>
             </div>
           </div>
 
         {/* TERAPIA PARA NIÑOS FIN */}
+
+        {/* TERAPIA TEPT */}
+        <motion.section
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1.5 }}
+            className="container"
+          >
+            <div>
+              <div className="container py-5">
+                <div>
+                  <h2 className="title-font sm:text-2xl text-xl font-medium font-DMSans text-green-600">
+                  Trastorno por estrés postraumático
+                  </h2>
+                  {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
+                  <br />
+                  {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
+                  <p className="title-font text-base font-DMSans text-justify">
+                  Los trastornos relacionados con traumas y factores de estrés implican la exposición a un evento traumático o estresante. Dos de los trastornos relacionados con el traumatismo son el trastorno por estrés agudo y el trastorno por estrés postraumático (TEPT). El trastorno por estrés agudo y el trastorno por estrés postraumático son similares excepto que el primero, por lo general, comienza inmediatamente después del trauma y tiene una duración de 3 días a 1 mes, mientras que el segundo tiene una duración de > 1 mes, ya sea como una continuación del trastorno por estrés agudo o como un evento separado que comienza hasta 6 meses después del trauma.
+                  </p>
+                  <p className="title-font text-base font-DMSans text-justify">Anteriormente, los trastornos relacionados con traumas y factores de estrés eran considerados trastornos de ansiedad. Sin embargo, ahora se considera distinto porque muchos pacientes no sufren ansiedad pero sí tienen síntomas de anhedonia o disforia, ira, agresividad o disociación.</p>
+                  {/* <br/> */}
+                </div>
+              </div>
+            </div>
+          </motion.section>
+
+          <div className="body-font bg-red-100 py-5">
+            <div className="container">
+              <ul class="list-disc">
+                <li>
+                No puede controlar sus pensamientos o comportamientos, incluso cuando sabe que son excesivos.
+                </li>
+                <li>
+                Dedica al menos 1 hora al día a estos pensamientos o comportamientos.
+                </li>
+                <li>
+                No disfruta al presentar estas conductas, pero hacerlas puede aliviarle brevemente de la ansiedad que causan sus pensamientos.
+                </li>
+                <li>
+                Tiene problemas importantes en su vida diaria debido a estos pensamientos o comportamientos.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        {/* TERAPIA PARA TEPT FIN */}
+
+        {/* TERAPIA tanatologia */}
+        <motion.section
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1.5 }}
+            className="container"
+          >
+            <div>
+              <div className="container py-5">
+                <div>
+                  <h2 className="title-font sm:text-2xl text-xl font-medium font-DMSans text-green-600">
+                  Tanatología
+                  </h2>
+                  {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
+                  <br />
+                  {/* <h3 className='font-DMSans sm:text-xl text-lg text-pink-400'>Discapacidad intelectual</h3> */}
+                  <p className="title-font text-base font-DMSans text-justify">
+                  La tanatología es una rama de la psicología que se centra en el estudio de la muerte, el morir y el duelo. Cuando una persona experimenta una pérdida significativa, como la muerte de un ser querido, puede sentir una amplia gama de emociones que van desde la tristeza y el dolor hasta la ira y la confusión. La tanatología se enfoca en ayudar a las personas a manejar estas emociones y a lidiar con el proceso de duelo.
+                  </p>
+                  <p className="title-font text-base font-DMSans text-justify">En UNETE seremos una valiosa ayuda en el proceso de duelo. Te brindaremos un espacio seguro y confidencial para puedas expresar tus sentimientos y preocupaciones. Además, te ayudaremos a encontrar formas saludables de lidiar con la pérdida.</p>
+                  <p className="title-font text-base font-DMSans text-justify">Es importante destacar que el proceso de duelo es único para cada persona, y no hay una sola manera "correcta" de experimentarlo. Sin embargo, con nuestra ayuda podrás aprender a sobrellevar la tanatología y encontrar un camino hacia la sanación y la esperanza.</p>
+                  {/* <br/> */}
+                </div>
+              </div>
+            </div>
+          </motion.section>
+
+          
+
+        {/* TERAPIA PARA TEPT FIN */}
 
 
           {/* call to action inicio */}
@@ -205,7 +253,7 @@ export default function terapia() {
                 Beneficios de acudir a Terapia
               </h2>
               <p className="mb-8 text-2xl leading-relaxed">
-              Ayudare a mejorar la comunicación y las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.
+              Ayudaremos a que puedas identificar y los pensamientos negativos, sobrellevar la perdida de un ser querido y así tener una vida mejor.
               </p>
               <div className="flex justify-center">
                 <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez">
@@ -355,8 +403,7 @@ export default function terapia() {
         <section className="text-gray-600 body-font bg-green-400 py-3 mt-3">
           <div className="container mt-5 mb-5">
             <h3 className="text-center mt-5 mb-5 font-DMSans text-black">
-              Te proporcionare apoyo emocional y desarrollaremos habilidades
-              para manejar el estrés y la frustración asociada con la dislexia.
+            La depresión puede ser superada con nuestra ayuda, trabajaremos un plan de tratamiento personalizado y adecuado para ti.
             </h3>
             <div className="grid place-items-center ">
               <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez">

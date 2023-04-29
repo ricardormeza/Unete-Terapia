@@ -123,12 +123,12 @@ export default function Servicios() {
                   Neurodesarrollo
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Trastornos del habla{" "}
+                  Terapia individual{" "}
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                El trastorno del habla y del lenguaje es una condición que afecta a la capacidad de una persona para comunicarse verbalmente. Puede manifestarse...
+                La intervención terapéutica es una herramienta fundamental para ayudar a las familias a superar dificultades y mejorar la comunicación y la convivencia en el hogar...
                 </p>
-                <Link href="/Especialidades/nuerodesarrollo#trastornohabla" legacyBehavior>
+                <Link href="/Especialidades/terapia#terapia" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
