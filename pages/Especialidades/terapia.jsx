@@ -248,14 +248,14 @@ export default function terapia() {
                 placeholder
               />
             </div>
-            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-center items-center text-center">
               <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                 Beneficios de acudir a Terapia
               </h2>
               <p className="mb-8 text-2xl leading-relaxed">
               Ayudaremos a que puedas identificar y los pensamientos negativos, sobrellevar la perdida de un ser querido y así tener una vida mejor.
               </p>
-              <div className="grid justify-items-center">
+              <div className="">
                 <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez">
                   <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                     Agendar cita
