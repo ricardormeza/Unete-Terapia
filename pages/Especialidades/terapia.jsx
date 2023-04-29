@@ -255,7 +255,7 @@ export default function terapia() {
               <p className="mb-8 text-2xl leading-relaxed">
               Ayudaremos a que puedas identificar y los pensamientos negativos, sobrellevar la perdida de un ser querido y así tener una vida mejor.
               </p>
-              <div className="grid place-items-center">
+              <div className="grid justify-items-center">
                 <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez">
                   <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                     Agendar cita
