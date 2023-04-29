@@ -35,9 +35,9 @@ const solutions = [
 
 const especialidades = [
     {
-        name: 'Valoración',
+        name: 'Orientación Familiar',
         description: '',
-        href: '/Especialidades/desarrollo-neuropsicologico',
+        href: '/Especialidades/orientacion-familiar',
         icon: BsFlower3,
     },
     {
@@ -47,16 +47,15 @@ const especialidades = [
         icon: BsFlower3,
     },
     {
-        name: 'Terapia',
+        name: 'Terapia Individual',
         description: '',
         href: '/Especialidades/terapia',
         icon: BsFlower3,
     },
-    
 ]
 const servicios = [
     {
-        name: 'Prevención Salud Mental',
+        name: 'Talleres de Formación',
         description: 'Talleres de orientación para padres, adolescentes y niños.',
         href: '/Talleres',
         icon: BsBrightnessHigh,

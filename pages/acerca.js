@@ -17,7 +17,7 @@ export default function acerca() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1.5 }}
                 className={`container`}>
-                <h1 className="text-xl font-DMSans text-center text-green-500">Mtra. Yeimi Rocio Avila Pontón</h1>
+                <h1 className="text-xl font-DMSans text-center text-green-500">Mtra. Yeimy Rocio Avila Pontón</h1>
                 <div className="w-full flex justify-center">
                     <div className="w-24 h-24 rounded-full flex items-center  justify-center ">
                         <Image alt="imagen de Mtra. Yeimi Rocio Avila Pontón" className="object-cover object-center rounded-full h-full w-full self-center" src="/images/yeimirocioavilapontonmin.jpg" 
