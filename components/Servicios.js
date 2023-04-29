@@ -6,8 +6,8 @@ import Image from "next/image";
 export default function Servicios() {
   return (
     <>
-      <section className="text-gray-600 body-font bg-red-100 mt-3">
-        <div className="container px-5 py-16 mx-auto">
+      <section className="text-gray-600 body-font bg-red-100 mt-5">
+        <div className="container px-5 py-14 mx-auto">
           <h3 className="text-center font-DMSans text-black">
             Nuestro Servicios
           </h3>
