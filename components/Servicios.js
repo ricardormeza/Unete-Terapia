@@ -45,10 +45,10 @@ export default function Servicios() {
                   Evaluación pedagógica
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                Conducta del aprendizaje
+                Orientación familiar
                 </h2>
-                <p className="leading-relaxed mb-3 font-DMSans">La educación es uno de los aspectos más importantes en el desarrollo de los niños y adolescentes. Es el proceso mediante el cual se les enseña habilidades...</p>
-                <Link href="/Especialidades/desarrollo-neuropsicologico#evaluacion" legacyBehavior>
+                <p className="leading-relaxed mb-3 font-DMSans">La orientación familiar es una herramienta valiosa que puede ayudar a las familias a enfrentar y superar los desafíos que enfrentan...</p>
+                <Link href="/Especialidades/orientacion-familiar" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
