@@ -52,6 +52,12 @@ const especialidades = [
         href: '/Especialidades/terapia',
         icon: BsFlower3,
     },
+    {
+        name: 'Educación Inclusive',
+        description: '',
+        href: '/Especialidades/educacion-inclusiva',
+        icon: BsFlower3,
+    },
 ]
 const servicios = [
     {

@@ -192,8 +192,8 @@ export default function Servicios() {
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
               <Image
                     className="d-block w-100"
-                    src="/images/autismo.jpg"
-                    alt="Trastorno del habla"
+                    src="/images/educacion-inclusiva-1.jpg"
+                    alt="Educacion inclusiva"
                     width={800}
                     height={800}
                     priority
@@ -206,9 +206,9 @@ export default function Servicios() {
                 Educación inclusiva
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
-                El trastorno del espectro autista (TEA) es un trastorno del desarrollo neurológico que afecta la comunicación, el comportamiento y las habilidades sociales. Aunque...
+                La educación inclusiva es un tema de gran importancia en la actualidad, y es fundamental para que todas las personas tengan acceso a una educación de calidad. La educación inclusiva busca...
                 </p>
-                <Link href="/Especialidades/desarrollo-neuropsicologico#autismo" legacyBehavior>
+                <Link href="/Especialidades/educacion-inclusiva" legacyBehavior>
                   <a className="text-pink-500 inline-flex items-center font-DMSans">
                     Saber más
                     <svg
