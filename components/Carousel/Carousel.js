@@ -45,7 +45,7 @@ function UncontrolledExample() {
                     priority
                 />
                 <Carousel.Caption>
-                    <h3 className='text-green-500 font-bold'>Talleres de formación</h3>
+                    <h3 className='text-green-500 font-bold'>Talleres de Formación</h3>
                     <p className='text-green-500 font-bold'>
                     Mejoraremos la comunicación, el manejo del estrés, la resolución de conflictos, el desarrollo de habilidades sociales.
                     </p>
