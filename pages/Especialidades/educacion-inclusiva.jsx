@@ -23,8 +23,8 @@ export default function educacionInclusiva() {
             <div className="rounded-lg h-64 overflow-hidden">
               <Image
                 className="object-cover object-center h-full w-full"
-                src="/images/terapia.jpg"
-                alt="terapia portada"
+                src="/images/educacion.jpg"
+                alt="educacion portada"
                 width={900}
                 height={900}
                 priority
