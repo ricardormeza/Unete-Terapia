@@ -252,8 +252,7 @@ export default function educacionInclusiva() {
         <section className="text-gray-600 body-font bg-green-400 py-3 mt-3">
           <div className="container mt-5 mb-5">
             <h3 className="text-center mt-5 mb-5 font-DMSans text-black">
-              La depresión puede ser superada con nuestra ayuda, trabajaremos un
-              plan de tratamiento personalizado y adecuado para ti.
+            Al promover la educación inclusiva, estamos creando un ambiente de aprendizaje más enriquecedor y acogedor para todos los estudiantes, independientemente de sus habilidades o discapacidades
             </h3>
             <div className="grid place-items-center ">
               <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez">
@@ -270,7 +269,7 @@ export default function educacionInclusiva() {
         <section className="text-gray-600 body-font py-3 pb-3 mt-3">
           <div className="container mt-5 mb-5">
             <h3 className="text-center text-3xl mt-5 mb-5 font-DMSans text-pink-600">
-              "No hay problema demasiado pequeño o grande para buscar ayuda."
+              "La educación inclusiva es esencial para crear una sociedad más justa y equitativa, donde todos los individuos puedan desarrollar su potencial y contribuir al bienestar común."
             </h3>
           </div>
         </section>
