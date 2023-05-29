@@ -213,7 +213,7 @@ export default function terapia() {
             <div>
               <div className="container py-5">
                 <div>
-                  <h2 className="title-font sm:text-2xl text-xl font-medium font-DMSans text-green-600">
+                  <h2 className="title-font sm:text-2xl text-xl font-medium font-DMSans text-green-600" id="tanatologia">
                   Tanatología
                   </h2>
                   {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}

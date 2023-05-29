@@ -16,7 +16,7 @@ function UncontrolledExample() {
                     placeholder
                 />
                 <Carousel.Caption>
-                    <h3 className='text-green-500'>Desarrollo Neurológico</h3>
+                    <h3 className='text-green-500'>Neurodesarrollo</h3>
                     <p className='text-green-500 font-bold'>Mejoremos la comunicación, las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -77,7 +77,7 @@ function UncontrolledExample() {
                     priority
                 />
                 <Carousel.Caption>
-                    <h3 className='text-green-500 font-bold'>Educación Inclusiva</h3>
+                    <h3 className='text-green-500 font-bold'>Orientación educativa</h3>
                     <p className='text-green-500 font-bold'>
                     La educación inclusiva es importante porque proporciona una educación de calidad a todos los estudiantes.
                     </p>
