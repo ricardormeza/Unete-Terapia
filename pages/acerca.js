@@ -28,6 +28,10 @@ export default function acerca() {
 
                 <h2 className="text-xl font-DMSans text-center text-green-500">Valores</h2>
                 <p className='text-base font-DMSans text-justify'>Desarrollo-Innovación: A partir de una base cientifica, desarrollar, habilidades para modificar de manera sustancial las características generando nuevos espacio de realidad.</p>
+                <p className='text-base font-DMSans text-justify'>Compromiso: Con base en la empatia, desarrollar un alto grado de responsabilidad y pertenencia en el bien estar de los pacientes, generando experiencias que transformen vidas.</p>
+                <p className='text-base font-DMSans text-justify'>Transparencia: Etica y respeto por la vida misma. Así cómo en lo individual, también el cuidado por el otro.</p>
+                <p className='text-base font-DMSans text-justify'>Solidaridad: Solidez en que el equipo de trabajo brinde a si mismo la respuesta más asertiva que impulse e inspire a otros a superarse así mismo y a la resilencia.</p>
+                <p className='text-base font-DMSans text-justify'>Integridad: Coherencia entre el ser y el hacer.</p>
 
                 <h1 className="text-xl font-DMSans text-center text-green-500">Mtra. Yeimy Rocio Avila Pontón</h1>
                 <div className="w-full flex justify-center">
