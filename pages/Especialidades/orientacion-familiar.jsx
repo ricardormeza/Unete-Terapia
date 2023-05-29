@@ -142,7 +142,7 @@ export default function orientacionFamiliar() {
 
                                 <div className="flex flex-col gap-2">
                                     <h3 className="text-xl font-bold text-gray-800">
-                                        <p href="#" className="transition duration-100 hover:text-pink-500 active:text-pink-600">Teraoia de lenguaje</p>
+                                        <p href="#" className="transition duration-100 hover:text-pink-500 active:text-pink-600">Terapia de lenguaje</p>
                                     </h3>
                                 </div>
                             </div>
