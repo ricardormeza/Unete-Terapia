@@ -16,8 +16,8 @@ function UncontrolledExample() {
                     placeholder
                 />
                 <Carousel.Caption>
-                    <h3 className='text-green-500'>Desarrollo Neurológico</h3>
-                    <p className='text-green-500 font-bold'>Mejoremos la comunicación, las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
+                    <h3 className='bg-zinc-100 text-black'>Desarrollo Neurológico</h3>
+                    <p className='bg-zinc-100 text-black'>Mejoremos la comunicación, las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
