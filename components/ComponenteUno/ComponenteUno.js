@@ -11,7 +11,6 @@ export default function ComponenteUno() {
             "Especialista en Psicología",
             "Diagnóstico y tratamiento",
             "Terapia familiar",
-            "Terapia de pareja",
             "Terapia individual",
             "Atención a niños, adolescentes y adultos",
         ],
@@ -28,9 +27,11 @@ export default function ComponenteUno() {
                 <span className="font-DMSans"> Tuxtla Gutíerrez, Chiapas;</span> Y comienza tu camino hacia una vida plena y satisfactoria.</h2>
             </div>
             <div className={`${styles.divAgendarCita}`}>
+            <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
                 <button className={`${styles.btnAgendarCita}`}>
                     Agendar cita
                 </button>
+            </Link>
                 <button className={`${styles.btnEspecialidades}`}>
                     Especialidades
                 </button>

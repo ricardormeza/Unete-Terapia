@@ -45,7 +45,7 @@ export default function Servicios() {
                   Evaluación pedagógica
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                Orientación familiar
+                Orientación familiar.
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">La orientación familiar es una herramienta valiosa que puede ayudar a las familias a enfrentar y superar los desafíos que enfrentan...</p>
                 <Link href="/Especialidades/orientacion-familiar" legacyBehavior>
@@ -83,7 +83,7 @@ export default function Servicios() {
                   Neurodesarrollo
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Desarrollo Neurológico{" "}
+                  Desarrollo Neurológico.{" "}
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
                 El desarrollo neurológico se refiere a los cambios y progresos que ocurren en el cerebro y en el sistema nervioso a lo largo del tiempo...
@@ -123,7 +123,7 @@ export default function Servicios() {
                   Neurodesarrollo
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Terapia individual{" "}
+                  Terapia individual.
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
                 La intervención terapéutica es una herramienta fundamental para ayudar a las familias a superar dificultades y mejorar la comunicación y la convivencia en el hogar...
@@ -163,7 +163,7 @@ export default function Servicios() {
                   Estrés
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                  Talleres de formación
+                  Talleres de formación.
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
                 En la actualidad, existen diversos talleres de orientación psicológica que están dirigidos a padres, adolescentes y niños. Estos talleres pueden ser de gran ayuda...
@@ -203,7 +203,7 @@ export default function Servicios() {
                   Autoestima
                 </h3> */}
                 <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
-                Educación inclusiva
+                Orientación educativa.
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">
                 La educación inclusiva es un tema de gran importancia en la actualidad, y es fundamental para que todas las personas tengan acceso a una educación de calidad. La educación inclusiva busca...
@@ -228,6 +228,45 @@ export default function Servicios() {
               </div>
             </div>
             {/* AUTOESTIMA FIN */}
+
+            {/* Tanatologia */}
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative hover:bg-pink-200">
+              <Image
+                    className="d-block w-100"
+                    src="/images/orientacion-familiar-portada.jpg"
+                    alt="Educacion inclusiva"
+                    width={800}
+                    height={800}
+                    priority
+                    placeholder
+                />
+                <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
+                Tanatología.
+                </h2>
+                <p className="leading-relaxed mb-3 font-DMSans">
+                La tanatología es una rama de la psicología que se centra en el estudio de la muerte, el morir y el duelo. Cuando una persona experimenta una pérdida significativa, como la muerte de un ser querido...
+                </p>
+                <Link href="/Especialidades/terapia#tanatologia" legacyBehavior>
+                  <a className="text-pink-500 inline-flex items-center font-DMSans">
+                    Saber más
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            {/* Tanatologia FIN */}
             
             
           </div>

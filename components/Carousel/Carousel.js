@@ -77,7 +77,7 @@ function UncontrolledExample() {
                     priority
                 />
                 <Carousel.Caption>
-                    <h3 className='text-green-500 font-bold'>Educación Inclusiva</h3>
+                    <h3 className='text-green-500 font-bold'>Orientación educativa</h3>
                     <p className='text-green-500 font-bold'>
                     La educación inclusiva es importante porque proporciona una educación de calidad a todos los estudiantes.
                     </p>
