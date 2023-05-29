@@ -11,7 +11,6 @@ export default function ComponenteUno() {
             "Especialista en Psicología",
             "Diagnóstico y tratamiento",
             "Terapia familiar",
-            "Terapia de pareja",
             "Terapia individual",
             "Atención a niños, adolescentes y adultos",
         ],
