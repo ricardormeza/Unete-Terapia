@@ -16,8 +16,8 @@ function UncontrolledExample() {
                     placeholder
                 />
                 <Carousel.Caption>
-                    <h3 className={`text-pink-500 ${styles.bgText}`}>Neurodesarrollo</h3>
-                    <p className={`text-pink-500 ${styles.bgText}`}>Mejoremos la comunicación, las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
+                    <h3 className={`text-pink-600 ${styles.bgText}`}>Neurodesarrollo</h3>
+                    <p className={`text-black ${styles.bgTextDos}`}>Mejoremos la comunicación, las habilidades sociales, el rendimiento académico y autoestima de quien más quieres.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
