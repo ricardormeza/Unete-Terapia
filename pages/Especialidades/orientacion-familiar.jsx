@@ -9,7 +9,7 @@ export default function orientacionFamiliar() {
         <>
         <Layout
                 title={'Especialidades - Orientación familiar'}
-                description={'La orientación familiar es un servicio en UNETE para ayudar a las familias a mejorar su comunicación, resolver conflictos y fortalecer los lazos familiares.'}
+                description={'En Unete tenemos orientación familiar para ayudar a las familias a mejorar su comunicación, resolver conflictos y fortalecer los lazos familiares.'}
             >
                 <motion.section 
                 initial={{ opacity: 0}}

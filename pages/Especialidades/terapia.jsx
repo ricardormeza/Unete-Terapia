@@ -9,7 +9,7 @@ export default function terapia() {
     <>
       <Layout
         title={"Terapia Individual"}
-        description={"La terapia individual es una forma de tratamiento psicológico en la nosotros ayudamos a mejorar tu salud mental trabajaremos en un ambiente seguro y confidencial para abordar problemas personales, mejorar la salud mental y emocional, y promover un mayor bienestar en la vida cotidiana."}
+        description={"En Unete te brindamos el apoyo y trabajamos con la terapia individual, adecuada para ti y así ayudarte a mejorar tu salud mental, trabajaremos en un ambiente seguro y confidencial para abordar problemas personales, mejorar la salud mental y emocional, y promover un mayor bienestar en la vida cotidiana."}
       >
         <motion.section
           initial={{ opacity: 0 }}

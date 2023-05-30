@@ -55,7 +55,7 @@ const especialidades = [
     {
         name: 'Educación Inclusiva',
         description: '',
-        href: '/Especialidades/educacion-inclusiva',
+        href: '/Especialidades/orientacion-educativa',
         icon: BsFlower3,
     },
 ]

@@ -10,8 +10,9 @@ export default function ComponenteUno() {
         words: [
             "Especialista en Psicología",
             "Diagnóstico y tratamiento",
-            "Terapia familiar",
+            "Orientación familiar",
             "Terapia individual",
+            "Orientación educativa",
             "Atención a niños, adolescentes y adultos",
         ],
         loop: true,

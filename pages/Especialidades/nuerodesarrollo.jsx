@@ -8,8 +8,8 @@ export default function nuerodesarrollo() {
   return (
     <>
             <Layout
-                title={'Especialidades - Desarrollo Neuropsicológico'}
-                description={'Atención especializada en adolescentes y niños con problemas de desarrollo neuropsicológico, autismo, hiperactividad, aprendizaje, trastorno del habla, dislexia, discalculia.'}
+                title={'Especialidades - Neurodesarrollo'}
+                description={'En Unete tenemos diferentes soluciones, atención especializada en adolescentes y niños con problemas de desarrollo neuropsicológico, autismo, hiperactividad, aprendizaje, trastorno del habla, dislexia, discalculia.'}
             >
                 <motion.section 
                 initial={{ opacity: 0}}
