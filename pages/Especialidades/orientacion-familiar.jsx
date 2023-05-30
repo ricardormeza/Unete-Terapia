@@ -202,7 +202,7 @@ export default function orientacionFamiliar() {
                                     <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Beneficios de la orientación familiar
                                     {/* <br className="hidden lg:inline-block"/> */}
                                     </h2>
-                                    <p className="mb-8 text-2xl leading-relaxed">Mejora la comunicación y la comprensión mutua y a comunicarte de manera efectiva con quienes más quieres.</p>
+                                    <p className="mb-8 text-2xl leading-relaxed">Mejora la comunicación, la comprensión y la comunicación de manera efectiva de aquellos a quien más quieres, en Unete te ayudamos, agenda tu cita en el link de abajo.</p>
                                     <div className="flex justify-center">
                                         <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
                                             <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
