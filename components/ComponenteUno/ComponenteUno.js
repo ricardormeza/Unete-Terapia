@@ -32,9 +32,11 @@ export default function ComponenteUno() {
                     Agendar cita
                 </button>
             </Link>
+            <Link href='#especialidades'>
                 <button className={`${styles.btnEspecialidades}`}>
                     Especialidades
                 </button>
+            </Link>    
             </div>
         </div>
         </>
