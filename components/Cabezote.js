@@ -53,7 +53,7 @@ const especialidades = [
         icon: BsFlower3,
     },
     {
-        name: 'Educación Inclusiva',
+        name: 'Orientación Educativa',
         description: '',
         href: '/Especialidades/orientacion-educativa',
         icon: BsFlower3,
