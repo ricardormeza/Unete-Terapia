@@ -9,7 +9,7 @@ export default function Talleres() {
         <>
         <Layout
         title={'Talleres'}
-        description={'Centro de especialidad en comportamiento'}
+        description={'En Unete tenemos diferentes talleres de orientación psicológica y fomentar el desarrollo emocional, dirigido a padres, adolescentes y niños.'}
         >
             <>
             <motion.section
@@ -105,10 +105,10 @@ export default function Talleres() {
                     </div>
                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-                        Beneficios de acudir a Terapia
+                        Beneficios de acudir a un Taller
                     </h2>
                         <p className="mb-8 text-2xl leading-relaxed">
-                        Ir a terapia te permite tener un espacio seguro y confidencial para hablar sobre tus problemas y preocupaciones.
+                        Tomar un taller te ayudará a mejorar el desarrollo emocional, social y así tener una calidad de vida mejor, en Unete te ayudamos, agenda tu cita.
                         </p>
                     <div className="flex justify-center">
                         <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez">
