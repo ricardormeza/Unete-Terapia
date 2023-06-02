@@ -22,7 +22,7 @@ export default function VisionMision() {
             </section>
 
             {/* INICIO VALORES */}
-            <section class="text-gray-600 body-font bg-red-100 hover:bg-red-200">
+            <section class="text-gray-600 body-font ">
                 <div class="container px-5 py-16 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                     

@@ -17,7 +17,7 @@ export default function acerca() {
                 initial={{ opacity: 0}}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1.5 }}
-                className={`container`}>
+                className={`container bg-red-100 hover:bg-red-200`}>
 
                 <h2 className="text-xl font-DMSans text-center text-pink-600">Acerca de nosotros</h2>
 
