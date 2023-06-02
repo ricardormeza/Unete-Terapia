@@ -15,7 +15,7 @@ export default function VisionMision() {
                 <div className="p-12 md:w-1/2 flex flex-col items-start">
                     
                     <h2 className="sm:text-3xl text-2xl title-font font-medium text-pink-600 mt-4 mb-4">Visión</h2>
-                    <p className="leading-relaxed mb-8">Transformar vidas a través de un enfoque innovador e integral en la promoción y la intervención de la salud mental, física y nutricional, guiados por profesionales altamente calificados y con un alto compromiso humano.</p>
+                    <p className="leading-relaxed mb-4">Transformar vidas a través de un enfoque innovador e integral en la promoción y la intervención de la salud mental, física y nutricional, guiados por profesionales altamente calificados y con un alto compromiso humano.</p>
                 </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@ export default function VisionMision() {
 
             {/* INICIO VALORES */}
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container px-5 py-16 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                     
                     <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Valores</h2>
@@ -48,6 +48,11 @@ export default function VisionMision() {
                     <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                         <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">SOLIDARIDAD:</h2>
                         <p class="leading-relaxed text-base mb-4">Solidez en que el equipo de trabajo brinde a si mismo la respuesta mss asertiva que impulse e inspire a otros a superarse a si mismo y a la resiliencia.</p>
+                        
+                    </div>
+                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">INTEGRIDAD:</h2>
+                        <p class="leading-relaxed text-base mb-4">Coherencia entre el ser y el hacer.</p>
                         
                     </div>
                     </div>
