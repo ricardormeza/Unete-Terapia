@@ -23,19 +23,6 @@ export default function acerca() {
 
                 <VisionMision/>
 
-                <h3 className="text-xl font-DMSans text-center text-green-500">Misión</h3>
-                <p className='text-base font-DMSans text-justify'>Unete es un centro de desarollo integral de la Salud Mental que aborda a prevención e intervención en niños, adolescentes y adultos, así como su contexto social y educativo.</p>
-
-                <h3 className="text-xl font-DMSans text-center text-green-500">Visión</h3>
-                <p className='text-base font-DMSans text-justify'>Transformar vidas através de un enfoque innovador e integral en la promoción y la intervención de la salud mental, fisica y nutricional, guiados por profesionales altamente calificados y con un alto compromiso humano.</p>
-
-                <h2 className="text-xl font-DMSans text-center text-green-500">Valores</h2>
-                <p className='text-base font-DMSans text-justify'>Desarrollo-Innovación: A partir de una base cientifica, desarrollar, habilidades para modificar de manera sustancial las características generando nuevos espacio de realidad.</p>
-                <p className='text-base font-DMSans text-justify'>Compromiso: Con base en la empatia, desarrollar un alto grado de responsabilidad y pertenencia en el bien estar de los pacientes, generando experiencias que transformen vidas.</p>
-                <p className='text-base font-DMSans text-justify'>Transparencia: Etica y respeto por la vida misma. Así cómo en lo individual, también el cuidado por el otro.</p>
-                <p className='text-base font-DMSans text-justify'>Solidaridad: Solidez en que el equipo de trabajo brinde a si mismo la respuesta más asertiva que impulse e inspire a otros a superarse así mismo y a la resilencia.</p>
-                <p className='text-base font-DMSans text-justify'>Integridad: Coherencia entre el ser y el hacer.</p>
-
                 <h1 className="text-xl font-DMSans text-center text-green-500">Mtra. Yeimy Rocio Avila Pontón</h1>
                 <div className="w-full flex justify-center">
                     <div className="w-24 h-24 rounded-full flex items-center  justify-center ">
