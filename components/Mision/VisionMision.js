@@ -4,7 +4,7 @@ export default function VisionMision() {
   return (
     <>
         <section className="text-gray-600 body-font overflow-hidden">
-            <div className="container px-5 py-24 mx-auto">
+            <div className="container px-5 py-16 mx-auto">
                 <div className="flex flex-wrap -m-12">
                 <div className="p-12 md:w-1/2 flex flex-col items-start">
                     
