@@ -90,34 +90,10 @@ export default function acerca() {
 
 
 
-
-
-
-
-
-                    {/* <div className="mt-5">
-                        <h2 className="text-xl font-DMSans text-green-500">Especialista en:</h2>
-                        <p className='text-base font-DMSans text-justify'><span>Tanatología</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Neuropsicología Infantil</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Modificación de Conducta en Niños y Adolescentes</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Psicoterapia Cognitivo Conductual</span>.</p>
-                    </div>
-                    <div className="mt-5">
-                        <h2 className="text-xl font-DMSans text-green-500">Enfermedades tratadas</h2>
-                        <p className='text-base font-DMSans text-justify'><span>Duelo</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Abuso de drogas y farmacodependencia</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Trastorno de conducta</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Trastorno obsesivo compulsivo (TOC)</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Maltrato psicológico y abandono infantil</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Discapacidad intelectual</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Trastornos neurocognitivos</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Desorden de ansiedad por separación</span>.</p>
-                        <p className='text-base font-DMSans text-justify'><span>Transtorno limite de la peronalidad</span>.</p>
-                    </div> */}
                     
-                    <div className='w-full mt-32 absolute top-[40%] bg-[#ec4899]/10
+                    {/* <div className='w-full mt-32 absolute top-[40%] bg-[#ec4899]/10
                     left-0 h-[500px] -skew-y-12'>
-                    </div>
+                    </div> */}
                     <CtaAcerca/>
                     
                 </motion.section>
