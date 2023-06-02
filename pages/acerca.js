@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import SwiAcerca from "../components/acercade/SwiAcerca";
 import CtaAcerca from "../components/acercade/CtaAcerca";
+import VisionMision from "../components/Mision/VisionMision";
 
 export default function acerca() {
     return (
@@ -18,7 +19,9 @@ export default function acerca() {
                 transition={{ duration: 1.5 }}
                 className={`container`}>
 
-                <h2 className="text-xl font-DMSans text-center text-green-500">Misión y Visón</h2>
+                <h2 className="text-xl font-DMSans text-center text-pink-600">Acerca de nosotros</h2>
+
+                <VisionMision/>
 
                 <h3 className="text-xl font-DMSans text-center text-green-500">Misión</h3>
                 <p className='text-base font-DMSans text-justify'>Unete es un centro de desarollo integral de la Salud Mental que aborda a prevención e intervención en niños, adolescentes y adultos, así como su contexto social y educativo.</p>
