@@ -21,7 +21,7 @@ import styles from '../styles/Header.module.css';
 const solutions = [
     {
         name: 'Acerca de',
-        description: 'Conoce más acerca de La Mtra. Yeimy Rocio Avila Ponton',
+        description: 'Conoce más acerca de UNETE y cómo podemos ayudarte.',
         href: '/acerca',
         icon: BsBrightnessHigh,
     },

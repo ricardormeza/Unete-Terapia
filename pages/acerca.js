@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import SwiAcerca from "../components/acercade/SwiAcerca";
 import CtaAcerca from "../components/acercade/CtaAcerca";
 import VisionMision from "../components/Mision/VisionMision";
+import ExperienciaAcerca from "../components/ExperienciaAcerca/ExperienciaAcerca";
 
 export default function acerca() {
     return (
@@ -22,6 +23,7 @@ export default function acerca() {
                 <h2 className="text-xl font-DMSans text-center text-pink-600">Acerca de nosotros</h2>
 
                 <VisionMision/>
+                <ExperienciaAcerca/>
 
                 <h1 className="text-xl font-DMSans text-center text-green-500">Mtra. Yeimy Rocio Avila Pontón</h1>
                 <div className="w-full flex justify-center">
