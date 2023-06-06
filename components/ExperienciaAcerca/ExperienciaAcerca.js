@@ -43,40 +43,48 @@ export default function ExperienciaAcerca() {
                 <div class="xl:w-1/3 md:w-1/2 p-4">
                     <div class="border border-gray-200 p-6 rounded-lg">
                     
-                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">The Catalyzer</h2>
-                    <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Neurodesarrollo</h2>
+                    <Link href="/Especialidades/nuerodesarrollo">
+                        <p class="leading-relaxed text-base">Los trastornos específicos del neurodesarrollo son una serie de condiciones neurológicas que afectan el desarrollo del cerebro y del sistema nervioso en la infancia...</p>
+                    </Link>
                     </div>
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 p-4">
                     <div class="border border-gray-200 p-6 rounded-lg">
                     
-                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Neptune</h2>
-                    <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Terapia Individual</h2>
+                    <Link href="/Especialidades/terapia">
+                    <p class="leading-relaxed text-base">La intervención terapéutica es una herramienta fundamental para ayudar a las familias a superar dificultades y mejorar la comunicación y la convivencia...</p>
+                    </Link>
                     </div>
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 p-4">
                     <div class="border border-gray-200 p-6 rounded-lg">
                     
-                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Melanchole</h2>
-                    <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Orientación Educativa</h2>
+                    <Link href="/Especialidades/orientacion-educativa">
+                        <p class="leading-relaxed text-base">La educación inclusiva es un tema de gran importancia en la actualidad, y es fundamental para que todas las personas tengan acceso a una educación...</p>
+                    </Link>
                     </div>
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 p-4">
                     <div class="border border-gray-200 p-6 rounded-lg">
                     
-                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Bunker</h2>
-                    <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Talleres de Formación</h2>
+                    <Link href="/Talleres">
+                        <p class="leading-relaxed text-base">En la actualidad, existen diversos talleres de orientación psicológica que están dirigidos a padres, adolescentes y niños. Estos talleres pueden ser de gran ayuda...</p>
+                    </Link>
                     </div>
                 </div>
-                <div class="xl:w-1/3 md:w-1/2 p-4">
+                {/* <div class="xl:w-1/3 md:w-1/2 p-4">
                     <div class="border border-gray-200 p-6 rounded-lg">
                     
                     <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Ramona Falls</h2>
                     <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
                     </div>
+                </div> */}
                 </div>
-                </div>
-                <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                {/* <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> */}
             </div>
             </section>
     </>
