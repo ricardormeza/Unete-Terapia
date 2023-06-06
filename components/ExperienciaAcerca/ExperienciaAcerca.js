@@ -27,6 +27,8 @@ export default function ExperienciaAcerca() {
                     <p className='text-base font-DMSans text-justify'>A travez de <span>talleres o platicas grupales para empresas, u organizaciones</span> asi mismo como en un proceso terapeutico de manera individual.</p>
                 </div>
 
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-500"><span>Nuestros servicios.</span>.</p>
+
                     {/* <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1> */}
                     
                 </div>
