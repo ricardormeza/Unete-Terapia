@@ -8,9 +8,9 @@ export default function educacionInclusiva() {
   return (
     <>
       <Layout
-        title={"Educación Inclusiva"}
+        title={"Orientación Educativa"}
         description={
-          "La educación inclusiva en UNETE nos enfocamos en la diversidad de los estudiantes y en garantizar que todos, independientemente de sus habilidades o discapacidades, tengan acceso a la misma calidad de educación y una calidad de vida digna."
+          "En UNETE nos enfocamos en la diversidad de los estudiantes y en garantizar que todos, independientemente de sus habilidades o discapacidades, tengan acceso a la misma calidad de educación y una calidad de vida digna."
         }
       >
         <motion.section
@@ -37,7 +37,7 @@ export default function educacionInclusiva() {
                   className="title-font sm:text-2xl text-xl font-medium py-2 font-DMSans text-pink-600"
                   id="terapia"
                 >
-                  Educación inclusiva.
+                  Orientación educativa.
                 </h1>
                 {/* <h2 className='font-DMSans'>Atención especializada en <span>adolescentes y niños</span> con <span>problemas de desarrollo neuropsicológico</span> </h2> */}
                 <br />

@@ -44,7 +44,7 @@ export default function Servicios() {
                 {/* <h3 className="mt-3 tracking-widest sm:text-2xl text-xl font-medium text-gray-900  mb-1 font-DMSans uppercase">
                   Evaluación pedagógica
                 </h3> */}
-                <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans">
+                <h2 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-DMSans" id="especialidades">
                 Orientación familiar.
                 </h2>
                 <p className="leading-relaxed mb-3 font-DMSans">La orientación familiar es una herramienta valiosa que puede ayudar a las familias a enfrentar y superar los desafíos que enfrentan...</p>

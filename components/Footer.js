@@ -44,7 +44,9 @@ export default function Footer() {
                         </nav> */}
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Especialidades</h2>
+                        <Link href="/Especialidades/orientacion-familiar">
+                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Especialidades</h2>
+                        </Link>
                         {/* <nav className="list-none mb-10">
                         <li>
                                 <Link href="/Especialidades/desarrollo-neuropsicologico" legacyBehavior>
@@ -89,7 +91,9 @@ export default function Footer() {
                         </nav> */}
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Talleres</h2>
+                        <Link href="/Talleres">
+                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Talleres</h2>
+                        </Link>
                         {/* <nav className="list-none mb-10">
                             <li>
                                 <a className="text-white hover:text-gray-200">Taller 1</a>
@@ -106,7 +110,9 @@ export default function Footer() {
                         </nav> */}
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Contacto</h2>
+                        <Link href="/Contacto">
+                            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Contacto</h2>
+                        </Link>
                         {/* <nav className="list-none mb-10">
                             <li>
                                 <a className="text-white hover:text-gray-200">Primer Link</a>

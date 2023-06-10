@@ -10,8 +10,9 @@ export default function ComponenteUno() {
         words: [
             "Especialista en Psicología",
             "Diagnóstico y tratamiento",
-            "Terapia familiar",
+            "Orientación familiar",
             "Terapia individual",
+            "Orientación educativa",
             "Atención a niños, adolescentes y adultos",
         ],
         loop: true,
@@ -32,9 +33,11 @@ export default function ComponenteUno() {
                     Agendar cita
                 </button>
             </Link>
+            <Link href='#especialidades'>
                 <button className={`${styles.btnEspecialidades}`}>
                     Especialidades
                 </button>
+            </Link>    
             </div>
         </div>
         </>
