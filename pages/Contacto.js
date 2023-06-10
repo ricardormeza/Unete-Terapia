@@ -41,9 +41,9 @@ export default function Contacto() {
                                 </div>
                                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                                     {/* <a className="text-indigo-500">example@email.com</a> */}
-                                    <p className="leading-normal my-5">9 Norte Entre 5 y 6 poniente., El Magueyito.
+                                    {/* <p className="leading-normal my-5">9 Norte Entre 5 y 6 poniente., El Magueyito.
                                         <br/>Barrio Niño de Atocha, Mx 29001
-                                    </p>
+                                    </p> */}
                                     {/* <span className="inline-flex">
                                         <a className="text-gray-500">
                                             <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
