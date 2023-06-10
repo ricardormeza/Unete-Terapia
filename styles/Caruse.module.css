@@ -3,7 +3,7 @@
 }
 .bgText{
     display: inline-block;
-    background-color: rgba(243, 244, 246,.55);
+    background-color: rgba(243, 244, 246,.65);
     border-radius: .8rem;
     padding: 2px 8px;
 }
