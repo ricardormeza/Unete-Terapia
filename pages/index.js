@@ -12,6 +12,7 @@ import Recomendaciones from '../components/Recomendaciones'
 import Faq from '../components/Faq/Faq'
 import CtaDoctoralia from '../components/CtaDoctoralia'
 import Experience from '../components/Experience'
+import Mymapita from '../components/Mapita'
 
 
 export default function Home() {
@@ -42,6 +43,7 @@ export default function Home() {
         </div>
 
         <Recomendaciones/>
+        <Mymapita/>
         
         <div className='container'>
           <Faq/>
