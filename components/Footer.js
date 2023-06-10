@@ -35,6 +35,7 @@ export default function Footer() {
                 </div>
                 <div className="flex-grow flex flex-wrap mt-5 md:pr-20-mb-10 md:text-left text-center order-first">
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <Link href="/acerca">
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Conócenos</h2>
                         {/* <nav className="list-none mb-10">
                             <li>
@@ -42,6 +43,7 @@ export default function Footer() {
                             </li>
                             
                         </nav> */}
+                    </Link>
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <Link href="/Especialidades/orientacion-familiar">
