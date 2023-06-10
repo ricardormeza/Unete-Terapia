@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import CtaDoctoralia from '../components/CtaDoctoralia'
+import Mymapita from '../components/Mapita'
 
 export default function Contacto() {
     return (
@@ -36,14 +37,14 @@ export default function Contacto() {
                                     </div>
                                 </div>
                                 <div className="p-2 w-full">
-                                    <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Enviar</button>
+                                    <button className="flex mx-auto text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-pink-600 rounded text-lg">Enviar</button>
                                 </div>
                                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                                     {/* <a className="text-indigo-500">example@email.com</a> */}
                                     <p className="leading-normal my-5">9 Norte Entre 5 y 6 poniente., El Magueyito.
                                         <br/>Barrio Niño de Atocha, Mx 29001
                                     </p>
-                                    <span className="inline-flex">
+                                    {/* <span className="inline-flex">
                                         <a className="text-gray-500">
                                             <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                                                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -65,13 +66,13 @@ export default function Contacto() {
                                                 <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
                                             </svg>
                                         </a>
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <CtaDoctoralia/>
+                <Mymapita/>
 
             </Layout>
         </>
