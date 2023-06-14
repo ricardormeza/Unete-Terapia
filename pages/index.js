@@ -20,7 +20,7 @@ export default function Home() {
     <>
     <Layout
     title={'Inicio'}
-    description={'Centro de especialidad en comportamiento'}
+    description={'En UNETE somos un consultorio de psicología acogedor y profesional, donde encontrarás apoyo y orientación para tu bienestar emocional, te brindaremos un espacio seguro para explorar tus pensamientos, emociones y desafíos personales.'}
     >
       <main className=''>
         
