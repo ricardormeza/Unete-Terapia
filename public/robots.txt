@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bienestar-unete.com/
+
+# Sitemaps
+Sitemap: https://bienestar-unete.com/sitemap.xml
