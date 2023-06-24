@@ -8,8 +8,13 @@ export default function orientacionFamiliar() {
     return (
         <>
         <Layout
-                title={'Especialidades - Orientación familiar'}
+                title={'Orientación familiar en Tuxtla Gutiérrez'}
                 description={'En Unete tenemos orientación familiar para ayudar a las familias a mejorar su comunicación, resolver conflictos y fortalecer los lazos familiares.'}
+                abstract={'Orientación familiar y psicóloga en Chiapas'}
+                author={'Consultorio UNETE'}
+                copyright={'terapiapsicologia'}
+                keywords={'orientacion, familia, familiar, asesoramiento familiar, crianza familiar,'}
+                robots={'index, follow'}
             >
                 <motion.section 
                 initial={{ opacity: 0}}
@@ -22,6 +27,7 @@ export default function orientacionFamiliar() {
                             className="object-cover object-center h-full w-full"
                             src="/images/orientacion-familiar.jpg"
                             alt="desarrollo neurologico portada"
+                            title="Orientación familiar"
                             width={900}
                             height={900}
                             priority
@@ -88,6 +94,7 @@ export default function orientacionFamiliar() {
                                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                                         src="/images/familia.jpg"
                                         alt="valor familia"
+                                        title="La familia es lo más importante"
                                         width={800}
                                         height={800}
                                         priority
@@ -110,6 +117,7 @@ export default function orientacionFamiliar() {
                                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                                         src="/images/amor.jpg"
                                         alt="valor amor"
+                                        title="El amor en la familia es lo más importante"
                                         width={800}
                                         height={800}
                                         priority
@@ -133,6 +141,7 @@ export default function orientacionFamiliar() {
                                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                                         src="/images/soporte.jpg"
                                         alt="valor soporte"
+                                        title="La familia es el soporte más importante en la vida"
                                         width={800}
                                         height={800}
                                         priority
@@ -155,6 +164,7 @@ export default function orientacionFamiliar() {
                                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                                         src="/images/emociones.jpg"
                                         alt="valor emociones"
+                                        title="La sensación de sentirse querido por la familia"
                                         width={800}
                                         height={800}
                                         priority
