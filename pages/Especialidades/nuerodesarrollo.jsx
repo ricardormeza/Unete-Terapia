@@ -8,8 +8,13 @@ export default function nuerodesarrollo() {
   return (
     <>
             <Layout
-                title={'Especialidades - Neurodesarrollo'}
-                description={'En Unete tenemos diferentes soluciones, atención especializada en adolescentes y niños con problemas de desarrollo neuropsicológico, autismo, hiperactividad, aprendizaje, trastorno del habla, dislexia, discalculia.'}
+                title={'Neurodesarrollo infantil en Tuxtla Gutiérrez, Chiapas'}
+                description={'En Unete atendemos la educación preescolar y el neurodesarrollo infantil con psicología educativa y enseñamza inclusiva.'}
+                abstract={'Neurodesarrollo y educación preescolar'}
+                author={'Consultorio UNETE'}
+                copyright={'terapiapsicologia'}
+                keywords={'educa t, neurodesarrollo'}
+                robots={'index, follow'}
             >
                 <motion.section 
                 initial={{ opacity: 0}}
@@ -22,6 +27,7 @@ export default function nuerodesarrollo() {
                             className="object-cover object-center h-full w-full"
                             src="/images/familia.jpg"
                             alt="desarrollo neurologico portada"
+                            title="La familia y el neurodesarrollo"
                             width={900}
                             height={900}
                             priority
@@ -52,6 +58,7 @@ export default function nuerodesarrollo() {
                                     className="object-cover object-center rounded"
                                     src="/images/beneficio-terapia.jpg"
                                     alt="Terapia de pareja"
+                                    title="La terapia es de gran ayuda"
                                     width={800}
                                     height={800}
                                     priority
@@ -92,6 +99,7 @@ export default function nuerodesarrollo() {
                                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                                         src="/images/familia.jpg"
                                         alt="valor familia"
+                                        title="La familia es lo más importante"
                                         width={800}
                                         height={800}
                                         priority
@@ -114,6 +122,7 @@ export default function nuerodesarrollo() {
                                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                                         src="/images/amor.jpg"
                                         alt="valor amor"
+                                        title="El amor en familia es lo mejor"
                                         width={800}
                                         height={800}
                                         priority
@@ -137,6 +146,7 @@ export default function nuerodesarrollo() {
                                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                                         src="/images/soporte.jpg"
                                         alt="valor soporte"
+                                        title="La familia es el mejor soporte."
                                         width={800}
                                         height={800}
                                         priority
@@ -159,6 +169,7 @@ export default function nuerodesarrollo() {
                                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                                         src="/images/emociones.jpg"
                                         alt="valor emociones"
+                                        title="La emoción de la familia no tiene precio"
                                         width={800}
                                         height={800}
                                         priority
@@ -261,6 +272,7 @@ export default function nuerodesarrollo() {
                                     className="object-cover object-center rounded"
                                     src="/images/amor.jpg"
                                     alt="Terapia familiar valor amor"
+                                    title="Terapia familiar amor"
                                     width={800}
                                     height={800}
                                     priority
