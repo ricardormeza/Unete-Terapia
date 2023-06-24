@@ -7,7 +7,7 @@ export default function Recomendaciones() {
             <div className="container px-5 pt-5 mx-auto">
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 pt-4 mx-auto">
-                        <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Lo que mis pacientes dicen.</h1>
+                        <h3 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Lo que mis pacientes dicen.</h3>
                         <div className="flex flex-wrap -m-4">
                         <div className="p-4 md:w-1/2 w-full">
                             <div className="h-full bg-gray-100 p-8 rounded">
