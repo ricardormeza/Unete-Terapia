@@ -38,6 +38,7 @@ const especialidades = [
         name: 'Orientación Familiar',
         description: '',
         href: '/Especialidades/orientacion-familiar',
+        title:'Orientación familiar',
         icon: BsFlower3,
     },
     {
