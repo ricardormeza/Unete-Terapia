@@ -8,7 +8,7 @@ export default function terapia() {
   return (
     <>
       <Layout
-        title={"Terapia Individual personalizada para el bienestar emocional"}
+        title={"Terapia Individual para el bienestar emocional"}
         description={"En Unete te brindamos el apoyo y trabajamos con la terapia individual, adecuada para ti y así ayudarte a mejorar tu salud mental, trabajaremos en un ambiente seguro y confidencial para abordar problemas personales, mejorar el bienestar emocional además de darte terapia online."}
         abstract={'Terapia individual en linea'}
         author={'Consultorio UNETE'}
