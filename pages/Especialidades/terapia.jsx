@@ -49,8 +49,8 @@ export default function terapia() {
                   recordar que la terapia no solo está dirigida a las personas
                   que tienen problemas específicos, sino que también puede ser
                   útil para fortalecer las relaciones y prevenir problemas
-                  futuros. En este artículo, discutiremos diferentes tipos de
-                  intervenciones terapéuticas para padres, adolescentes y niños.
+                  futuros. Aquí hablaremos sobre algunas formas de abordar la <span>terapia 
+                  idividual</span> y así mismo contamos con el servicio de <span>terapia en linea</span>, para mejorar el <span>bienestar</span>  y la <span>salud mental</span>.
                 </p>
                 <br />
                 <h2 className="font-DMSans text-green-600">
@@ -95,7 +95,7 @@ export default function terapia() {
             <div>
               <div className="container py-5">
                 <div>
-                <p className="title-font text-base font-DMSans text-justify">En UNETE trabajaremos contigo para identificar los patrones de pensamiento negativos y las conductas poco saludables que contribuyen a la depresión. También te enseñaremos habilidades para afrontar el estrés, mejorar la autoestima y resolver problemas. La terapia cognitivo-conductual, una forma de terapia que se centra en el cambio de patrones de pensamiento y comportamiento, es particularmente eficaz para el tratamiento de la depresión.</p>
+                <p className="title-font text-base font-DMSans text-justify">En UNETE trabajaremos contigo para identificar los patrones de pensamiento negativos y las conductas poco saludables que contribuyen a la depresión. También te enseñaremos habilidades para afrontar el estrés, mejorar la autoestima y resolver problemas. La terapia cognitivo-conductual, una forma de terapia que se centra en el cambio de patrones de pensamiento y comportamiento, es particularmente eficaz para el tratamiento de la depresión, en UNETE contamos con el servicio de <span>terapia en linea</span>.</p>
                 <p className="title-font text-base font-DMSans text-justify">La depresión puede ser un trastorno grave y debilitante, pero con la ayuda de UNETE, muchas personas pueden superarla y volver a disfrutar de una vida plena y satisfactoria.</p>
                 <br />
                   <h2 className="title-font sm:text-2xl text-xl font-medium font-DMSans text-green-600">
@@ -107,7 +107,7 @@ export default function terapia() {
                   <p className="title-font text-base font-DMSans text-justify">
                   La ansiedad generalizada es un trastorno de ansiedad que se caracteriza por una preocupación excesiva y persistente acerca de una variedad de temas, como el trabajo, las relaciones, la salud o las finanzas. Esta preocupación a menudo se acompaña de síntomas físicos, como tensión muscular, fatiga y problemas para dormir. La ansiedad generalizada puede interferir significativamente con la vida cotidiana, pero con la ayuda de <span>UNETE</span> te ayudaremos a superarlos.
                   </p>
-                  <p className="title-font text-base font-DMSans text-justify">Te ayudaremos a identificar los pensamientos y patrones de comportamiento que pueden estar contribuyendo a sus síntomas. Trabajaremos juntos y así haremos cambio de patrones de pensamiento y comportamiento negativos, y puede ser particularmente eficaz para el tratamiento de la ansiedad generalizada. Haremos técnicas de relajación, como la respiración profunda y la meditación, para ayudar a la persona a reducir la tensión muscular y la ansiedad.</p>
+                  <p className="title-font text-base font-DMSans text-justify">Te ayudaremos a identificar los pensamientos y patrones de comportamiento que pueden estar contribuyendo a sus síntomas. Trabajaremos juntos y así haremos cambio de patrones de pensamiento y comportamiento negativos, y puede ser particularmente eficaz para el tratamiento de la ansiedad generalizada. Haremos técnicas de relajación, como la respiración profunda y la meditación, para ayudar a la persona a reducir la tensión muscular y la ansiedad, con nuestra <span>terapia psicólogica en linea</span> te ayudaremos a mejorar.</p>
                   {/* <br/> */}
                 </div>
               </div>
@@ -260,7 +260,7 @@ export default function terapia() {
                 Beneficios de acudir a Terapia
               </h2>
               <p className="mb-8 text-2xl leading-relaxed">
-              Ayudaremos a que puedas identificar y los pensamientos negativos, sobrellevar la perdida de un ser querido y así tener una vida mejor.
+              Ayudaremos a que puedas identificar y los pensamientos negativos, sobrellevar la perdida de un ser querido y así tener una vida mejor, ven con <span>la mejor psicóloga</span>.
               </p>
               <div className="">
                 <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez">
