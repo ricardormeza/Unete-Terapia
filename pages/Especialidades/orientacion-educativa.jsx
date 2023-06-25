@@ -8,10 +8,15 @@ export default function educacionInclusiva() {
   return (
     <>
       <Layout
-        title={"Orientación Educativa"}
+        title={"Orientación Educativa en Tuxtla Gutiérrez, Chiapas"}
         description={
-          "En UNETE nos enfocamos en la diversidad de los estudiantes y en garantizar que todos, independientemente de sus habilidades o discapacidades, tengan acceso a la misma calidad de educación y una calidad de vida digna."
+          "En UNETE nos enfocamos en la diversidad de los estudiantes y en garantizar que todos, independientemente de sus habilidades o discapacidades, con acceso a la misma calidad de educación y orientación."
         }
+        abstract={'Orientación educativa y enseñanza'}
+        author={'Consultorio UNETE'}
+        copyright={'terapiapsicologia'}
+        keywords={'psicología, educación, enseñanza, educativo, primaria, preescolar '}
+        robots={'index, follow'}
       >
         <motion.section
           initial={{ opacity: 0 }}
@@ -25,6 +30,7 @@ export default function educacionInclusiva() {
                 className="object-cover object-center h-full w-full"
                 src="/images/educacion.jpg"
                 alt="educacion portada"
+                title="Educación"
                 width={900}
                 height={900}
                 priority
@@ -92,6 +98,7 @@ export default function educacionInclusiva() {
               className="object-cover object-center rounded"
               src="/images/beneficio-terapia.jpg"
               alt="Terapia de pareja"
+              title="Terapia de pareja"
               width={800}
               height={800}
               priority
@@ -132,6 +139,7 @@ export default function educacionInclusiva() {
                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         src="/images/educacion-inclusiva-2.jpg"
                         alt="valor familia"
+                        title="Familia"
                         width={800}
                         height={800}
                         priority
@@ -162,6 +170,7 @@ export default function educacionInclusiva() {
                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         src="/images/educacion-inclusiva-3.jpg"
                         alt="valor amor"
+                        title="Amor"
                         width={800}
                         height={800}
                         priority
@@ -192,6 +201,7 @@ export default function educacionInclusiva() {
                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         src="/images/educacion-inclusiva-4.jpg"
                         alt="valor soporte"
+                        title="soporte"
                         width={800}
                         height={800}
                         priority
@@ -222,6 +232,7 @@ export default function educacionInclusiva() {
                         className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         src="/images/emociones.jpg"
                         alt="valor emociones"
+                        title="Emociones"
                         width={800}
                         height={800}
                         priority
