@@ -8,8 +8,13 @@ export default function terapia() {
   return (
     <>
       <Layout
-        title={"Terapia Individual"}
-        description={"En Unete te brindamos el apoyo y trabajamos con la terapia individual, adecuada para ti y así ayudarte a mejorar tu salud mental, trabajaremos en un ambiente seguro y confidencial para abordar problemas personales, mejorar la salud mental y emocional, y promover un mayor bienestar en la vida cotidiana."}
+        title={"Terapia Individual personalizada para el bienestar emocional"}
+        description={"En Unete te brindamos el apoyo y trabajamos con la terapia individual, adecuada para ti y así ayudarte a mejorar tu salud mental, trabajaremos en un ambiente seguro y confidencial para abordar problemas personales, mejorar el bienestar emocional además de darte terapia online."}
+        abstract={'Terapia individual en linea'}
+        author={'Consultorio UNETE'}
+        copyright={'terapiapsicologia'}
+        keywords={'psicología, en linea, salud, mental, terapia, individual '}
+        robots={'index, follow'}
       >
         <motion.section
           initial={{ opacity: 0 }}
@@ -23,6 +28,7 @@ export default function terapia() {
                 className="object-cover object-center h-full w-full"
                 src="/images/terapia.jpg"
                 alt="terapia portada"
+                title="Terapia individual en linea"
                 width={900}
                 height={900}
                 priority
@@ -242,6 +248,7 @@ export default function terapia() {
                 className="object-cover object-center rounded"
                 src="/images/beneficio-terapia.jpg"
                 alt="Terapia de pareja"
+                title="terapia de pareja"
                 width={800}
                 height={800}
                 priority
@@ -283,6 +290,7 @@ export default function terapia() {
                           className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                           src="/images/familia.jpg"
                           alt="valor familia"
+                          title="La familia"
                           width={800}
                           height={800}
                           priority
@@ -313,6 +321,7 @@ export default function terapia() {
                           className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                           src="/images/amor.jpg"
                           alt="valor amor"
+                          title="El amor"
                           width={800}
                           height={800}
                           priority
@@ -343,6 +352,7 @@ export default function terapia() {
                           className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                           src="/images/soporte.jpg"
                           alt="valor soporte"
+                          title="El soporte familiar"
                           width={800}
                           height={800}
                           priority
@@ -373,6 +383,7 @@ export default function terapia() {
                           className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                           src="/images/emociones.jpg"
                           alt="valor emociones"
+                          title="Emoción familiar"
                           width={800}
                           height={800}
                           priority
