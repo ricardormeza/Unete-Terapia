@@ -1,6 +1,19 @@
 .logoHeader{
     border-radius: 1.1rem;
 }
+.CtaAgendar{
+    background-color: var(--rosa);
+    color: var(--white);
+    height: 2.9rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.CtaAgendar a{
+    color: var(--white);
+    text-decoration: none;
+}
 .HeaderBG{
     /* border: 1px solid blue;
     background-color: red; */
@@ -9,6 +22,10 @@
     .HeaderBG{
         /* background-color: var(--primary); */
         /* border: 1px solid red; */
+    }
+    .ctaTextBtn{
+        visibility: hidden;
+        width: 45%;
     }
 }
 .sombra{

@@ -15,6 +15,7 @@ import { HiUserGroup,
     HiOutlineChevronDoubleDown
  } from "react-icons/hi2";
 import {BsChevronCompactDown, BsBrightnessHigh, BsFlower3} from 'react-icons/bs'
+import { motion } from "framer-motion";
 import styles from '../styles/Header.module.css';
 
 
@@ -100,6 +101,27 @@ function classNames(...classes) {
 const Cabezote = () => {
     return (
         <Popover className={`relative   ${styles.HeaderBG}`}>
+            {/* cta-agendar-doctoralia */}
+            <motion.div 
+                initial={{ opacity: 0}}
+                
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1.5 }}
+                className={`${styles.CtaAgendar}`}>
+                    <div className={`${styles.ctaTextBtn}`}>
+                        <h5 className={`  ${styles.textoCta}`}>Cómo <span>psicologa</span> te ayudara a superar la <span>depresión</span> y <span>ansiedad</span>.</h5>
+                    </div>
+                <div className="">
+                        <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez" legacyBehavior className="">
+                            <a href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez" className={`bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg  ${styles.ctaBtnAgendar}`}>
+                            ¡Agendar cita!
+                            </a>
+                        </Link>
+                    </div>
+            </motion.div>
+            {/* cta-agendar-doctoralia FIN*/}
+
+
             {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 130"><path fill="#7da641" fillOpacity="1" d="M0,128L80,112C160,96,320,64,480,69.3C640,75,800,117,960,128C1120,139,1280,117,1360,106.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z" rs_id="872"></path></svg> */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="flex justify-between items-center  border-gray-100 py-6 md:justify-start md:space-x-10">
