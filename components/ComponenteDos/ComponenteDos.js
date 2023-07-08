@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link'
 import { motion } from "framer-motion";
 import Image from 'next/image';
+import benefiPic from '../../public/images/beneficio-terapia.jpg';
 
 const direccionL = true;
 export default function ComponenteDos(direccionL) {
@@ -16,12 +17,13 @@ export default function ComponenteDos(direccionL) {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <Image
               className="d-block w-100"
-              src="/images/beneficio-terapia.jpg"
+              src={benefiPic}
               alt="Terapia de pareja"
               width={800}
               height={800}
               priority
-              placeholder
+              placeholder="blur"
+              title="chicas felices por ir a terapia"
                 />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
