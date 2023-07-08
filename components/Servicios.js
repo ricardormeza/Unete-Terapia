@@ -76,8 +76,10 @@ export default function Servicios() {
                     alt="neurodesarrollo"
                     width={800}
                     height={800}
-                    priority
+                    priority={false}
                     placeholder
+                    quality={75}
+                    title="imagen de niño pintando"
                 />
                 {/* <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
                   Neurodesarrollo
