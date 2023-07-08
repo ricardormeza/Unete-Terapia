@@ -24,6 +24,9 @@ export default function ComponenteDos(direccionL) {
               priority
               placeholder="blur"
               title="chicas felices por ir a terapia"
+              rel="preload"
+              as="image"
+              loading = 'lazy'
                 />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
