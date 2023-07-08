@@ -163,6 +163,9 @@ export default function Servicios() {
                     height={800}
                     priority
                     placeholder
+                    rel="preload"
+                    as="image"
+                    loading = 'lazy'
                 />
                 {/* <h3 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 font-DMSans uppercase">
                   Estrés
