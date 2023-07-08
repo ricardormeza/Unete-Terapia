@@ -40,6 +40,9 @@ export default function Servicios() {
                     height={800}
                     priority
                     placeholder
+                    rel="preload"
+                    as="image"
+                    loading = 'lazy'
                 />
                 {/* <h3 className="mt-3 tracking-widest sm:text-2xl text-xl font-medium text-gray-900  mb-1 font-DMSans uppercase">
                   Evaluación pedagógica
