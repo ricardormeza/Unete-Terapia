@@ -2,6 +2,8 @@
 
 ## Proyecto de sitio de psicólogo.
 
+para adjuntar una nueva url se debe correr npm run build para generar el nuevo sitemap
+
 First, run the development server:
 
 ```bash

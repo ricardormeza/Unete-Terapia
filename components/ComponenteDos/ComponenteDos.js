@@ -21,7 +21,7 @@ export default function ComponenteDos(direccionL) {
               alt="Terapia de pareja"
               width={800}
               height={800}
-              priority
+              
               placeholder="blur"
               title="chicas felices por ir a terapia"
               rel="preload"

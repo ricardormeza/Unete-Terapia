@@ -38,7 +38,7 @@ export default function Servicios() {
                     alt="Evaluacion pedagogica"
                     width={800}
                     height={800}
-                    priority
+                    
                     placeholder
                     rel="preload"
                     as="image"
@@ -161,7 +161,7 @@ export default function Servicios() {
                     alt="Talleres de formacion"
                     width={800}
                     height={800}
-                    priority
+                    
                     placeholder
                     rel="preload"
                     as="image"

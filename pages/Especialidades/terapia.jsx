@@ -236,7 +236,24 @@ export default function terapia() {
             </div>
           </motion.section>
 
-          
+          <div className='container'>
+              <h6 className='text-green-500'>Conoce más de mis servicios</h6>
+              <div className="flex md:mt-4 mt-6 gap-3">
+              <Link href="/Especialidades/trastorno-de-ansiedad" legacyBehavior>
+                  <a className="text-pink-500 inline-flex items-center font-DMSans">
+                      Superar la ansiedad.
+                      
+                  </a>
+                  </Link>
+
+                  <Link href="/Especialidades/orientacion-familiar" legacyBehavior>
+                      <a className="text-pink-500 inline-flex items-center font-DMSans">
+                      Orientación familiar.
+                          
+                      </a>
+                  </Link>
+                </div>
+          </div>
 
         {/* TERAPIA PARA TEPT FIN */}
 
