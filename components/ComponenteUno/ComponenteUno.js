@@ -25,7 +25,7 @@ export default function ComponenteUno() {
             <h2 className='text-green-500 font-DMSans'><span>{text}</span>.<Cursor cursorColor='#DB2777' /></h2>
             <div className='flex mt-4 mb-4'>
                 <h2 className="text-center  font-DMSans">Encuentra la claridad, la paz mental y la felicidad que mereces con la mejor <span className='font-DMSans'>psicóloga </span> en 
-                <span className="font-DMSans"> Tuxtla Gutíerrez, Chiapas;</span> Y comienza tu camino hacia una vida plena y satisfactoria.</h2>
+                <span className="font-DMSans"> Tuxtla Gutíerrez, Chiapas;</span> y comienza tu camino hacia una vida plena y satisfactoria.</h2>
             </div>
             <div className={`${styles.divAgendarCita}`}>
             <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
