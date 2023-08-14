@@ -34,7 +34,7 @@ export default function ComponenteDos(direccionL) {
               <br className="hidden lg:inline-block"/>Terapia
             </h2>
             <p className="mb-8 text-2xl leading-relaxed">Te ayudare a procesar, explorar y comprender los problemas  así 
-              como las emociones difíciles en un espacio seguro , confidencial y sin juicios.</p>
+              como las emociones difíciles en un espacio seguro, confidencial y sin juicios.</p>
             <div className="flex justify-center">
               <Link href='https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez'>
                 <button className="inline-flex text-white bg-green-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Agendar cita</button>
