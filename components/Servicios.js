@@ -14,13 +14,13 @@ export default function Servicios() {
           <p className="font-DMSans text-justify">
             Nuestros <span>servicios psicológicos</span> se enfocan en ayudarte
             a encontrar soluciones a tus problemas y alcanzar tus metas
-            personales. Ofrecemos terapia individual, y abordar una variedad de problemas
-            emocionales y de salud mental, como la depresión, la ansiedad.
+            personales. Ofrecemos terapia individual, abordando una variedad de <span> problemas emocionales</span> y de <span>salud mental</span> tales como 
+            la <span>depresión</span> y <span>ansiedad.</span>
           </p>
           <p className="font-DMSans text-justify">
             Nuestro enfoque es personalizado y adaptado a tus necesidades
-            específicas, y trabajamos contigo para ayudarte a desarrollar
-            habilidades para mejorar tu bienestar emocional y mejorar tu calidad
+            específicas, por lo que trabajamos contigo para ayudarte a desarrollar
+            habilidades para mejorar tu bienestar emocional así como mejorar tu calidad
             de vida. 
           </p>
           <p className="font-DMSans text-justify">

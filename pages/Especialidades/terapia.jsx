@@ -228,7 +228,7 @@ export default function terapia() {
                   <p className="title-font text-base font-DMSans text-justify">
                   La tanatología es una rama de la psicología que se centra en el estudio de la muerte, el morir y el duelo. Cuando una persona experimenta una pérdida significativa, como la muerte de un ser querido, puede sentir una amplia gama de emociones que van desde la tristeza y el dolor hasta la ira y la confusión. La tanatología se enfoca en ayudar a las personas a manejar estas emociones y a lidiar con el proceso de duelo.
                   </p>
-                  <p className="title-font text-base font-DMSans text-justify">En UNETE seremos una valiosa ayuda en el proceso de duelo. Te brindaremos un espacio seguro y confidencial para puedas expresar tus sentimientos y preocupaciones. Además, te ayudaremos a encontrar formas saludables de lidiar con la pérdida.</p>
+                  <p className="title-font text-base font-DMSans text-justify">En UNETE seremos una valiosa ayuda en el proceso de duelo. Te brindaremos un espacio seguro y confidencial para que puedas expresar tus sentimientos y preocupaciones. Además, te ayudaremos a encontrar formas saludables de lidiar con la pérdida.</p>
                   <p className="title-font text-base font-DMSans text-justify">Es importante destacar que el proceso de duelo es único para cada persona, y no hay una sola manera "correcta" de experimentarlo. Sin embargo, con nuestra ayuda podrás aprender a sobrellevar la tanatología y encontrar un camino hacia la sanación y la esperanza.</p>
                   {/* <br/> */}
                 </div>
@@ -277,7 +277,7 @@ export default function terapia() {
                 Beneficios de acudir a Terapia
               </h2>
               <p className="mb-8 text-2xl leading-relaxed">
-              Ayudaremos a que puedas identificar y los pensamientos negativos, sobrellevar la perdida de un ser querido y así tener una vida mejor, ven con <span>la mejor psicóloga</span>.
+              Ayudaremos a que puedas identificar los pensamientos negativos, sobrellevar la perdida de un ser querido y así tener una vida mejor, ven con <span>la mejor psicóloga</span> en <span>Tuxtla Gutiérrez</span>.
               </p>
               <div className="">
                 <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez">
