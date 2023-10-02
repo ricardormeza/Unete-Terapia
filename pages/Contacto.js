@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import CtaDoctoralia from '../components/CtaDoctoralia'
 import Mymapita from '../components/Mapita'
+import DoctoraliaWidget from '../components/Doctoralia/Doctoralia'
 
 export default function Contacto() {
     return (
@@ -44,6 +45,9 @@ export default function Contacto() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="container px-5 py-24 mx-auto">
+                    <DoctoraliaWidget/>
                     </div>
                 </section>
                 <Mymapita/>

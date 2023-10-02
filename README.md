@@ -1,8 +1,9 @@
 
 
-## Proyecto de sitio de psicólogo.
+## Proyecto del sitio de una psicologa.
 
 para adjuntar una nueva url se debe correr npm run build para generar el nuevo sitemap
+esta en producción 30-09-23
 
 First, run the development server:
 
