@@ -31,7 +31,7 @@ export default function TallerReconectaconTuEnergiaFemenina() {
                     <div className="relative inline-flex items-center mx-auto align-middle">
                         <div className="text-center mx-auto">
                         <h1 className="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-pink-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
-                            Reconectando con mi energia femenina.
+                            Reconectando con mi energía femenina.
                         </h1>
                         <h2 className="max-w-xl mx-auto mt-8 text-base leading-relaxed text-pink-500">Cultivando la Fortaleza y la Sensibilidad.</h2>
                         <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
