@@ -12,6 +12,7 @@ import Recomendaciones from '../components/Recomendaciones'
 import Faq from '../components/Faq/Faq'
 import CtaDoctoralia from '../components/CtaDoctoralia'
 import Experience from '../components/Experience'
+import AgendaCita from '../components/AgendaCita/AgendaCita'
 import Mymapita from '../components/Mapita'
 
 
@@ -36,6 +37,8 @@ export default function Home() {
         <div className='container'>
         
         <ComponenteDos/>
+        <AgendaCita/>
+        
 
         </div>
         <CtaDos/>

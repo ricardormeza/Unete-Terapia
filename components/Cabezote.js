@@ -112,7 +112,7 @@ const Cabezote = () => {
                         <h5 className={`  ${styles.textoCta}`}>Cómo <span>psicologa</span> te ayudara a superar la <span>depresión</span> y <span>ansiedad</span>.</h5>
                     </div>
                 <div className="">
-                        <Link href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez" legacyBehavior className="">
+                        <Link href="#agendacitaahora" legacyBehavior className="">
                             <a href="https://www.doctoralia.com.mx/yeimy-rocio-avila-ponton/psicologo/tuxtla-gutierrez" className={`bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg  ${styles.ctaBtnAgendar}`}>
                             ¡Agendar cita!
                             </a>
