@@ -27,9 +27,9 @@ export default function TallerReconectaconTuEnergiaFemenina() {
 
                 <section>
                 <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
-                    <div className="flex w-full mx-auto text-left">
+                    <div className="flex w-full mx-auto justify-center items-center">
                     <div className="relative inline-flex items-center mx-auto align-middle">
-                        <div className="text-center">
+                        <div className="text-center mx-auto">
                         <h1 className="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-pink-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
                             Reconectando con mi energia femenina.
                         </h1>
@@ -75,11 +75,11 @@ export default function TallerReconectaconTuEnergiaFemenina() {
                                 <div className="lg:grid lg:grid-cols-2">
                                     <div className="p-8">
                                         <h3 className="text-pink-400">Un Viaje hacia la Energía Femenina.</h3>
-                                        <p>Crear con  fuerza inimaginable, libera el potencial y fuente de vida en nuestro interior.</p>
+                                        <p>Crea con  fuerza inimaginable, libera el potencial y fuente de vida en nuestro interior.</p>
                                         
                                     </div>
                                     <div className="p-8">
-                                        <h3 className="text-pink-400">Maternidad: El Corazón que Transforma una Casa en un Hoga.</h3>
+                                        <h3 className="text-pink-400">Maternidad: El Corazón que Transforma una Casa en un Hogar.</h3>
                                         <p>Ser desde lo maternal, que cuida, sana y convierte una casa en un hogar.</p>
                                         
                                     </div>
@@ -145,29 +145,25 @@ export default function TallerReconectaconTuEnergiaFemenina() {
                     <h3 className="text-pink-400">Dirección del evento.</h3>
                     <p>Se parte de esta gran transformación.</p>
                 </div>
-                        <div className="w-full md:w-auto bg-gray-300 rounded-lg overflow-hidden sm:mr-0 p-8 flex items-end justify-start relative">
-                        
-                        <iframe
-                            width={950}
-                            height={950}
-                            // className="absolute inset-0"
-                            frameBorder="0"
-                            title="map"
-                            marginHeight="0"
-                            marginWidth="0"
-                            scrolling="no"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.361329223862!2d-93.15282962605329!3d16.75868942061455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd911d4d67899%3A0xd0a7e59acaf539ec!2sGardenias%20115%2C%20Jardines%20de%20Tuxtla%2C%2029020%20Tuxtla%20Guti%C3%A9rrez%2C%20Chis.!5e0!3m2!1ses!2smx!4v1696738378622!5m2!1ses!2smx"
-                            
-                            style={{
-                                filter: 'grayscale(1) contrast(1.2) opacity(0.4)',
-                            }}
-                            ></iframe>
-                        
+                        <div className="w-full md:w-auto bg-gray-300 rounded-lg overflow-hidden sm:m-0 p-8 flex justify-center items-center  ">
+                            <iframe
+                                width={950}
+                                height={950}
+                                className="w-full md:w-2/3 lg:w-1/2 xl:w-1/3 h-64 md:h-96 lg:h-128 xl:h-144"
+                                frameBorder="0"
+                                title="map"
+                                marginHeight="0"
+                                marginWidth="0"
+                                scrolling="no"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.361329223862!2d-93.15282962605329!3d16.75868942061455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd911d4d67899%3A0xd0a7e59acaf539ec!2sGardenias%20115%2C%20Jardines%20de%20Tuxtla%2C%2029020%20Tuxtla%20Guti%C3%A9rrez%2C%20Chis.!5e0!3m2!1ses!2smx!4v1696738378622!5m2!1ses!2smx"
+                                
+                                style={{
+                                    filter: 'grayscale(1) contrast(1.2) opacity(0.4)',
+                                }}
+                                ></iframe>
                         </div>
-                        
                     </div>
                     </section>
-
                     
                     <section className="text-gray-600 body-font">
                         <div className="container px-5 py-24 mx-auto">
