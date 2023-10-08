@@ -1,8 +1,5 @@
 import React from 'react';
 import Link from 'next/link'
-import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter';
-import { motion } from "framer-motion";
-import styles from '../../styles/ComponenteUno.module.css'
 import DoctoraliaWidget from '../Doctoralia/Doctoralia';
 
 
