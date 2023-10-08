@@ -63,12 +63,17 @@ const especialidades = [
 ]
 const servicios = [
     {
-        name: 'Talleres de Formación',
+        name: 'Talleres de Formacións',
         description: 'Talleres de orientación para padres, adolescentes y niños.',
         href: '/Talleres',
         icon: BsBrightnessHigh,
     },
-    
+    {
+        name: 'Taller Reconectando con mi energia femenina',
+        description: 'Espacio enriquecedor diseñado para mujeres que desean explorar y abrazar su auténtica esencia femenina.',
+        href: '/Taller/Taller-reconecta-con-tu-energia-femenina',
+        icon: BsBrightnessHigh,
+    },
 ]
 
 

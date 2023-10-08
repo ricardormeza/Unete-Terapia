@@ -11,8 +11,13 @@ export default function TallerReconectaconTuEnergiaFemenina() {
   return (
     <>
             <Layout
-                title={'Especialidades - Ansiedad'}
-                description={'Tratamiento y diagnostico especializado en la ansiedad'}
+                title={'Taller - Reconectando con mi energia femenina'}
+                description={'Taller sobre reconectar con mi energia femenina, un espacio enriquecedor diseñado para mujeres que desean explorar y abrazar su auténtica esencia femenina'}
+                abstract={'mujeres y feminidad'}
+                author={'Consultorio UNETE'}
+                copyright={'terapiapsicologia'}
+                keywords={'mujeres, feminidad, energia femenina'}
+                robots={'index, follow'}
             >
                 <motion.section 
                 initial={{ opacity: 0}}
