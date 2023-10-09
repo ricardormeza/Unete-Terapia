@@ -70,7 +70,11 @@ export default function Footer() {
                                     <a className="text-white hover:text-gray-200">Orientación educativa</a>
                                 </Link>
                             </li>
-                            
+                            <li>
+                                <Link href="/Especialidades/neurodesarrollo-infantil" legacyBehavior>
+                                    <a className="text-white hover:text-gray-200">Neurodesarrollo infantil</a>
+                                </Link>
+                            </li>
                         </nav>
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
